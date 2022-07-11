@@ -1,0 +1,33 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Decision: 
+world_tree_destruction = {
+    min_local_autonomy = 100.0
+	supply_limit_modifier = -0.5
+	local_development_cost = 0.5
+	allowed_num_of_buildings = -2
+}
+
+# Decision:
+burning_nordrassil = {
+    yearly_corruption = 0.03
+}
+
+# Decision:
+destroyer_of_nordrassil = {
+    land_morale = 0.1
+    prestige = 1.0
+}
+
+# Decision:
+burning_teldrassil = {
+    yearly_corruption = 0.03
+}
+
+# Decision:
+destroyer_of_teldrassil = {
+    land_morale = 0.1
+    prestige = 1.0
+}
+

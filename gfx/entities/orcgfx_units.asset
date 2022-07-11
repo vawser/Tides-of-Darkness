@@ -1,0 +1,2625 @@
+
+entity = {
+	name = "orcgfx_INFANTRY_1"
+	pdxmesh = "orcgfx_INFANTRY_1"
+}
+entity = {
+	name = "orcgfx_ARTILLERY_1"
+	pdxmesh = "demolisher"
+}
+entity = {
+	name = "orcgfx_CAVALRY_1"
+	pdxmesh = "wolf"
+}
+entity = {
+	name = "orcgfx_INFANTRY_2"
+	pdxmesh = "inf1"
+}
+entity = {
+	name = "orcgfx_ARTILLERY_2"
+	pdxmesh = "demolisher"
+}
+entity = {
+	name = "orcgfx_CAVALRY_2"
+	pdxmesh = "cav1"
+}
+entity = {
+	name = "orcgfx_INFANTRY_3"
+	pdxmesh = "inf3"
+}
+entity = {
+	name = "orcgfx_ARTILLERY_3"
+	pdxmesh = "demolisher"
+}
+entity = {
+	name = "orcgfx_CAVALRY_3"
+	pdxmesh = "cav3"
+}
+entity = {
+	name = "orcgfx_INFANTRY_4"
+	pdxmesh = "inf3"
+}
+entity = {
+	name = "orcgfx_ARTILLERY_4"
+	pdxmesh = "demolisher"
+}
+entity = {
+	name = "orcgfx_CAVALRY_4"
+	pdxmesh = "cav3"
+}
+
+
+
+
+entity = {
+	name = "demongfx_INFANTRY_1"
+	pdxmesh = "demoni"
+}
+entity = {
+	name = "demongfx_ARTILLERY_1"
+	pdxmesh = "demona"
+}
+entity = {
+	name = "demongfx_CAVALRY_1"
+	pdxmesh = "demonc"
+}
+entity = {
+	name = "demongfx_INFANTRY_2"
+	pdxmesh = "demoni"
+}
+entity = {
+	name = "demongfx_ARTILLERY_2"
+	pdxmesh = "demona"
+}
+entity = {
+	name = "demongfx_CAVALRY_2"
+	pdxmesh = "demonc"
+}
+entity = {
+	name = "demongfx_INFANTRY_3"
+	pdxmesh = "demoni"
+}
+entity = {
+	name = "demongfx_ARTILLERY_3"
+	pdxmesh = "demona"
+}
+entity = {
+	name = "demongfx_CAVALRY_3"
+	pdxmesh = "demonc"
+}
+entity = {
+	name = "demongfx_INFANTRY_4"
+	pdxmesh = "demoni"
+}
+entity = {
+	name = "demongfx_ARTILLERY_4"
+	pdxmesh = "demona"
+}
+entity = {
+	name = "demongfx_CAVALRY_4"
+	pdxmesh = "demonc"
+}
+
+
+entity = {
+	name = "FHT_INFANTRY_1"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHT_INFANTRY_2"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHT_INFANTRY_3"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHT_INFANTRY_4"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHG_INFANTRY_1"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHG_INFANTRY_2"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHG_INFANTRY_3"
+	pdxmesh = "blackrockk"
+}
+entity = {
+	name = "FHG_INFANTRY_4"
+	pdxmesh = "blackrockk"
+}
+
+entity = {
+	name = "FHO_INFANTRY_1"
+	pdxmesh = "bleedinghollow"
+}
+entity = {
+	name = "FHO_INFANTRY_2"
+	pdxmesh = "bleedinghollow"
+}
+entity = {
+	name = "FHO_INFANTRY_3"
+	pdxmesh = "bleedinghollow"
+}
+entity = {
+	name = "FHO_INFANTRY_4"
+	pdxmesh = "bleedinghollow"
+}
+
+entity = {
+	name = "FHJ_INFANTRY_1"
+	pdxmesh = "burningblade"
+}
+entity = {
+	name = "FHJ_INFANTRY_2"
+	pdxmesh = "burningblade"
+}
+entity = {
+	name = "FHJ_INFANTRY_3"
+	pdxmesh = "burningblade"
+}
+entity = {
+	name = "FHJ_INFANTRY_4"
+	pdxmesh = "burningblade"
+}
+
+entity = {
+	name = "FHE_INFANTRY_1"
+	pdxmesh = "flowerpicker"
+}
+entity = {
+	name = "FHE_INFANTRY_2"
+	pdxmesh = "flowerpicker"
+}
+entity = {
+	name = "FHE_INFANTRY_3"
+	pdxmesh = "flowerpicker"
+}
+entity = {
+	name = "FHE_INFANTRY_4"
+	pdxmesh = "flowerpicker"
+}
+
+entity = {
+	name = "FHK_INFANTRY_1"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHK_INFANTRY_2"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHK_INFANTRY_3"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHK_INFANTRY_4"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHI_INFANTRY_1"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHI_INFANTRY_2"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHI_INFANTRY_3"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHI_INFANTRY_4"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHC_INFANTRY_1"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHC_INFANTRY_2"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHC_INFANTRY_3"
+	pdxmesh = "laughing"
+}
+entity = {
+	name = "FHC_INFANTRY_4"
+	pdxmesh = "laughing"
+}
+
+entity = {
+	name = "FHA_INFANTRY_1"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHA_INFANTRY_2"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHA_INFANTRY_3"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHA_INFANTRY_4"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHD_INFANTRY_1"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHD_INFANTRY_2"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHD_INFANTRY_3"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHD_INFANTRY_4"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHF_INFANTRY_1"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHF_INFANTRY_2"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHF_INFANTRY_3"
+	pdxmesh = "rageroar"
+}
+entity = {
+	name = "FHF_INFANTRY_4"
+	pdxmesh = "rageroar"
+}
+
+entity = {
+	name = "FHN_INFANTRY_1"
+	pdxmesh = "shadowmood"
+}
+entity = {
+	name = "FHN_INFANTRY_2"
+	pdxmesh = "shadowmood"
+}
+entity = {
+	name = "FHN_INFANTRY_3"
+	pdxmesh = "shadowmood"
+}
+entity = {
+	name = "FHN_INFANTRY_4"
+	pdxmesh = "shadowmood"
+}
+
+entity = {
+	name = "FHM_INFANTRY_1"
+	pdxmesh = "shattered"
+}
+entity = {
+	name = "FHM_INFANTRY_2"
+	pdxmesh = "shattered"
+}
+entity = {
+	name = "FHM_INFANTRY_3"
+	pdxmesh = "shattered"
+}
+entity = {
+	name = "FHM_INFANTRY_4"
+	pdxmesh = "shattered"
+}
+
+entity = {
+	name = "FHS_INFANTRY_1"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHS_INFANTRY_2"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHS_INFANTRY_3"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHS_INFANTRY_4"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHH_INFANTRY_1"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHH_INFANTRY_2"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHH_INFANTRY_3"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHH_INFANTRY_4"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHU_INFANTRY_1"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHU_INFANTRY_2"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHU_INFANTRY_3"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHU_INFANTRY_4"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHL_INFANTRY_1"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHL_INFANTRY_2"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHL_INFANTRY_3"
+	pdxmesh = "thunder"
+}
+entity = {
+	name = "FHL_INFANTRY_4"
+	pdxmesh = "thunder"
+}
+
+entity = {
+	name = "OHB_INFANTRY_1"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "OHB_INFANTRY_2"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "OHB_INFANTRY_3"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "OHB_INFANTRY_4"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHB_INFANTRY_1"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHB_INFANTRY_2"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHB_INFANTRY_3"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHB_INFANTRY_4"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHR_INFANTRY_1"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHR_INFANTRY_2"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHR_INFANTRY_3"
+	pdxmesh = "warlock"
+}
+entity = {
+	name = "FHR_INFANTRY_4"
+	pdxmesh = "warlock"
+}
+
+entity = {
+	name = "FHP_INFANTRY_1"
+	pdxmesh = "warsong"
+}
+entity = {
+	name = "FHP_INFANTRY_2"
+	pdxmesh = "warsong"
+}
+entity = {
+	name = "FHP_INFANTRY_3"
+	pdxmesh = "warsong"
+}
+entity = {
+	name = "FHP_INFANTRY_4"
+	pdxmesh = "warsong"
+}
+
+entity = {
+	name = "OHZ_INFANTRY_1"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_INFANTRY_2"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_INFANTRY_3"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_INFANTRY_4"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_ARTILLERY_1"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_CAVALRY_1"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_ARTILLERY_2"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_CAVALRY_2"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_ARTILLERY_3"
+	pdxmesh = "iron"
+}
+entity = {
+	name = "OHZ_CAVALRY_3"
+	pdxmesh = "iron"
+}
+
+####
+
+entity = {
+	name = "nagagfx_INFANTRY_1"
+	pdxmesh = "nagai"
+}
+entity = {
+	name = "nagagfx_INFANTRY_2"
+	pdxmesh = "nagai"
+}
+entity = {
+	name = "nagagfx_INFANTRY_3"
+	pdxmesh = "nagai"
+}
+entity = {
+	name = "nagagfx_INFANTRY_4"
+	pdxmesh = "nagai"
+}
+
+entity = {
+	name = "nagagfx_CAVALRY_1"
+	pdxmesh = "nagac"
+}
+entity = {
+	name = "nagagfx_CAVALRY_2"
+	pdxmesh = "nagac"
+}
+entity = {
+	name = "nagagfx_CAVALRY_3"
+	pdxmesh = "nagac"
+}
+entity = {
+	name = "nagagfx_CAVALRY_4"
+	pdxmesh = "nagac"
+}
+
+entity = {
+	name = "nagagfx_ARTILLERY_1"
+	pdxmesh = "nagaa"
+}
+entity = {
+	name = "nagagfx_ARTILLERY_2"
+	pdxmesh = "nagaa"
+}
+entity = {
+	name = "nagagfx_ARTILLERY_3"
+	pdxmesh = "nagaa"
+}
+entity = {
+	name = "nagagfx_ARTILLERY_4"
+	pdxmesh = "nagaa"
+}
+
+#####
+
+entity = {
+	name = "vrykulgfx_INFANTRY_1"
+	pdxmesh = "vrykuli"
+}
+entity = {
+	name = "vrykulgfx_INFANTRY_2"
+	pdxmesh = "vrykuli"
+}
+entity = {
+	name = "vrykulgfx_INFANTRY_3"
+	pdxmesh = "vrykuli"
+}
+entity = {
+	name = "vrykulgfx_INFANTRY_4"
+	pdxmesh = "vrykuli"
+}
+
+entity = {
+	name = "vrykulgfx_CAVALRY_1"
+	pdxmesh = "vrykulc"
+}
+entity = {
+	name = "vrykulgfx_CAVALRY_2"
+	pdxmesh = "vrykulc"
+}
+entity = {
+	name = "vrykulgfx_CAVALRY_3"
+	pdxmesh = "vrykulc"
+}
+entity = {
+	name = "vrykulgfx_CAVALRY_4"
+	pdxmesh = "vrykulc"
+}
+
+entity = {
+	name = "vrykulgfx_ARTILLERY_1"
+	pdxmesh = "vrykula"
+}
+entity = {
+	name = "vrykulgfx_ARTILLERY_2"
+	pdxmesh = "vrykula"
+}
+entity = {
+	name = "vrykulgfx_ARTILLERY_3"
+	pdxmesh = "vrykula"
+}
+entity = {
+	name = "vrykulgfx_ARTILLERY_4"
+	pdxmesh = "vrykula"
+}
+
+#####
+
+entity = {
+	name = "murlocgfx_INFANTRY_1"
+	pdxmesh = "murloci"
+}
+entity = {
+	name = "murlocgfx_INFANTRY_2"
+	pdxmesh = "murloci"
+}
+entity = {
+	name = "murlocgfx_INFANTRY_3"
+	pdxmesh = "murloci"
+}
+entity = {
+	name = "murlocgfx_INFANTRY_4"
+	pdxmesh = "murloci"
+}
+
+entity = {
+	name = "murlocgfx_CAVALRY_1"
+	pdxmesh = "murlocc"
+}
+entity = {
+	name = "murlocgfx_CAVALRY_2"
+	pdxmesh = "murlocc"
+}
+entity = {
+	name = "murlocgfx_CAVALRY_3"
+	pdxmesh = "murlocc"
+}
+entity = {
+	name = "murlocgfx_CAVALRY_4"
+	pdxmesh = "murlocc"
+}
+
+entity = {
+	name = "murlocgfx_ARTILLERY_1"
+	pdxmesh = "murloca"
+}
+entity = {
+	name = "murlocgfx_ARTILLERY_2"
+	pdxmesh = "murloca"
+}
+entity = {
+	name = "murlocgfx_ARTILLERY_3"
+	pdxmesh = "murloca"
+}
+entity = {
+	name = "murlocgfx_ARTILLERY_4"
+	pdxmesh = "murloca"
+}
+
+#####
+
+entity = {
+	name = "sea_giantgfx_INFANTRY_1"
+	pdxmesh = "sea_gianti"
+}
+entity = {
+	name = "sea_giantgfx_INFANTRY_2"
+	pdxmesh = "sea_gianti"
+}
+entity = {
+	name = "sea_giantgfx_INFANTRY_3"
+	pdxmesh = "sea_gianti"
+}
+entity = {
+	name = "sea_giantgfx_INFANTRY_4"
+	pdxmesh = "sea_gianti"
+}
+
+entity = {
+	name = "sea_giantgfx_CAVALRY_1"
+	pdxmesh = "sea_giantc"
+}
+entity = {
+	name = "sea_giantgfx_CAVALRY_2"
+	pdxmesh = "sea_giantc"
+}
+entity = {
+	name = "sea_giantgfx_CAVALRY_3"
+	pdxmesh = "sea_giantc"
+}
+entity = {
+	name = "sea_giantgfx_CAVALRY_4"
+	pdxmesh = "sea_giantc"
+}
+
+entity = {
+	name = "sea_giantgfx_ARTILLERY_1"
+	pdxmesh = "sea_gianta"
+}
+entity = {
+	name = "sea_giantgfx_ARTILLERY_2"
+	pdxmesh = "sea_gianta"
+}
+entity = {
+	name = "sea_giantgfx_ARTILLERY_3"
+	pdxmesh = "sea_gianta"
+}
+entity = {
+	name = "sea_giantgfx_ARTILLERY_4"
+	pdxmesh = "sea_gianta"
+}
+
+#####
+
+entity = {
+	name = "wind_elementalgfx_INFANTRY_1"
+	pdxmesh = "wind_elementali"
+}
+entity = {
+	name = "wind_elementalgfx_INFANTRY_2"
+	pdxmesh = "wind_elementali"
+}
+entity = {
+	name = "wind_elementalgfx_INFANTRY_3"
+	pdxmesh = "wind_elementali"
+}
+entity = {
+	name = "wind_elementalgfx_INFANTRY_4"
+	pdxmesh = "wind_elementali"
+}
+
+entity = {
+	name = "wind_elementalgfx_CAVALRY_1"
+	pdxmesh = "wind_elementalc"
+}
+entity = {
+	name = "wind_elementalgfx_CAVALRY_2"
+	pdxmesh = "wind_elementalc"
+}
+entity = {
+	name = "wind_elementalgfx_CAVALRY_3"
+	pdxmesh = "wind_elementalc"
+}
+entity = {
+	name = "wind_elementalgfx_CAVALRY_4"
+	pdxmesh = "wind_elementalc"
+}
+
+entity = {
+	name = "wind_elementalgfx_ARTILLERY_1"
+	pdxmesh = "wind_elementala"
+}
+entity = {
+	name = "wind_elementalgfx_ARTILLERY_2"
+	pdxmesh = "wind_elementala"
+}
+entity = {
+	name = "wind_elementalgfx_ARTILLERY_3"
+	pdxmesh = "wind_elementala"
+}
+entity = {
+	name = "wind_elementalgfx_ARTILLERY_4"
+	pdxmesh = "wind_elementala"
+}
+
+#####
+
+entity = {
+	name = "fire_elementalgfx_INFANTRY_1"
+	pdxmesh = "fire_elementali"
+}
+entity = {
+	name = "fire_elementalgfx_INFANTRY_2"
+	pdxmesh = "fire_elementali"
+}
+entity = {
+	name = "fire_elementalgfx_INFANTRY_3"
+	pdxmesh = "fire_elementali"
+}
+entity = {
+	name = "fire_elementalgfx_INFANTRY_4"
+	pdxmesh = "fire_elementali"
+}
+
+entity = {
+	name = "fire_elementalgfx_CAVALRY_1"
+	pdxmesh = "fire_elementalc"
+}
+entity = {
+	name = "fire_elementalgfx_CAVALRY_2"
+	pdxmesh = "fire_elementalc"
+}
+entity = {
+	name = "fire_elementalgfx_CAVALRY_3"
+	pdxmesh = "fire_elementalc"
+}
+entity = {
+	name = "fire_elementalgfx_CAVALRY_4"
+	pdxmesh = "fire_elementalc"
+}
+
+entity = {
+	name = "fire_elementalgfx_ARTILLERY_1"
+	pdxmesh = "fire_elementala"
+}
+entity = {
+	name = "fire_elementalgfx_ARTILLERY_2"
+	pdxmesh = "fire_elementala"
+}
+entity = {
+	name = "fire_elementalgfx_ARTILLERY_3"
+	pdxmesh = "fire_elementala"
+}
+entity = {
+	name = "fire_elementalgfx_ARTILLERY_4"
+	pdxmesh = "fire_elementala"
+}
+
+#####
+
+entity = {
+	name = "earth_elementalgfx_INFANTRY_1"
+	pdxmesh = "earth_elementali"
+}
+entity = {
+	name = "earth_elementalgfx_INFANTRY_2"
+	pdxmesh = "earth_elementali"
+}
+entity = {
+	name = "earth_elementalgfx_INFANTRY_3"
+	pdxmesh = "earth_elementali"
+}
+entity = {
+	name = "earth_elementalgfx_INFANTRY_4"
+	pdxmesh = "earth_elementali"
+}
+
+entity = {
+	name = "earth_elementalgfx_CAVALRY_1"
+	pdxmesh = "earth_elementalc"
+}
+entity = {
+	name = "earth_elementalgfx_CAVALRY_2"
+	pdxmesh = "earth_elementalc"
+}
+entity = {
+	name = "earth_elementalgfx_CAVALRY_3"
+	pdxmesh = "earth_elementalc"
+}
+entity = {
+	name = "earth_elementalgfx_CAVALRY_4"
+	pdxmesh = "earth_elementalc"
+}
+
+entity = {
+	name = "earth_elementalgfx_ARTILLERY_1"
+	pdxmesh = "earth_elementala"
+}
+entity = {
+	name = "earth_elementalgfx_ARTILLERY_2"
+	pdxmesh = "earth_elementala"
+}
+entity = {
+	name = "earth_elementalgfx_ARTILLERY_3"
+	pdxmesh = "earth_elementala"
+}
+entity = {
+	name = "earth_elementalgfx_ARTILLERY_4"
+	pdxmesh = "earth_elementala"
+}
+
+#####
+
+entity = {
+	name = "water_elementalgfx_INFANTRY_1"
+	pdxmesh = "water_elementali"
+}
+entity = {
+	name = "water_elementalgfx_INFANTRY_2"
+	pdxmesh = "water_elementali"
+}
+entity = {
+	name = "water_elementalgfx_INFANTRY_3"
+	pdxmesh = "water_elementali"
+}
+entity = {
+	name = "water_elementalgfx_INFANTRY_4"
+	pdxmesh = "water_elementali"
+}
+
+entity = {
+	name = "water_elementalgfx_CAVALRY_1"
+	pdxmesh = "water_elementalc"
+}
+entity = {
+	name = "water_elementalgfx_CAVALRY_2"
+	pdxmesh = "water_elementalc"
+}
+entity = {
+	name = "water_elementalgfx_CAVALRY_3"
+	pdxmesh = "water_elementalc"
+}
+entity = {
+	name = "water_elementalgfx_CAVALRY_4"
+	pdxmesh = "water_elementalc"
+}
+
+entity = {
+	name = "water_elementalgfx_ARTILLERY_1"
+	pdxmesh = "water_elementala"
+}
+entity = {
+	name = "water_elementalgfx_ARTILLERY_2"
+	pdxmesh = "water_elementala"
+}
+entity = {
+	name = "water_elementalgfx_ARTILLERY_3"
+	pdxmesh = "water_elementala"
+}
+entity = {
+	name = "water_elementalgfx_ARTILLERY_4"
+	pdxmesh = "water_elementala"
+}
+
+#####
+
+entity = {
+	name = "humangfx_INFANTRY_1"
+	pdxmesh = "humani"
+}
+entity = {
+	name = "humangfx_INFANTRY_2"
+	pdxmesh = "humani"
+}
+entity = {
+	name = "humangfx_INFANTRY_3"
+	pdxmesh = "humani"
+}
+entity = {
+	name = "humangfx_INFANTRY_4"
+	pdxmesh = "humani"
+}
+
+entity = {
+	name = "humangfx_CAVALRY_1"
+	pdxmesh = "humanc"
+}
+entity = {
+	name = "humangfx_CAVALRY_2"
+	pdxmesh = "humanc"
+}
+entity = {
+	name = "humangfx_CAVALRY_3"
+	pdxmesh = "humanc"
+}
+entity = {
+	name = "humangfx_CAVALRY_4"
+	pdxmesh = "humanc"
+}
+
+entity = {
+	name = "humangfx_ARTILLERY_1"
+	pdxmesh = "humana"
+}
+entity = {
+	name = "humangfx_ARTILLERY_2"
+	pdxmesh = "humana"
+}
+entity = {
+	name = "humangfx_ARTILLERY_3"
+	pdxmesh = "humana"
+}
+entity = {
+	name = "humangfx_ARTILLERY_4"
+	pdxmesh = "humana"
+}
+
+##
+
+entity = {
+	name = "stormwindgfx_INFANTRY_1"
+	pdxmesh = "stormwindi"
+}
+entity = {
+	name = "stormwindgfx_INFANTRY_2"
+	pdxmesh = "stormwindi"
+}
+entity = {
+	name = "stormwindgfx_INFANTRY_3"
+	pdxmesh = "stormwindi"
+}
+entity = {
+	name = "stormwindgfx_INFANTRY_4"
+	pdxmesh = "stormwindi"
+}
+
+entity = {
+	name = "stormwindgfx_CAVALRY_1"
+	pdxmesh = "stormwindc"
+}
+entity = {
+	name = "stormwindgfx_CAVALRY_2"
+	pdxmesh = "stormwindc"
+}
+entity = {
+	name = "stormwindgfx_CAVALRY_3"
+	pdxmesh = "stormwindc"
+}
+entity = {
+	name = "stormwindgfx_CAVALRY_4"
+	pdxmesh = "stormwindc"
+}
+
+##
+
+entity = {
+	name = "dalarangfx_INFANTRY_1"
+	pdxmesh = "dalarani"
+}
+entity = {
+	name = "dalarangfx_INFANTRY_2"
+	pdxmesh = "dalarani"
+}
+entity = {
+	name = "dalarangfx_INFANTRY_3"
+	pdxmesh = "dalarani"
+}
+entity = {
+	name = "dalarangfx_INFANTRY_4"
+	pdxmesh = "dalarani"
+}
+
+entity = {
+	name = "dalarangfx_CAVALRY_1"
+	pdxmesh = "dalaranc"
+}
+entity = {
+	name = "dalarangfx_CAVALRY_2"
+	pdxmesh = "dalaranc"
+}
+entity = {
+	name = "dalarangfx_CAVALRY_3"
+	pdxmesh = "dalaranc"
+}
+entity = {
+	name = "dalarangfx_CAVALRY_4"
+	pdxmesh = "dalaranc"
+}
+
+##
+
+entity = {
+	name = "gilneasgfx_INFANTRY_1"
+	pdxmesh = "gilneasi"
+}
+entity = {
+	name = "gilneasgfx_INFANTRY_2"
+	pdxmesh = "gilneasi"
+}
+entity = {
+	name = "gilneasgfx_INFANTRY_3"
+	pdxmesh = "gilneasi"
+}
+entity = {
+	name = "gilneasgfx_INFANTRY_4"
+	pdxmesh = "gilneasi"
+}
+
+entity = {
+	name = "gilneasgfx_CAVALRY_1"
+	pdxmesh = "gilneasc"
+}
+entity = {
+	name = "gilneasgfx_CAVALRY_2"
+	pdxmesh = "gilneasc"
+}
+entity = {
+	name = "gilneasgfx_CAVALRY_3"
+	pdxmesh = "gilneasc"
+}
+entity = {
+	name = "gilneasgfx_CAVALRY_4"
+	pdxmesh = "gilneasc"
+}
+
+##
+
+entity = {
+	name = "alteracgfx_INFANTRY_1"
+	pdxmesh = "alteraci"
+}
+entity = {
+	name = "alteracgfx_INFANTRY_2"
+	pdxmesh = "alteraci"
+}
+entity = {
+	name = "alteracgfx_INFANTRY_3"
+	pdxmesh = "alteraci"
+}
+entity = {
+	name = "alteracgfx_INFANTRY_4"
+	pdxmesh = "alteraci"
+}
+
+entity = {
+	name = "alteracgfx_CAVALRY_1"
+	pdxmesh = "alteracc"
+}
+entity = {
+	name = "alteracgfx_CAVALRY_2"
+	pdxmesh = "alteracc"
+}
+entity = {
+	name = "alteracgfx_CAVALRY_3"
+	pdxmesh = "alteracc"
+}
+entity = {
+	name = "alteracgfx_CAVALRY_4"
+	pdxmesh = "alteracc"
+}
+
+##
+
+entity = {
+	name = "stromgardegfx_INFANTRY_1"
+	pdxmesh = "stromgardei"
+}
+entity = {
+	name = "stromgardegfx_INFANTRY_2"
+	pdxmesh = "stromgardei"
+}
+entity = {
+	name = "stromgardegfx_INFANTRY_3"
+	pdxmesh = "stromgardei"
+}
+entity = {
+	name = "stromgardegfx_INFANTRY_4"
+	pdxmesh = "stromgardei"
+}
+
+entity = {
+	name = "stromgardegfx_CAVALRY_1"
+	pdxmesh = "stromgardec"
+}
+entity = {
+	name = "stromgardegfx_CAVALRY_2"
+	pdxmesh = "stromgardec"
+}
+entity = {
+	name = "stromgardegfx_CAVALRY_3"
+	pdxmesh = "stromgardec"
+}
+entity = {
+	name = "stromgardegfx_CAVALRY_4"
+	pdxmesh = "stromgardec"
+}
+
+##
+
+entity = {
+	name = "lordaerongfx_INFANTRY_1"
+	pdxmesh = "lordaeroni"
+}
+entity = {
+	name = "lordaerongfx_INFANTRY_2"
+	pdxmesh = "lordaeroni"
+}
+entity = {
+	name = "lordaerongfx_INFANTRY_3"
+	pdxmesh = "lordaeroni"
+}
+entity = {
+	name = "lordaerongfx_INFANTRY_4"
+	pdxmesh = "lordaeroni"
+}
+
+entity = {
+	name = "lordaerongfx_CAVALRY_1"
+	pdxmesh = "lordaeronc"
+}
+entity = {
+	name = "lordaerongfx_CAVALRY_2"
+	pdxmesh = "lordaeronc"
+}
+entity = {
+	name = "lordaerongfx_CAVALRY_3"
+	pdxmesh = "lordaeronc"
+}
+entity = {
+	name = "lordaerongfx_CAVALRY_4"
+	pdxmesh = "lordaeronc"
+}
+
+##
+
+entity = {
+	name = "kultirasgfx_INFANTRY_1"
+	pdxmesh = "kultirasi"
+}
+entity = {
+	name = "kultirasgfx_INFANTRY_2"
+	pdxmesh = "kultirasi"
+}
+entity = {
+	name = "kultirasgfx_INFANTRY_3"
+	pdxmesh = "kultirasi"
+}
+entity = {
+	name = "kultirasgfx_INFANTRY_4"
+	pdxmesh = "kultirasi"
+}
+
+entity = {
+	name = "kultirasgfx_CAVALRY_1"
+	pdxmesh = "kultirasc"
+}
+entity = {
+	name = "kultirasgfx_CAVALRY_2"
+	pdxmesh = "kultirasc"
+}
+entity = {
+	name = "kultirasgfx_CAVALRY_3"
+	pdxmesh = "kultirasc"
+}
+entity = {
+	name = "kultirasgfx_CAVALRY_4"
+	pdxmesh = "kultirasc"
+}
+
+#####
+
+entity = {
+	name = "gnollgfx_INFANTRY_1"
+	pdxmesh = "gnolli"
+}
+entity = {
+	name = "gnollgfx_INFANTRY_2"
+	pdxmesh = "gnolli"
+}
+entity = {
+	name = "gnollgfx_INFANTRY_3"
+	pdxmesh = "gnolli"
+}
+entity = {
+	name = "gnollgfx_INFANTRY_4"
+	pdxmesh = "gnolli"
+}
+
+entity = {
+	name = "gnollgfx_CAVALRY_1"
+	pdxmesh = "gnollc"
+}
+entity = {
+	name = "gnollgfx_CAVALRY_2"
+	pdxmesh = "gnollc"
+}
+entity = {
+	name = "gnollgfx_CAVALRY_3"
+	pdxmesh = "gnollc"
+}
+entity = {
+	name = "gnollgfx_CAVALRY_4"
+	pdxmesh = "gnollc"
+}
+
+entity = {
+	name = "gnollgfx_ARTILLERY_1"
+	pdxmesh = "gnolla"
+}
+entity = {
+	name = "gnollgfx_ARTILLERY_2"
+	pdxmesh = "gnolla"
+}
+entity = {
+	name = "gnollgfx_ARTILLERY_3"
+	pdxmesh = "gnolla"
+}
+entity = {
+	name = "gnollgfx_ARTILLERY_4"
+	pdxmesh = "gnolla"
+}
+
+##
+
+entity = {
+	name = "felorcgfx_INFANTRY_1"
+	pdxmesh = "felorci"
+}
+entity = {
+	name = "felorcgfx_INFANTRY_2"
+	pdxmesh = "felorci"
+}
+entity = {
+	name = "felorcgfx_INFANTRY_3"
+	pdxmesh = "felorci"
+}
+entity = {
+	name = "felorcgfx_INFANTRY_4"
+	pdxmesh = "felorci"
+}
+
+entity = {
+	name = "felorcgfx_CAVALRY_1"
+	pdxmesh = "felorcc"
+}
+entity = {
+	name = "felorcgfx_CAVALRY_2"
+	pdxmesh = "felorcc"
+}
+entity = {
+	name = "felorcgfx_CAVALRY_3"
+	pdxmesh = "felorcc"
+}
+entity = {
+	name = "felorcgfx_CAVALRY_4"
+	pdxmesh = "felorcc"
+}
+
+##
+
+entity = {
+	name = "blood_trollgfx_INFANTRY_1"
+	pdxmesh = "blood_trolli"
+}
+entity = {
+	name = "blood_trollgfx_ARTILLERY_1"
+	pdxmesh = "blood_trolla"
+}
+entity = {
+	name = "blood_trollgfx_CAVALRY_1"
+	pdxmesh = "blood_trollc"
+}
+entity = {
+	name = "blood_trollgfx_INFANTRY_2"
+	pdxmesh = "blood_trolli"
+}
+entity = {
+	name = "blood_trollgfx_ARTILLERY_2"
+	pdxmesh = "blood_trolla"
+}
+entity = {
+	name = "blood_trollgfx_CAVALRY_2"
+	pdxmesh = "blood_trollc"
+}
+entity = {
+	name = "blood_trollgfx_INFANTRY_3"
+	pdxmesh = "blood_trolli"
+}
+entity = {
+	name = "blood_trollgfx_ARTILLERY_3"
+	pdxmesh = "blood_trolla"
+}
+entity = {
+	name = "blood_trollgfx_CAVALRY_3"
+	pdxmesh = "blood_trollc"
+}
+entity = {
+	name = "blood_trollgfx_INFANTRY_4"
+	pdxmesh = "blood_trolli"
+}
+entity = {
+	name = "blood_trollgfx_ARTILLERY_4"
+	pdxmesh = "blood_trolla"
+}
+entity = {
+	name = "blood_trollgfx_CAVALRY_4"
+	pdxmesh = "blood_trollc"
+}
+
+##
+
+entity = {
+	name = "zandalari_trollgfx_INFANTRY_1"
+	pdxmesh = "zandalari_trolli"
+}
+entity = {
+	name = "zandalari_trollgfx_ARTILLERY_1"
+	pdxmesh = "zandalari_trolla"
+}
+entity = {
+	name = "zandalari_trollgfx_CAVALRY_1"
+	pdxmesh = "zandalari_trollc"
+}
+entity = {
+	name = "zandalari_trollgfx_INFANTRY_2"
+	pdxmesh = "zandalari_trolli"
+}
+entity = {
+	name = "zandalari_trollgfx_ARTILLERY_2"
+	pdxmesh = "zandalari_trolla"
+}
+entity = {
+	name = "zandalari_trollgfx_CAVALRY_2"
+	pdxmesh = "zandalari_trollc"
+}
+entity = {
+	name = "zandalari_trollgfx_INFANTRY_3"
+	pdxmesh = "zandalari_trolli"
+}
+entity = {
+	name = "zandalari_trollgfx_ARTILLERY_3"
+	pdxmesh = "zandalari_trolla"
+}
+entity = {
+	name = "zandalari_trollgfx_CAVALRY_3"
+	pdxmesh = "zandalari_trollc"
+}
+entity = {
+	name = "zandalari_trollgfx_INFANTRY_4"
+	pdxmesh = "zandalari_trolli"
+}
+entity = {
+	name = "zandalari_trollgfx_ARTILLERY_4"
+	pdxmesh = "zandalari_trolla"
+}
+entity = {
+	name = "zandalari_trollgfx_CAVALRY_4"
+	pdxmesh = "zandalari_trollc"
+}
+
+##
+
+
+entity = {
+	name = "vulperagfx_INFANTRY_1"
+	pdxmesh = "vulperai"
+}
+entity = {
+	name = "vulperagfx_ARTILLERY_1"
+	pdxmesh = "vulperaa"
+}
+entity = {
+	name = "vulperagfx_CAVALRY_1"
+	pdxmesh = "vulperac"
+}
+entity = {
+	name = "vulperagfx_INFANTRY_2"
+	pdxmesh = "vulperai"
+}
+entity = {
+	name = "vulperagfx_ARTILLERY_2"
+	pdxmesh = "vulperaa"
+}
+entity = {
+	name = "vulperagfx_CAVALRY_2"
+	pdxmesh = "vulperac"
+}
+entity = {
+	name = "vulperagfx_INFANTRY_3"
+	pdxmesh = "vulperai"
+}
+entity = {
+	name = "vulperagfx_ARTILLERY_3"
+	pdxmesh = "vulperaa"
+}
+entity = {
+	name = "vulperagfx_CAVALRY_3"
+	pdxmesh = "vulperac"
+}
+entity = {
+	name = "vulperagfx_INFANTRY_4"
+	pdxmesh = "vulperai"
+}
+entity = {
+	name = "vulperagfx_ARTILLERY_4"
+	pdxmesh = "vulperaa"
+}
+entity = {
+	name = "vulperagfx_CAVALRY_4"
+	pdxmesh = "vulperac"
+}
+
+##
+
+
+entity = {
+	name = "trollgfx_INFANTRY_1"
+	pdxmesh = "trolli"
+}
+entity = {
+	name = "trollgfx_ARTILLERY_1"
+	pdxmesh = "trolla"
+}
+entity = {
+	name = "trollgfx_CAVALRY_1"
+	pdxmesh = "trollc"
+}
+entity = {
+	name = "trollgfx_INFANTRY_2"
+	pdxmesh = "trolli"
+}
+entity = {
+	name = "trollgfx_ARTILLERY_2"
+	pdxmesh = "trolla"
+}
+entity = {
+	name = "trollgfx_CAVALRY_2"
+	pdxmesh = "trollc"
+}
+entity = {
+	name = "trollgfx_INFANTRY_3"
+	pdxmesh = "trolli"
+}
+entity = {
+	name = "trollgfx_ARTILLERY_3"
+	pdxmesh = "trolla"
+}
+entity = {
+	name = "trollgfx_CAVALRY_3"
+	pdxmesh = "trollc"
+}
+entity = {
+	name = "trollgfx_INFANTRY_4"
+	pdxmesh = "trolli"
+}
+entity = {
+	name = "trollgfx_ARTILLERY_4"
+	pdxmesh = "trolla"
+}
+entity = {
+	name = "trollgfx_CAVALRY_4"
+	pdxmesh = "trollc"
+}
+
+##
+
+entity = {
+	name = "sethrakgfx_INFANTRY_1"
+	pdxmesh = "sethraki"
+}
+entity = {
+	name = "sethrakgfx_ARTILLERY_1"
+	pdxmesh = "sethraka"
+}
+entity = {
+	name = "sethrakgfx_CAVALRY_1"
+	pdxmesh = "sethrakc"
+}
+entity = {
+	name = "sethrakgfx_INFANTRY_2"
+	pdxmesh = "sethraki"
+}
+entity = {
+	name = "sethrakgfx_ARTILLERY_2"
+	pdxmesh = "sethraka"
+}
+entity = {
+	name = "sethrakgfx_CAVALRY_2"
+	pdxmesh = "sethrakc"
+}
+entity = {
+	name = "sethrakgfx_INFANTRY_3"
+	pdxmesh = "sethraki"
+}
+entity = {
+	name = "sethrakgfx_ARTILLERY_3"
+	pdxmesh = "sethraka"
+}
+entity = {
+	name = "sethrakgfx_CAVALRY_3"
+	pdxmesh = "sethrakc"
+}
+entity = {
+	name = "sethrakgfx_INFANTRY_4"
+	pdxmesh = "sethraki"
+}
+entity = {
+	name = "sethrakgfx_ARTILLERY_4"
+	pdxmesh = "sethraka"
+}
+entity = {
+	name = "sethrakgfx_CAVALRY_4"
+	pdxmesh = "sethrakc"
+}
+
+##
+
+entity = {
+	name = "night_elfgfx_INFANTRY_1"
+	pdxmesh = "night_elfi"
+}
+entity = {
+	name = "night_elfgfx_ARTILLERY_1"
+	pdxmesh = "night_elfa"
+}
+entity = {
+	name = "night_elfgfx_CAVALRY_1"
+	pdxmesh = "night_elfc"
+}
+entity = {
+	name = "night_elfgfx_INFANTRY_2"
+	pdxmesh = "night_elfi"
+}
+entity = {
+	name = "night_elfgfx_ARTILLERY_2"
+	pdxmesh = "night_elfa"
+}
+entity = {
+	name = "night_elfgfx_CAVALRY_2"
+	pdxmesh = "night_elfc"
+}
+entity = {
+	name = "night_elfgfx_INFANTRY_3"
+	pdxmesh = "night_elfi"
+}
+entity = {
+	name = "night_elfgfx_ARTILLERY_3"
+	pdxmesh = "night_elfa"
+}
+entity = {
+	name = "night_elfgfx_CAVALRY_3"
+	pdxmesh = "night_elfc"
+}
+entity = {
+	name = "night_elfgfx_INFANTRY_4"
+	pdxmesh = "night_elfi"
+}
+entity = {
+	name = "night_elfgfx_ARTILLERY_4"
+	pdxmesh = "night_elfa"
+}
+entity = {
+	name = "night_elfgfx_CAVALRY_4"
+	pdxmesh = "night_elfc"
+}
+
+##
+
+entity = {
+	name = "scourgegfx_INFANTRY_1"
+	pdxmesh = "scourgei"
+}
+entity = {
+	name = "scourgegfx_ARTILLERY_1"
+	pdxmesh = "scourgea"
+}
+entity = {
+	name = "scourgegfx_CAVALRY_1"
+	pdxmesh = "scourgec"
+}
+entity = {
+	name = "scourgegfx_INFANTRY_2"
+	pdxmesh = "scourgei"
+}
+entity = {
+	name = "scourgegfx_ARTILLERY_2"
+	pdxmesh = "scourgea"
+}
+entity = {
+	name = "scourgegfx_CAVALRY_2"
+	pdxmesh = "scourgec"
+}
+entity = {
+	name = "scourgegfx_INFANTRY_3"
+	pdxmesh = "scourgei"
+}
+entity = {
+	name = "scourgegfx_ARTILLERY_3"
+	pdxmesh = "scourgea"
+}
+entity = {
+	name = "scourgegfx_CAVALRY_3"
+	pdxmesh = "scourgec"
+}
+entity = {
+	name = "scourgegfx_INFANTRY_4"
+	pdxmesh = "scourgei"
+}
+entity = {
+	name = "scourgegfx_ARTILLERY_4"
+	pdxmesh = "scourgea"
+}
+entity = {
+	name = "scourgegfx_CAVALRY_4"
+	pdxmesh = "scourgec"
+}
+
+##
+
+entity = {
+	name = "ogregfx_INFANTRY_1"
+	pdxmesh = "ogrei"
+}
+entity = {
+	name = "ogregfx_ARTILLERY_1"
+	pdxmesh = "ogrea"
+}
+entity = {
+	name = "ogregfx_CAVALRY_1"
+	pdxmesh = "ogrec"
+}
+entity = {
+	name = "ogregfx_INFANTRY_2"
+	pdxmesh = "ogrei"
+}
+entity = {
+	name = "ogregfx_ARTILLERY_2"
+	pdxmesh = "ogrea"
+}
+entity = {
+	name = "ogregfx_CAVALRY_2"
+	pdxmesh = "ogrec"
+}
+entity = {
+	name = "ogregfx_INFANTRY_3"
+	pdxmesh = "ogrei"
+}
+entity = {
+	name = "ogregfx_ARTILLERY_3"
+	pdxmesh = "ogrea"
+}
+entity = {
+	name = "ogregfx_CAVALRY_3"
+	pdxmesh = "ogrec"
+}
+entity = {
+	name = "ogregfx_INFANTRY_4"
+	pdxmesh = "ogrei"
+}
+entity = {
+	name = "ogregfx_ARTILLERY_4"
+	pdxmesh = "ogrea"
+}
+entity = {
+	name = "ogregfx_CAVALRY_4"
+	pdxmesh = "ogrec"
+}
+
+##
+
+entity = {
+	name = "undeadgfx_INFANTRY_1"
+	pdxmesh = "undeadi"
+}
+entity = {
+	name = "undeadgfx_ARTILLERY_1"
+	pdxmesh = "undeada"
+}
+entity = {
+	name = "undeadgfx_CAVALRY_1"
+	pdxmesh = "undeadc"
+}
+entity = {
+	name = "undeadgfx_INFANTRY_2"
+	pdxmesh = "undeadi"
+}
+entity = {
+	name = "undeadgfx_ARTILLERY_2"
+	pdxmesh = "undeada"
+}
+entity = {
+	name = "undeadgfx_CAVALRY_2"
+	pdxmesh = "undeadc"
+}
+entity = {
+	name = "undeadgfx_INFANTRY_3"
+	pdxmesh = "undeadi"
+}
+entity = {
+	name = "undeadgfx_ARTILLERY_3"
+	pdxmesh = "undeada"
+}
+entity = {
+	name = "undeadgfx_CAVALRY_3"
+	pdxmesh = "undeadc"
+}
+entity = {
+	name = "undeadgfx_INFANTRY_4"
+	pdxmesh = "undeadi"
+}
+entity = {
+	name = "undeadgfx_ARTILLERY_4"
+	pdxmesh = "undeada"
+}
+entity = {
+	name = "undeadgfx_CAVALRY_4"
+	pdxmesh = "undeadc"
+}
+
+##
+
+entity = {
+	name = "trogggfx_INFANTRY_1"
+	pdxmesh = "troggi"
+}
+entity = {
+	name = "trogggfx_ARTILLERY_1"
+	pdxmesh = "trogga"
+}
+entity = {
+	name = "trogggfx_CAVALRY_1"
+	pdxmesh = "troggc"
+}
+entity = {
+	name = "trogggfx_INFANTRY_2"
+	pdxmesh = "troggi"
+}
+entity = {
+	name = "trogggfx_ARTILLERY_2"
+	pdxmesh = "trogga"
+}
+entity = {
+	name = "trogggfx_CAVALRY_2"
+	pdxmesh = "troggc"
+}
+entity = {
+	name = "trogggfx_INFANTRY_3"
+	pdxmesh = "troggi"
+}
+entity = {
+	name = "trogggfx_ARTILLERY_3"
+	pdxmesh = "trogga"
+}
+entity = {
+	name = "trogggfx_CAVALRY_3"
+	pdxmesh = "troggc"
+}
+entity = {
+	name = "trogggfx_INFANTRY_4"
+	pdxmesh = "troggi"
+}
+entity = {
+	name = "trogggfx_ARTILLERY_4"
+	pdxmesh = "trogga"
+}
+entity = {
+	name = "trogggfx_CAVALRY_4"
+	pdxmesh = "troggc"
+}
+
+##
+
+entity = {
+	name = "koboldgfx_INFANTRY_1"
+	pdxmesh = "koboldi"
+}
+entity = {
+	name = "koboldgfx_ARTILLERY_1"
+	pdxmesh = "kobolda"
+}
+entity = {
+	name = "koboldgfx_CAVALRY_1"
+	pdxmesh = "koboldc"
+}
+entity = {
+	name = "koboldgfx_INFANTRY_2"
+	pdxmesh = "koboldi"
+}
+entity = {
+	name = "koboldgfx_ARTILLERY_2"
+	pdxmesh = "kobolda"
+}
+entity = {
+	name = "koboldgfx_CAVALRY_2"
+	pdxmesh = "koboldc"
+}
+entity = {
+	name = "koboldgfx_INFANTRY_3"
+	pdxmesh = "koboldi"
+}
+entity = {
+	name = "koboldgfx_ARTILLERY_3"
+	pdxmesh = "kobolda"
+}
+entity = {
+	name = "koboldgfx_CAVALRY_3"
+	pdxmesh = "koboldc"
+}
+entity = {
+	name = "koboldgfx_INFANTRY_4"
+	pdxmesh = "koboldi"
+}
+entity = {
+	name = "koboldgfx_ARTILLERY_4"
+	pdxmesh = "kobolda"
+}
+entity = {
+	name = "koboldgfx_CAVALRY_4"
+	pdxmesh = "koboldc"
+}
+
+##
+
+entity = {
+	name = "tortollangfx_INFANTRY_1"
+	pdxmesh = "tortollani"
+}
+entity = {
+	name = "tortollangfx_ARTILLERY_1"
+	pdxmesh = "tortollana"
+}
+entity = {
+	name = "tortollangfx_CAVALRY_1"
+	pdxmesh = "tortollanc"
+}
+entity = {
+	name = "tortollangfx_INFANTRY_2"
+	pdxmesh = "tortollani"
+}
+entity = {
+	name = "tortollangfx_ARTILLERY_2"
+	pdxmesh = "tortollana"
+}
+entity = {
+	name = "tortollangfx_CAVALRY_2"
+	pdxmesh = "tortollanc"
+}
+entity = {
+	name = "tortollangfx_INFANTRY_3"
+	pdxmesh = "tortollani"
+}
+entity = {
+	name = "tortollangfx_ARTILLERY_3"
+	pdxmesh = "tortollana"
+}
+entity = {
+	name = "tortollangfx_CAVALRY_3"
+	pdxmesh = "tortollanc"
+}
+entity = {
+	name = "tortollangfx_INFANTRY_4"
+	pdxmesh = "tortollani"
+}
+entity = {
+	name = "tortollangfx_ARTILLERY_4"
+	pdxmesh = "tortollana"
+}
+entity = {
+	name = "tortollangfx_CAVALRY_4"
+	pdxmesh = "tortollanc"
+}
+
+##
+
+entity = {
+	name = "furbolggfx_INFANTRY_1"
+	pdxmesh = "furbolgi"
+}
+entity = {
+	name = "furbolggfx_ARTILLERY_1"
+	pdxmesh = "furbolga"
+}
+entity = {
+	name = "furbolggfx_CAVALRY_1"
+	pdxmesh = "furbolgc"
+}
+entity = {
+	name = "furbolggfx_INFANTRY_2"
+	pdxmesh = "furbolgi"
+}
+entity = {
+	name = "furbolggfx_ARTILLERY_2"
+	pdxmesh = "furbolga"
+}
+entity = {
+	name = "furbolggfx_CAVALRY_2"
+	pdxmesh = "furbolgc"
+}
+entity = {
+	name = "furbolggfx_INFANTRY_3"
+	pdxmesh = "furbolgi"
+}
+entity = {
+	name = "furbolggfx_ARTILLERY_3"
+	pdxmesh = "furbolga"
+}
+entity = {
+	name = "furbolggfx_CAVALRY_3"
+	pdxmesh = "furbolgc"
+}
+entity = {
+	name = "furbolggfx_INFANTRY_4"
+	pdxmesh = "furbolgi"
+}
+entity = {
+	name = "furbolggfx_ARTILLERY_4"
+	pdxmesh = "furbolga"
+}
+entity = {
+	name = "furbolggfx_CAVALRY_4"
+	pdxmesh = "furbolgc"
+}
+
+##
+
+entity = {
+	name = "forsakengfx_INFANTRY_1"
+	pdxmesh = "forsakeni"
+}
+entity = {
+	name = "forsakengfx_ARTILLERY_1"
+	pdxmesh = "forsakena"
+}
+entity = {
+	name = "forsakengfx_CAVALRY_1"
+	pdxmesh = "forsakenc"
+}
+entity = {
+	name = "forsakengfx_INFANTRY_2"
+	pdxmesh = "forsakeni"
+}
+entity = {
+	name = "forsakengfx_ARTILLERY_2"
+	pdxmesh = "forsakena"
+}
+entity = {
+	name = "forsakengfx_CAVALRY_2"
+	pdxmesh = "forsakenc"
+}
+entity = {
+	name = "forsakengfx_INFANTRY_3"
+	pdxmesh = "forsakeni"
+}
+entity = {
+	name = "forsakengfx_ARTILLERY_3"
+	pdxmesh = "forsakena"
+}
+entity = {
+	name = "forsakengfx_CAVALRY_3"
+	pdxmesh = "forsakenc"
+}
+entity = {
+	name = "forsakengfx_INFANTRY_4"
+	pdxmesh = "forsakeni"
+}
+entity = {
+	name = "forsakengfx_ARTILLERY_4"
+	pdxmesh = "forsakena"
+}
+entity = {
+	name = "forsakengfx_CAVALRY_4"
+	pdxmesh = "forsakenc"
+}
+
+##
+
+entity = {
+	name = "dwarfgfx_INFANTRY_1"
+	pdxmesh = "dwarfi"
+}
+entity = {
+	name = "dwarfgfx_ARTILLERY_1"
+	pdxmesh = "dwarfa"
+}
+entity = {
+	name = "dwarfgfx_CAVALRY_1"
+	pdxmesh = "dwarfc"
+}
+entity = {
+	name = "dwarfgfx_INFANTRY_2"
+	pdxmesh = "dwarfi"
+}
+entity = {
+	name = "dwarfgfx_ARTILLERY_2"
+	pdxmesh = "dwarfa"
+}
+entity = {
+	name = "dwarfgfx_CAVALRY_2"
+	pdxmesh = "dwarfc"
+}
+entity = {
+	name = "dwarfgfx_INFANTRY_3"
+	pdxmesh = "dwarfi"
+}
+entity = {
+	name = "dwarfgfx_ARTILLERY_3"
+	pdxmesh = "dwarfa"
+}
+entity = {
+	name = "dwarfgfx_CAVALRY_3"
+	pdxmesh = "dwarfc"
+}
+entity = {
+	name = "dwarfgfx_INFANTRY_4"
+	pdxmesh = "dwarfi"
+}
+entity = {
+	name = "dwarfgfx_ARTILLERY_4"
+	pdxmesh = "dwarfa"
+}
+entity = {
+	name = "dwarfgfx_CAVALRY_4"
+	pdxmesh = "dwarfc"
+}
+
+##
+
+entity = {
+	name = "gnomegfx_INFANTRY_1"
+	pdxmesh = "gnomei"
+}
+entity = {
+	name = "gnomegfx_ARTILLERY_1"
+	pdxmesh = "gnomea"
+}
+entity = {
+	name = "gnomegfx_CAVALRY_1"
+	pdxmesh = "gnomec"
+}
+entity = {
+	name = "gnomegfx_INFANTRY_2"
+	pdxmesh = "gnomei"
+}
+entity = {
+	name = "gnomegfx_ARTILLERY_2"
+	pdxmesh = "gnomea"
+}
+entity = {
+	name = "gnomegfx_CAVALRY_2"
+	pdxmesh = "gnomec"
+}
+entity = {
+	name = "gnomegfx_INFANTRY_3"
+	pdxmesh = "gnomei"
+}
+entity = {
+	name = "gnomegfx_ARTILLERY_3"
+	pdxmesh = "gnomea"
+}
+entity = {
+	name = "gnomegfx_CAVALRY_3"
+	pdxmesh = "gnomec"
+}
+entity = {
+	name = "gnomegfx_INFANTRY_4"
+	pdxmesh = "gnomei"
+}
+entity = {
+	name = "gnomegfx_ARTILLERY_4"
+	pdxmesh = "gnomea"
+}
+entity = {
+	name = "gnomegfx_CAVALRY_4"
+	pdxmesh = "gnomec"
+}
+
+##
+
+entity = {
+	name = "blackrockgfx_INFANTRY_1"
+	pdxmesh = "blackrocki"
+}
+entity = {
+	name = "blackrockgfx_ARTILLERY_1"
+	pdxmesh = "blackrocka"
+}
+entity = {
+	name = "blackrockgfx_CAVALRY_1"
+	pdxmesh = "blackrockc"
+}
+entity = {
+	name = "blackrockgfx_INFANTRY_2"
+	pdxmesh = "blackrocki"
+}
+entity = {
+	name = "blackrockgfx_ARTILLERY_2"
+	pdxmesh = "blackrocka"
+}
+entity = {
+	name = "blackrockgfx_CAVALRY_2"
+	pdxmesh = "blackrockc"
+}
+entity = {
+	name = "blackrockgfx_INFANTRY_3"
+	pdxmesh = "blackrocki"
+}
+entity = {
+	name = "blackrockgfx_ARTILLERY_3"
+	pdxmesh = "blackrocka"
+}
+entity = {
+	name = "blackrockgfx_CAVALRY_3"
+	pdxmesh = "blackrockc"
+}
+entity = {
+	name = "blackrockgfx_INFANTRY_4"
+	pdxmesh = "blackrocki"
+}
+entity = {
+	name = "blackrockgfx_ARTILLERY_4"
+	pdxmesh = "blackrocka"
+}
+entity = {
+	name = "blackrockgfx_CAVALRY_4"
+	pdxmesh = "blackrockc"
+}
+
+##
+
+entity = {
+	name = "argent_crusadegfx_INFANTRY_1"
+	pdxmesh = "argent_crusadei"
+}
+entity = {
+	name = "argent_crusadegfx_CAVALRY_1"
+	pdxmesh = "argent_crusadec"
+}
+entity = {
+	name = "argent_crusadegfx_INFANTRY_2"
+	pdxmesh = "argent_crusadei"
+}
+entity = {
+	name = "argent_crusadegfx_CAVALRY_2"
+	pdxmesh = "argent_crusadec"
+}
+entity = {
+	name = "argent_crusadegfx_INFANTRY_3"
+	pdxmesh = "argent_crusadei"
+}
+entity = {
+	name = "argent_crusadegfx_CAVALRY_3"
+	pdxmesh = "argent_crusadec"
+}
+entity = {
+	name = "argent_crusadegfx_INFANTRY_4"
+	pdxmesh = "argent_crusadei"
+}
+entity = {
+	name = "argent_crusadegfx_CAVALRY_4"
+	pdxmesh = "argent_crusadec"
+}
+
+##
+
+entity = {
+	name = "scarletgfx_INFANTRY_1"
+	pdxmesh = "scarleti"
+}
+entity = {
+	name = "scarletgfx_CAVALRY_1"
+	pdxmesh = "scarletc"
+}
+entity = {
+	name = "scarletgfx_INFANTRY_2"
+	pdxmesh = "scarleti"
+}
+entity = {
+	name = "scarletgfx_CAVALRY_2"
+	pdxmesh = "scarletc"
+}
+entity = {
+	name = "scarletgfx_INFANTRY_3"
+	pdxmesh = "scarleti"
+}
+entity = {
+	name = "scarletgfx_CAVALRY_3"
+	pdxmesh = "scarletc"
+}
+entity = {
+	name = "scarletgfx_INFANTRY_4"
+	pdxmesh = "scarleti"
+}
+entity = {
+	name = "scarletgfx_CAVALRY_4"
+	pdxmesh = "scarletc"
+}
+
+##
+
+entity = {
+	name = "silver_handgfx_INFANTRY_1"
+	pdxmesh = "silver_handi"
+}
+entity = {
+	name = "silver_handgfx_CAVALRY_1"
+	pdxmesh = "silver_handc"
+}
+entity = {
+	name = "silver_handgfx_INFANTRY_2"
+	pdxmesh = "silver_handi"
+}
+entity = {
+	name = "silver_handgfx_CAVALRY_2"
+	pdxmesh = "silver_handc"
+}
+entity = {
+	name = "silver_handgfx_INFANTRY_3"
+	pdxmesh = "silver_handi"
+}
+entity = {
+	name = "silver_handgfx_CAVALRY_3"
+	pdxmesh = "silver_handc"
+}
+entity = {
+	name = "silver_handgfx_INFANTRY_4"
+	pdxmesh = "silver_handi"
+}
+entity = {
+	name = "silver_handgfx_CAVALRY_4"
+	pdxmesh = "silver_handc"
+}
+
+##
+
+entity = {
+	name = "gorillagfx_INFANTRY_1"
+	pdxmesh = "gorillai"
+}
+entity = {
+	name = "gorillagfx_ARTILLERY_1"
+	pdxmesh = "gorillaa"
+}
+entity = {
+	name = "gorillagfx_CAVALRY_1"
+	pdxmesh = "gorillac"
+}
+entity = {
+	name = "gorillagfx_INFANTRY_2"
+	pdxmesh = "gorillai"
+}
+entity = {
+	name = "gorillagfx_ARTILLERY_2"
+	pdxmesh = "gorillaa"
+}
+entity = {
+	name = "gorillagfx_CAVALRY_2"
+	pdxmesh = "gorillac"
+}
+entity = {
+	name = "gorillagfx_INFANTRY_3"
+	pdxmesh = "gorillai"
+}
+entity = {
+	name = "gorillagfx_ARTILLERY_3"
+	pdxmesh = "gorillaa"
+}
+entity = {
+	name = "gorillagfx_CAVALRY_3"
+	pdxmesh = "gorillac"
+}
+entity = {
+	name = "gorillagfx_INFANTRY_4"
+	pdxmesh = "gorillai"
+}
+entity = {
+	name = "gorillagfx_ARTILLERY_4"
+	pdxmesh = "gorillaa"
+}
+entity = {
+	name = "gorillagfx_CAVALRY_4"
+	pdxmesh = "gorillac"
+}
+
+##
+
+##
+
+entity = {
+	name = "trexloagfx_INFANTRY_1"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_ARTILLERY_1"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_CAVALRY_1"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_INFANTRY_2"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_ARTILLERY_2"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_CAVALRY_2"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_INFANTRY_3"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_ARTILLERY_3"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_CAVALRY_3"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_INFANTRY_4"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_ARTILLERY_4"
+	pdxmesh = "trexloa"
+}
+entity = {
+	name = "trexloagfx_CAVALRY_4"
+	pdxmesh = "trexloa"
+}
+
+##
+
+entity = {
+	name = "trexloa2gfx_INFANTRY_1"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_ARTILLERY_1"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_CAVALRY_1"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_INFANTRY_2"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_ARTILLERY_2"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_CAVALRY_2"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_INFANTRY_3"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_ARTILLERY_3"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_CAVALRY_3"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_INFANTRY_4"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_ARTILLERY_4"
+	pdxmesh = "trexloa2"
+}
+entity = {
+	name = "trexloa2gfx_CAVALRY_4"
+	pdxmesh = "trexloa2"
+}
+
+##
+
+entity = {
+	name = "trexloa3gfx_INFANTRY_1"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_ARTILLERY_1"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_CAVALRY_1"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_INFANTRY_2"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_ARTILLERY_2"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_CAVALRY_2"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_INFANTRY_3"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_ARTILLERY_3"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_CAVALRY_3"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_INFANTRY_4"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_ARTILLERY_4"
+	pdxmesh = "trexloa3"
+}
+entity = {
+	name = "trexloa3gfx_CAVALRY_4"
+	pdxmesh = "trexloa3"
+}
+
+##
+
+entity = {
+	name = "zandalarigolemgfx_INFANTRY_1"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_ARTILLERY_1"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_CAVALRY_1"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_INFANTRY_2"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_ARTILLERY_2"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_CAVALRY_2"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_INFANTRY_3"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_ARTILLERY_3"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_CAVALRY_3"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_INFANTRY_4"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_ARTILLERY_4"
+	pdxmesh = "zandalarigolem"
+}
+entity = {
+	name = "zandalarigolemgfx_CAVALRY_4"
+	pdxmesh = "zandalarigolem"
+}
+
+##
+
+entity = {
+	name = "zandalarigolem2gfx_INFANTRY_1"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_ARTILLERY_1"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_CAVALRY_1"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_INFANTRY_2"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_ARTILLERY_2"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_CAVALRY_2"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_INFANTRY_3"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_ARTILLERY_3"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_CAVALRY_3"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_INFANTRY_4"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_ARTILLERY_4"
+	pdxmesh = "zandalarigolem2"
+}
+entity = {
+	name = "zandalarigolem2gfx_CAVALRY_4"
+	pdxmesh = "zandalarigolem2"
+}
+
+##
+
+entity = {
+	name = "worgengfx_INFANTRY_1"
+	pdxmesh = "worgeni"
+}
+entity = {
+	name = "worgengfx_CAVALRY_1"
+	pdxmesh = "worgenc"
+}
+entity = {
+	name = "worgengfx_INFANTRY_2"
+	pdxmesh = "worgeni"
+}
+entity = {
+	name = "worgengfx_CAVALRY_2"
+	pdxmesh = "worgenc"
+}
+entity = {
+	name = "worgengfx_INFANTRY_3"
+	pdxmesh = "worgeni"
+}
+entity = {
+	name = "worgengfx_CAVALRY_3"
+	pdxmesh = "worgenc"
+}
+entity = {
+	name = "worgengfx_INFANTRY_4"
+	pdxmesh = "worgeni"
+}
+entity = {
+	name = "worgengfx_CAVALRY_4"
+	pdxmesh = "worgenc"
+}

@@ -1,0 +1,43 @@
+#----------------------------------------------
+# Loa
+#----------------------------------------------
+bloodmancy_bloodlust = {
+    shock_damage = 0.05
+    fire_damage = 0.05
+    movement_speed = 0.1
+    
+    religion = yes
+}
+
+#----------------------------------------------
+# Decisions
+#----------------------------------------------
+necromantic_surge = {
+    global_missionary_strength = 0.01
+    global_manpower_modifier = 0.05
+    global_manpower = 10.0
+    
+    religion = yes
+}
+
+enforced_loa_worship = {
+    global_missionary_strength = 0.01
+    missionaries = 1
+    
+    religion = yes
+}
+
+hakkari_boon = {
+    global_missionary_strength = 0.01
+    hostile_attrition = 1
+    
+    religion = yes
+}
+
+blood_rites = {
+    global_missionary_strength = 0.01
+    land_morale = 0.05
+    
+    religion = yes
+}
+

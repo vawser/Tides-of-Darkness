@@ -1,0 +1,89 @@
+estate_slaves = {
+	icon = 5
+    color = { 53 145 61 }
+    
+	influence_from_dev_modifier = 0.5
+    
+    # ----- Names -----
+    
+	# ----- Conditions -----
+	trigger = {
+        is_nomad = no
+        has_reform = wwu_labor_tier_slavery
+	}
+
+	# ----- Country -----
+	country_modifier_happy = {
+		build_time = -0.1
+        build_cost = -0.1
+        global_manpower_modifier = 0.1
+	}
+	country_modifier_neutral = {
+		build_time = -0.05
+        build_cost = -0.05
+        global_manpower_modifier = 0.05
+	}	
+	country_modifier_angry = {
+		build_time = 0.1
+        build_cost = 0.1
+        global_manpower_modifier = -0.1
+	}	
+    
+	land_ownership_modifier = {
+		slaves_loyalty_modifier = 0.2
+	}
+
+    province_independence_weight = {
+		factor = 1
+	}
+    
+	# ----- Influence -----
+	base_influence = 10
+    
+	# ----- Loyalty -----
+    loyalty_modifier = {
+		desc = EST_VAL_POSITIVE_STABILITY
+		trigger = {
+			stability = 1
+		}
+		loyalty = 10
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_NEGATIVE_STABILITY
+		trigger = {
+			NOT = { stability = 0 }
+		}
+		loyalty = -10
+	}
+    
+    loyalty_modifier = {
+		desc = EST_VAL_REBELLIOUS_PEOPLE
+		trigger = {
+			average_effective_unrest = 6
+		}
+		loyalty = -10
+	}
+    
+    # ----- Privileges -----
+	privileges = {
+		estate_slaves_distribute_slaves
+        estate_slaves_sell_slaves
+        estate_slaves_enslave_race
+        estate_slaves_enslaved_farmhands
+        estate_slaves_enslaved_miners
+        estate_slaves_conscripted_slaves
+        estate_slaves_gladiatorial_games
+        estate_slaves_enslaved_sailors
+        estate_slaves_indentured_servants
+        estate_slaves_cruel_experimentation
+        estate_slaves_indentured_clerks
+        estate_slaves_slave_raids
+        estate_slaves_harsh_punishment
+        estate_slaves_restraining_bolts
+	}
+
+    # ----- Agendas -----
+	agendas = {
+		
+	}
+}

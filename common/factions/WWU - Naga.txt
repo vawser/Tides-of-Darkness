@@ -1,0 +1,30 @@
+faction_harbingers = {
+	monarch_power = ADM
+	always = yes
+
+	modifier = {
+		all_power_cost = -0.05
+        expand_administration_cost = -0.1
+        yearly_corruption = 0.05
+	}
+}
+faction_mistresses = {
+	monarch_power = DIP
+	always = yes
+
+	modifier = {
+		advisor_cost = -0.1
+        province_warscore_cost = -0.15
+        ae_impact = -0.05
+	}
+}
+faction_warlords = {
+	monarch_power = MIL
+	always = yes
+
+	modifier = {
+        army_tradition_decay = -0.01
+		infantry_power = 0.05
+        siege_ability = 0.05
+	}
+}

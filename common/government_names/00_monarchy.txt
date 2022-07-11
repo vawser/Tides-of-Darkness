@@ -1,0 +1,770 @@
+# Specific
+gov_despotic_kingdom_forsaken = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = BANSHEE_KING
+        2 = BANSHEE_KING
+        3 = BANSHEE_KING
+	}
+	
+	ruler_female = {
+		1 = BANSHEE_QUEEN
+        2 = BANSHEE_QUEEN
+        3 = BANSHEE_QUEEN
+	}
+	
+	trigger = {
+        tag = P14
+        has_reform = autocracy_reform
+	}
+}
+gov_despotic_kingdom_undead = {
+    rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+    
+	ruler_male = {
+		1 = DARKMASTER
+        2 = DARKMASTER
+        3 = DARKMASTER
+	}
+	
+	ruler_female = {
+		1 = DARKMISTRESS
+        2 = DARKMISTRESS
+        3 = DARKMISTRESS
+	}
+	
+    heir_male = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+
+	heir_female = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+    
+	trigger = {
+        has_reform = autocracy_reform
+        OR = {
+            culture_group = culture_group_undead
+            culture_group = culture_group_scourge
+		}
+	}
+}
+gov_despotic_kingdom_bug = {
+    rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+    
+	ruler_male = {
+		1 = SWARM_LORD
+        2 = SWARM_LORD
+        3 = SWARM_LORD
+	}
+	
+	ruler_female = {
+		1 = SWARM_LADY
+        2 = SWARM_LADY
+        3 = SWARM_LADY
+	}
+	
+    heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+    
+	trigger = {
+        has_reform = autocracy_reform
+        is_bug = yes
+	}
+}
+gov_despotic_kingdom_vassal = {
+	rank = {
+		1 = DESPOTIC_VASSAL
+        2 = DESPOTIC_VASSAL
+        3 = DESPOTIC_VASSAL
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        is_subject = yes
+        has_reform = autocracy_reform
+	}
+}
+gov_feudal_kingdom_forsaken = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = BANSHEE_KING
+        2 = BANSHEE_KING
+        3 = BANSHEE_KING
+	}
+	
+	ruler_female = {
+		1 = BANSHEE_QUEEN
+        2 = BANSHEE_QUEEN
+        3 = BANSHEE_QUEEN
+	}
+	
+	trigger = {
+        tag = P14
+        has_reform = feudalism_reform
+	}
+}
+gov_feudal_kingdom_undead = {
+    rank = {
+		1 = FEUDAL_KINGDOM
+        2 = FEUDAL_KINGDOM
+        3 = FEUDAL_KINGDOM
+	}
+    
+	ruler_male = {
+		1 = DARKMASTER
+        2 = DARKMASTER
+        3 = DARKMASTER
+	}
+	
+	ruler_female = {
+		1 = DARKMISTRESS
+        2 = DARKMISTRESS
+        3 = DARKMISTRESS
+	}
+	
+    heir_male = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+
+	heir_female = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+    
+	trigger = {
+        has_reform = feudalism_reform
+        OR = {
+            culture_group = culture_group_undead
+            culture_group = culture_group_scourge
+		}
+	}
+}
+gov_feudal_kingdom_bug = {
+    rank = {
+		1 = FEUDAL_KINGDOM
+        2 = FEUDAL_KINGDOM
+        3 = FEUDAL_KINGDOM
+	}
+    
+	ruler_male = {
+		1 = SWARM_LORD
+        2 = SWARM_LORD
+        3 = SWARM_LORD
+	}
+	
+	ruler_female = {
+		1 = SWARM_LADY
+        2 = SWARM_LADY
+        3 = SWARM_LADY
+	}
+	
+    heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+    
+	trigger = {
+        has_reform = feudalism_reform
+        is_bug = yes
+	}
+}
+gov_feudal_kingdom_vassal = {
+	rank = {
+		1 = FEUDAL_VASSAL
+        2 = FEUDAL_VASSAL
+        3 = FEUDAL_VASSAL
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        is_subject = yes
+        has_reform = feudalism_reform
+	}
+}
+gov_ancient_kingdom_bug = {
+    rank = {
+		1 = ANCIENT_KINGDOM
+        2 = ANCIENT_KINGDOM
+        3 = ANCIENT_KINGDOM
+	}
+    
+	ruler_male = {
+		1 = SWARM_LORD
+        2 = SWARM_LORD
+        3 = SWARM_LORD
+	}
+	
+	ruler_female = {
+		1 = SWARM_LADY
+        2 = SWARM_LADY
+        3 = SWARM_LADY
+	}
+	
+    heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+    
+	trigger = {
+        has_reform = ancient_kingdom_reform
+        is_bug = yes
+	}
+}
+gov_hereditary_monarchy_regency = {
+	rank = {
+		1 = HEREDITARY_MONARCHY
+        2 = HEREDITARY_MONARCHY
+        3 = HEREDITARY_MONARCHY
+	}
+	
+	ruler_male = {
+		1 = REGENT_LORD
+        2 = REGENT_LORD
+        3 = REGENT_LORD
+	}
+	
+	ruler_female = {
+		1 = REGENT_LADY
+        2 = REGENT_LADY
+        3 = REGENT_LADY
+	}
+	
+	trigger = {
+        has_wrong_dynasty = yes
+	}
+}
+gov_gorian_empire = {
+	rank = {
+		1 = IMPERIAL_HEGEMONY
+		2 = IMPERIAL_HEGEMONY
+		3 = IMPERIAL_HEGEMONY
+	}
+	
+	ruler_male = {
+		1 = IMPERATOR 
+		2 = IMPERATOR
+		3 = IMPERATOR
+	}
+	
+	ruler_female = {
+		1 = IMPERATRIX
+		2 = IMPERATRIX
+		3 = IMPERATRIX
+	}
+	
+	heir_male = {
+		1 = HIGH_CENTURION
+		2 = HIGH_CENTURION
+		3 = HIGH_CENTURION
+	}
+
+	heir_female = {
+		1 = HIGH_CENTURION
+		2 = HIGH_CENTURION
+		3 = HIGH_CENTURION
+	}
+	trigger = {
+		has_reform = gorian_empire_reform
+	}
+}	
+
+# General
+gov_despotic_kingdom = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = autocracy_reform
+	}
+}
+gov_feudal_kingdom = {
+	rank = {
+		1 = FEUDAL_KINGDOM
+        2 = FEUDAL_KINGDOM
+        3 = FEUDAL_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = feudalism_reform
+	}
+}
+gov_ancient_kingdom = {
+	rank = {
+		1 = ANCIENT_KINGDOM
+        2 = ANCIENT_KINGDOM
+        3 = ANCIENT_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = ancient_kingdom_reform
+	}
+}
+gov_horde = {
+	rank = {
+		1 = THE_HORDE
+        2 = THE_HORDE
+        3 = THE_HORDE
+	}
+	
+	ruler_male = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	trigger = {
+        has_reform = horde_reform
+	}
+}
+gov_alliance = {
+	rank = {
+		1 = THE_ALLIANCE
+        2 = THE_ALLIANCE
+        3 = THE_ALLIANCE
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = alliance_reform
+	}
+}
+gov_scourge = {
+	rank = {
+		1 = THE_SCOURGE
+        2 = THE_SCOURGE
+        3 = THE_SCOURGE
+	}
+	
+	ruler_male = {
+		1 = LICH_KING
+        2 = LICH_KING
+        3 = LICH_KING
+	}
+	
+	ruler_female = {
+		1 = LICH_QUEEN
+        2 = LICH_QUEEN
+        3 = LICH_QUEEN
+	}
+	
+    heir_male = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+
+	heir_female = {
+		1 = CHAMPION
+		2 = CHAMPION
+		3 = CHAMPION
+	}
+    
+	trigger = {
+        has_reform = scourge_reform
+	}
+}
+gov_admiralty = {
+	rank = {
+		1 = ADMIRALTY
+        2 = ADMIRALTY
+        3 = ADMIRALTY
+	}
+	
+	ruler_male = {
+		1 = ADMIRAL
+        2 = ADMIRAL
+        3 = ADMIRAL
+	}
+	
+	ruler_female = {
+		1 = ADMIRAL
+        2 = ADMIRAL
+        3 = ADMIRAL
+	}
+	
+	trigger = {
+        has_reform = admiralty_reform
+	}
+}
+gov_kingdom_of_magic = {
+	rank = {
+		1 = KINGDOM_OF_MAGIC
+        2 = KINGDOM_OF_MAGIC
+        3 = KINGDOM_OF_MAGIC
+	}
+	
+	ruler_male = {
+		1 = ARCHMAGE
+        2 = ARCHMAGE
+        3 = ARCHMAGE
+	}
+	
+	ruler_female = {
+		1 = ARCHMAGE
+        2 = ARCHMAGE
+        3 = ARCHMAGE
+	}
+	
+	trigger = {
+        has_reform = kingdom_of_magic_reform
+	}
+}
+gov_convocation_of_silvermoon = {
+	rank = {
+		1 = CONVOCATION_OF_SILVERMOON
+        2 = CONVOCATION_OF_SILVERMOON
+        3 = CONVOCATION_OF_SILVERMOON
+	}
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+        2 = GRAND_MAGISTER
+        3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTER
+        2 = GRAND_MAGISTER
+        3 = GRAND_MAGISTER
+	}
+	
+	trigger = {
+        has_reform = convocation_of_silvermoon_reform
+	}
+}
+gov_naga_domain = {
+	rank = {
+		1 = NAGA_DOMAIN
+        2 = NAGA_DOMAIN
+        3 = NAGA_DOMAIN
+	}
+	
+	ruler_male = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        has_reform = naga_domain_reform
+	}
+}
+gov_scourge_domain = {
+	rank = {
+		1 = SCOURGE_DOMAIN
+        2 = SCOURGE_DOMAIN
+        3 = SCOURGE_DOMAIN
+	}
+	
+	ruler_male = {
+		1 = OVERSEER
+        2 = OVERSEER
+        3 = OVERSEER
+	}
+	
+	ruler_female = {
+		1 = OVERSEER
+        2 = OVERSEER
+        3 = OVERSEER
+	}
+	
+	trigger = {
+        has_reform = scourge_domain_reform
+	}
+}
+gov_troll_kingdom = {
+	rank = {
+		1 = TROLL_TRIBE
+		2 = TROLL_KINGDOM
+		3 = TROLL_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = CHIEFTAIN
+        2 = KING
+        3 = GOD_KING
+	}
+	
+	ruler_female = {
+		1 = CHIEFTAIN
+        2 = QUEEN
+        3 = GOD_QUEEN
+	}
+	
+	trigger = {
+        has_reform = troll_kingdom_reform
+	}
+}
+gov_zandalari_empire = {
+	rank = {
+		1 = TROLL_EMPIRE
+		2 = TROLL_EMPIRE
+		3 = TROLL_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = GOD_KING
+        2 = GOD_KING
+        3 = GOD_KING
+	}
+	
+	ruler_female = {
+		1 = GOD_QUEEN
+        2 = GOD_QUEEN
+        3 = GOD_QUEEN
+	}
+	
+	trigger = {
+        has_reform = zandalari_empire_reform
+	}
+}
+gov_vrykul_kingdom = {
+	rank = {
+		1 = VRYKUL_KINGDOM
+        2 = VRYKUL_KINGDOM
+        3 = VRYKUL_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = vrykul_kingdom_reform
+	}
+}
+gov_nighthold = {
+	rank = {
+		1 = KINGDOM_OF_SURAMAR
+        2 = KINGDOM_OF_SURAMAR
+        3 = KINGDOM_OF_SURAMAR
+	}
+	
+	ruler_male = {
+		1 = GRAND_MAGISTER
+        2 = GRAND_MAGISTER
+        3 = GRAND_MAGISTER
+	}
+	
+	ruler_female = {
+		1 = GRAND_MAGISTRIX
+        2 = GRAND_MAGISTRIX
+        3 = GRAND_MAGISTRIX
+	}
+	
+	trigger = {
+        has_reform = nighthold_reform
+	}
+}
+gov_pandaren_union = {
+	rank = {
+		1 = PANDAREN_UNION
+        2 = PANDAREN_UNION
+        3 = PANDAREN_UNION
+	}
+	
+	ruler_male = {
+		1 = MASTER
+        2 = MASTER
+        3 = MASTER
+	}
+	
+	ruler_female = {
+		1 = MISTRESS
+        2 = MISTRESS
+        3 = MISTRESS
+	}
+	
+	trigger = {
+        has_reform = pandaren_union_reform
+	}
+}
+gov_celestial_order = {
+	rank = {
+		1 = CELESTIAL_ORDER
+        2 = CELESTIAL_ORDER
+        3 = CELESTIAL_ORDER
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        has_reform = celestial_order_reform
+	}
+}
+gov_shado_pan_order = {
+	rank = {
+		1 = SHADO_PAN_ORDER
+        2 = SHADO_PAN_ORDER
+        3 = SHADO_PAN_ORDER
+	}
+	
+	ruler_male = {
+		1 = LORD
+        2 = LORD
+        3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+        2 = LADY
+        3 = LADY
+	}
+	
+	trigger = {
+        has_reform = shado_pan_order_reform
+	}
+}
+
+

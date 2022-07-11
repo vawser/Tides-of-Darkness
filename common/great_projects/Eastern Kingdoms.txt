@@ -1,0 +1,6278 @@
+# #--------------------------------------
+# # Seradane
+# #--------------------------------------
+# gp_seradane = {
+    # type = monument
+    
+	# start = 1026
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # army_tradition = 0.5
+            # leader_land_manuever = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # army_tradition = 0.75
+            # leader_land_manuever = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # army_tradition = 1.0
+            # leader_land_manuever = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Twilight Grove
+# #--------------------------------------
+# gp_twilight_grove = {
+    # type = monument
+    
+	# start = 698
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_nightborne = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_nightborne = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_night_elf = yes
+            # is_available_to_high_elf = yes
+            # is_available_to_nightborne = yes
+            # is_available_to_green_dragonflight = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.05
+            # shock_damage_received = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.075
+            # shock_damage_received = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.1
+            # shock_damage_received = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Stormwind Keep
+# #--------------------------------------
+# gp_stormwind_keep = {
+    # type = monument
+    
+	# start = 1022
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+            # local_defensiveness = 0.25
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige = 0.5
+            # yearly_corruption = -0.03
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+            # local_defensiveness = 0.33
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige = 0.75
+            # yearly_corruption = -0.04
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+            # local_defensiveness = 0.5
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige = 1.0
+            # yearly_corruption = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Stromgarde Keep
+# #--------------------------------------
+# gp_stromgarde_keep = {
+    # type = monument
+    
+	# start = 3002
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+            # local_defensiveness = 0.25
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige = 0.5
+            # infantry_power = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+            # local_defensiveness = 0.33
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige = 0.75
+            # infantry_power = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+            # local_defensiveness = 0.5
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige = 1.0
+            # infantry_power = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Gilneas City
+# #--------------------------------------
+# gp_gilneas_city = {
+    # type = monument
+    
+	# start = 927
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+            # local_defensiveness = 0.25
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige = 0.5
+            # development_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+            # local_defensiveness = 0.33
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige = 0.75
+            # development_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+            # local_defensiveness = 0.5
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige = 1.0
+            # development_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Capital City
+# #--------------------------------------
+# gp_lordaeron_city = {
+    # type = monument
+    
+	# start = 543
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+            # local_defensiveness = 0.25
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige = 0.5
+            # advisor_cost = -0.1
+            # advisor_pool = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+            # local_defensiveness = 0.33
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige = 0.75
+            # advisor_cost = -0.15
+            # advisor_pool = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+            # local_defensiveness = 0.5
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige = 1.0
+            # advisor_cost = -0.2
+            # advisor_pool = 2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Light's Hope Chapel
+# #--------------------------------------
+# gp_lights_hope_chapel = {
+    # type = monument
+    
+	# start = 557
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.01
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.015
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.02
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Stratholme
+# #--------------------------------------
+# gp_stratholme = {
+    # type = monument
+    
+	# start = 642
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige = 0.5
+            # state_maintenance_modifier = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige = 0.75
+            # state_maintenance_modifier = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige = 1.0
+            # state_maintenance_modifier = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Durnholde Keep
+# #--------------------------------------
+# gp_durnholde_keep = {
+    # type = monument
+    
+	# start = 741
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # global_unrest = -1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # global_unrest = -1.5
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # global_unrest = -2.0
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Thoradin's Wall
+# #--------------------------------------
+# gp_thoradins_wall = {
+    # type = monument
+    
+	# start = 966
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # leader_siege = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # leader_siege = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # leader_siege = 2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Karazhan
+# #--------------------------------------
+# gp_karazhan_tower = {
+    # type = monument
+    
+	# start = 953
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.25
+		# }
+		# country_modifiers = {
+            # innovativeness_gain = 0.1
+            # idea_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.33
+		# }
+		# country_modifiers = {
+            # innovativeness_gain = 0.15
+            # idea_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.5
+		# }
+		# country_modifiers = {
+            # innovativeness_gain = 0.2
+            # idea_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Westfall Lighthouse
+# #--------------------------------------
+# gp_westfall_lighthouse = {
+    # type = monument
+    
+	# start = 612
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # range = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # range = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # range = 0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Statue of Anduin Lothar
+# #--------------------------------------
+# gp_statue_of_anduin_lothar = {
+    # type = monument
+    
+	# start = 1983
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # # Only built after the Second War
+        # OR = {
+            # current_age = age_scourge
+            # current_age = age_burning_legion
+        # }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.1
+		# }
+		# country_modifiers = {
+            # land_morale = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.15
+		# }
+		# country_modifiers = {
+            # land_morale = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.2
+		# }
+		# country_modifiers = {
+            # land_morale = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Uther's Tomb
+# #--------------------------------------
+# gp_uthers_tomb = {
+    # type = monument
+    
+	# start = 2020
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # # Only built after the Third War
+        # current_age = age_burning_legion
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_unrest = -1
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # missionary_maintenance_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_unrest = -2
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # missionary_maintenance_cost = -0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_unrest = -3
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # missionary_maintenance_cost = -0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Tyr's Hand
+# #--------------------------------------
+# gp_tyrs_hand = {
+    # type = monument
+    
+	# start = 519
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+            # is_available_to_scourge = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+            # is_available_to_scourge = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_undead = yes
+            # is_available_to_scourge = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Baradin Hold
+# #--------------------------------------
+# gp_baradin_hold = {
+    # type = monument
+    
+	# start = 2010
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # army_tradition_from_battle = 0.5
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # army_tradition_from_battle = 0.75
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # army_tradition_from_battle = 1.0
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Dalaran (EK)
+# #--------------------------------------
+# gp_dalaran_ek = {
+    # type = monument
+    
+	# start = 863
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # current_age = age_rise_of_the_horde
+            # current_age = age_orcish_horde
+        # }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+        # OR = {
+            # current_age = age_rise_of_the_horde
+            # current_age = age_orcish_horde
+        # }
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.25
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # technology_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.33
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # technology_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.5
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # technology_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Ironforge
+# #--------------------------------------
+# gp_ironforge = {
+    # type = monument
+    
+	# start = 941
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # siege_ability = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # siege_ability = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # siege_ability = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Blackrock Mountain
+# #--------------------------------------
+# gp_blackrock_mountain = {
+    # type = monument
+    
+	# start = 3155
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_hostile_attrition = 1
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.25
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_hostile_attrition = 1.5
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.33
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_hostile_attrition = 2.0
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.5
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Black Anvil of Shadowforge
+# #--------------------------------------
+# gp_black_anvil = {
+    # type = monument
+    
+	# start = 1962
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_fire = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.25
+		# }
+		# country_modifiers = {
+            # development_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.33
+		# }
+		# country_modifiers = {
+            # development_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.5
+		# }
+		# country_modifiers = {
+            # development_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Grim Batol
+# #--------------------------------------
+# gp_grim_batol = {
+    # type = monument
+    
+	# start = 1061
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+            # is_available_to_corrupt_dragon_aspect = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # global_supply_limit_modifier = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # global_supply_limit_modifier = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # global_supply_limit_modifier = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Aerie Peak
+# #--------------------------------------
+# gp_aerie_peak = {
+    # type = monument
+    
+	# start = 889
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_dwarf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # movement_speed = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # movement_speed = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # movement_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Stonewrought Dam
+# #--------------------------------------
+# gp_stonewrought_dam = {
+    # type = monument
+    
+	# start = 3029
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.25
+		# }
+		# country_modifiers = {
+            # defensiveness = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 65
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.33
+		# }
+		# country_modifiers = {
+            # defensiveness = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.5
+		# }
+		# country_modifiers = {
+            # defensiveness = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Thandol Span
+# #--------------------------------------
+# gp_thandol_span = {
+    # type = monument
+    
+	# start = 1933
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_friendly_movement_speed = 0.1
+            # local_hostile_movement_speed = -0.1
+		# }
+		# country_modifiers = {
+            # reinforce_speed = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_friendly_movement_speed = 0.2
+            # local_hostile_movement_speed = -0.2
+		# }
+		# country_modifiers = {
+            # reinforce_speed = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_friendly_movement_speed = 0.3
+            # local_hostile_movement_speed = -0.3
+		# }
+		# country_modifiers = {
+            # reinforce_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Gnomeregan
+# #--------------------------------------
+# gp_gnomeregan = {
+    # type = monument
+    
+	# start = 3036
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_gnome = yes
+            # is_available_to_mechagnome = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_gnome = yes
+            # is_available_to_mechagnome = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_gnome = yes
+            # is_available_to_mechagnome = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # adm_tech_cost_modifier = -0.05
+            # idea_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # adm_tech_cost_modifier = -0.075
+            # idea_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # allowed_num_of_manufactories = 1
+		# }
+		# country_modifiers = {
+            # adm_tech_cost_modifier = -0.1
+            # idea_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Sunwell Plateau
+# #--------------------------------------
+# gp_sunwell_plateau = {
+    # type = monument
+    
+	# start = 2991
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # all_power_cost = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # all_power_cost = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # all_power_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Magister's Terrace
+# #--------------------------------------
+# gp_magisters_terrace = {
+    # type = monument
+    
+	# start = 760
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # improve_relation_modifier = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # improve_relation_modifier = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # improve_relation_modifier = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Thalassian Pass
+# #--------------------------------------
+# gp_thalassian_pass = {
+    # type = monument
+    
+	# start = 776
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # always = yes # General
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# always = yes # General
+	# }
+	# can_upgrade_trigger = {
+		# always = yes # General
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # recover_army_morale_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Windrunner Spire
+# #--------------------------------------
+# gp_windrunner_spire = {
+    # type = monument
+    
+	# start = 629
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.25
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.33
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # infantry_fire = 0.5
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Falthrien Academy
+# #--------------------------------------
+# gp_falthrien_academy = {
+    # type = monument
+    
+	# start = 978
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_development_cost = -0.05
+		# }
+		# country_modifiers = {
+            # great_project_upgrade_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_development_cost = -0.075
+		# }
+		# country_modifiers = {
+            # great_project_upgrade_cost = -0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_development_cost = -0.1
+		# }
+		# country_modifiers = {
+            # great_project_upgrade_cost = -0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Sunfury Spire
+# #--------------------------------------
+# gp_sunfury_spire = {
+    # type = monument
+    
+	# start = 660
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_high_elf = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # possible_policy = 1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # possible_policy = 2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_tax_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # possible_policy = 3
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Dragonmaw Port
+# #--------------------------------------
+# gp_dragonmaw_port = {
+    # type = monument
+    
+	# start = 755
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # NOT = { current_age = age_rise_of_the_horde }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_orc = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_orc = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_orc = yes
+        # }
+	# }
+	# keep_trigger = {
+        # NOT = { current_age = age_rise_of_the_horde }
+	# }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # naval_forcelimit_modifier = 0.05
+            # naval_maintenance_modifier = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # naval_forcelimit_modifier = 0.075
+            # naval_maintenance_modifier = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # naval_forcelimit_modifier = 0.1
+            # naval_maintenance_modifier = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Janeiro's Point
+# #--------------------------------------
+# gp_janeiros_point = {
+    # type = monument
+    
+	# start = 215
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_goblin = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_goblin = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_goblin = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # trade_efficiency = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # trade_efficiency = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_sailors_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # trade_efficiency = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Zul'Aman
+# #--------------------------------------
+# gp_zulaman = {
+    # type = monument
+    
+	# start = 806
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # infantry_shock = 0.25
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # infantry_shock = 0.33
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # infantry_shock = 0.5
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Zul'mashar
+# #--------------------------------------
+# gp_zulmashar = {
+    # type = monument
+    
+	# start = 743
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_hostile_attrition = 1
+		# }
+		# country_modifiers = {
+            # prestige_per_development_from_conversion = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_hostile_attrition = 1.5
+		# }
+		# country_modifiers = {
+            # prestige_per_development_from_conversion = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_hostile_attrition = 2
+		# }
+		# country_modifiers = {
+            # prestige_per_development_from_conversion = 0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Altar of Zul
+# #--------------------------------------
+# gp_altar_of_zul = {
+    # type = monument
+    
+	# start = 958
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # war_exhaustion = -0.03
+            # global_manpower_modifier = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # war_exhaustion = -0.04
+            # global_manpower_modifier = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # war_exhaustion = -0.05
+            # global_manpower_modifier = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Shadra'Alor
+# #--------------------------------------
+# gp_shadraalor = {
+    # type = monument
+    
+	# start = 942
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.1
+            # reinforce_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.125
+            # reinforce_speed = 0.125
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.15
+            # reinforce_speed = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Temple of Atal'Hakkar
+# #--------------------------------------
+# gp_temple_of_atalhakkar = {
+    # type = monument
+    
+	# start = 949
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # manpower_recovery_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # manpower_recovery_speed = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # manpower_recovery_speed = 0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Zul'Kunda
+# #--------------------------------------
+# gp_zulkunda = {
+    # type = monument
+    
+	# start = 750
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # prestige_decay = -0.01
+            # yearly_corruption = -0.03
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # prestige_decay = -0.015
+            # yearly_corruption = -0.04
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # prestige_decay = -0.02
+            # yearly_corruption = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Gurubashi Arena
+# #--------------------------------------
+# gp_gurubashi_arena = {
+    # type = monument
+    
+	# start = 969
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_hostile_attrition = 1
+		# }
+		# country_modifiers = {
+            # infantry_power = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_hostile_attrition = 1.5
+		# }
+		# country_modifiers = {
+            # infantry_power = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_hostile_attrition = 2
+		# }
+		# country_modifiers = {
+            # infantry_power = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Zul'Mamwe
+# #--------------------------------------
+# gp_zulmamwe = {
+    # type = monument
+    
+	# start = 511
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Temple of Hakkar
+# #--------------------------------------
+# gp_temple_of_hakkar = {
+    # type = monument
+    
+	# start = 783
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_troll = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # global_manpower_modifier = 0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Acherus
+# #--------------------------------------
+# gp_acherus = {
+    # type = monument
+    
+	# start = 992
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # current_age = age_scourge
+            # current_age = age_burning_legion
+        # }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # mil_advisor_cost = -0.05
+            # recover_army_morale_speed = 0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # mil_advisor_cost = -0.075
+            # recover_army_morale_speed = 0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # mil_advisor_cost = -0.1
+            # recover_army_morale_speed = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Scholomance
+# #--------------------------------------
+# gp_scholomance = {
+    # type = monument
+    
+	# start = 790
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # current_age = age_scourge
+            # current_age = age_burning_legion
+        # }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.25
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.05
+            # embracement_cost = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.33
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.075
+            # embracement_cost = -0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_institution_spread = 0.5
+		# }
+		# country_modifiers = {
+            # mil_tech_cost_modifier = -0.1
+            # embracement_cost = -0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Deatholme
+# #--------------------------------------
+# gp_deatholme = {
+    # type = monument
+    
+	# start = 1039
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # current_age = age_scourge
+            # current_age = age_burning_legion
+        # }
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_scourge = yes
+            # is_available_to_undead = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.25
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.01
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.33
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.015
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_manpower_modifier = 0.5
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.02
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Uldaman
+# #--------------------------------------
+# gp_uldaman_complex = {
+    # type = monument
+    
+	# start = 1968
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_titan = yes
+            # is_available_to_earthen = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_titan = yes
+            # is_available_to_earthen = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_titan = yes
+            # is_available_to_earthen = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.05
+            # shock_damage_received = -0.05
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.075
+            # shock_damage_received = -0.075
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # fire_damage_received = -0.1
+            # shock_damage_received = -0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# #--------------------------------------
+# # Scarlet Monastery
+# #--------------------------------------
+# gp_scarlet_monastery = {
+    # type = monument
+    
+	# start = 979
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_holy_light = yes
+            # is_available_to_scarlet_light = yes
+            # is_available_to_argent_light = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.25
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.01
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.33
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.015
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+		# }
+		# area_modifier = {
+            # local_defensiveness = 0.5
+		# }
+		# country_modifiers = {
+            # tolerance_own = 1
+            # global_missionary_strength = 0.02
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }
+
+# gp_deadmines = {
+    # type = monument
+    
+	# start = 1999
+
+	# date = 100.01.01
+	# can_be_moved = no
+	# move_days_per_unit_distance = 10
+    
+    # build_cost = 0
+	# time = {
+		# months = 0
+	# }
+
+	# starting_tier = 0
+
+    # # Construction
+	# build_trigger = {
+        # OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# on_built = {
+		
+	# }
+	# on_destroyed = {
+		
+	# }
+    
+    # # Conditions
+	# can_use_modifiers_trigger = {
+		# is_state = yes
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# can_upgrade_trigger = {
+		# OR = {
+            # has_monument_research_eastern_kingdoms = yes
+            # is_available_to_human = yes
+        # }
+	# }
+	# keep_trigger = { always = yes }
+
+	# # Tiers
+	# tier_0 = {
+		# upgrade_time = {
+			# months = 0
+		# }
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+		# province_modifiers = {
+            
+		# }
+		# area_modifier = {
+            
+		# }
+		# country_modifiers = {
+            
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_1 = {
+		# upgrade_time = {
+			# months = 32 # Tier 1 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 1000 # Tier 1 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.05
+            # local_defensiveness = 0.25
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.25
+		# }
+		# country_modifiers = {
+            # global_prov_trade_power_modifier = 0.1
+            # global_trade_goods_size_modifier = 0.1
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_2 = {
+		# upgrade_time = {
+			# months = 64 # Tier 2 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 3000 # Tier 2 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.075
+            # local_defensiveness = 0.33
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.33
+		# }
+		# country_modifiers = {
+            # global_prov_trade_power_modifier = 0.15
+            # global_trade_goods_size_modifier = 0.15
+		# }
+		# on_upgraded = {
+		# }
+	# }
+	# tier_3 = {
+		# upgrade_time = {
+			# months = 120 # Tier 3 Time
+		# }
+		# cost_to_upgrade = {
+			# factor = 5000 # Tier 3 Cost
+		# }
+        # province_modifiers = {
+            # local_monthly_devastation = -0.1
+            # local_defensiveness = 0.5
+		# }
+		# area_modifier = {
+            # local_production_efficiency = 0.5
+		# }
+		# country_modifiers = {
+            # global_prov_trade_power_modifier = 0.2
+            # global_trade_goods_size_modifier = 0.2
+		# }
+		# on_upgraded = {
+		# }
+	# }
+# }

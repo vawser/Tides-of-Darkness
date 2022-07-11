@@ -1,0 +1,182 @@
+is_civil = {
+    OR = {
+        culture_group = culture_group_human
+        culture_group = culture_group_darnassian
+        culture_group = culture_group_thalassian
+        culture_group = culture_group_draenei
+        culture_group = culture_group_jinyu
+        culture_group = culture_group_dragonkin
+        culture_group = culture_group_dwarven
+        culture_group = culture_group_titan
+        culture_group = culture_group_earthen
+        culture_group = culture_group_worgen
+        culture_group = culture_group_arrakoa
+        culture_group = culture_group_fallen_arrakoa
+        culture_group = culture_group_tuskarr
+        culture_group = culture_group_pandaren
+        culture_group = culture_group_ethereal
+        culture_group = culture_group_gnomish
+        culture_group = culture_group_mecha_gnomish
+        culture_group = culture_group_tol_vir
+        culture_group = culture_group_shalassian
+        culture_group = culture_group_vulpera
+        culture_group = culture_group_tortollan
+    }
+    NOT = { primary_culture = culture_withered }
+}
+
+is_savage = {
+    NOT = { is_civil = yes }
+}
+
+is_pirate = {
+    OR = {
+        tag = A15
+        tag = A19
+        tag = A20
+        tag = A21
+        tag = A83
+    }
+}
+
+is_merchant = {
+    OR = {
+        culture_group = culture_group_goblin
+		culture_group = culture_group_ethereal
+		culture_group = culture_group_grummle
+    }
+}
+
+is_bug = {
+    OR = {
+        culture_group = culture_group_aqir
+        culture_group = culture_group_nerubian
+        culture_group = culture_group_mantid
+    }
+}
+
+is_ancient = {
+    OR = {
+		culture_group = culture_group_darnassian
+		culture_group = culture_group_thalassian
+		culture_group = culture_group_vrykul
+		culture_group = culture_group_drust
+		culture_group = culture_group_aqir
+        culture_group = culture_group_nerubian
+        culture_group = culture_group_mantid
+		culture_group = culture_group_dragonkin
+		culture_group = culture_group_ghost
+		culture_group = culture_group_titan
+		culture_group = culture_group_earthen
+		culture_group = culture_group_fire
+		culture_group = culture_group_earth
+		culture_group = culture_group_water
+		culture_group = culture_group_air
+		culture_group = culture_group_nature
+		culture_group = culture_group_sha
+		culture_group = culture_group_mogu
+		culture_group = culture_group_ice_giant
+		culture_group = culture_group_sea_giant
+		culture_group = culture_group_earth_giant
+		culture_group = culture_group_dryad
+		culture_group = culture_group_tol_vir
+		culture_group = culture_group_shalassian
+		culture_group = culture_group_faldorei
+	}
+}
+
+is_honorable = {
+    OR = {
+        culture_group = culture_group_orc
+        culture_group = culture_group_tauren
+        culture_group = culture_group_human
+        culture_group = culture_group_vrykul
+	}
+}
+
+is_otherworld = {
+    OR = {  
+        culture_group = culture_group_demonic
+        culture_group = culture_group_old_ones
+		culture_group = culture_group_ethereal
+    }
+}
+
+is_outlander = {
+    OR = {
+		culture_group = culture_group_orc
+		culture_group = culture_group_draenei
+		culture_group = culture_group_ogre
+		culture_group = culture_group_arrakoa
+		culture_group = culture_group_zangar
+    }
+}
+
+is_pure_evil = {
+    OR = {
+        culture_group = culture_group_demonic
+        tag = B92
+		religion = cthun
+        religion = nzoth
+        religion = yogg_saron
+        religion = yshaarj
+		religion = twilight_cult
+        religion = nightmare
+		religion = cult_of_the_damned
+    }
+}
+
+is_good = {
+	always = no
+}
+
+is_evil = {
+	always = no
+#	OR = {
+#        culture_group = culture_group_old_ones
+#        culture_group = culture_group_aqir
+#        culture_group = culture_group_demonic
+#        culture_group = culture_group_naga
+#        culture_group = culture_group_scourge
+#        culture_group = culture_group_mantid
+#        culture_group = culture_group_mogu
+#        culture_group = culture_group_saurok
+#        culture_group = culture_group_void
+#        culture_group = culture_group_faldorei
+#    }
+}
+
+has_school = {
+	OR = {
+		has_country_modifier = brotherhood_of_northshire_modifier
+		has_country_modifier = the_conclave_modifier
+		has_country_modifier = order_of_the_silver_hand_modifier
+		has_country_modifier = crimson_legion_modifier
+		has_country_modifier = blood_knights_modifier
+		has_country_modifier = argent_light_modifier
+		has_country_modifier = the_lightforged_modifier
+		has_country_modifier = the_sunwalkers_modifier
+	}
+}
+has_archaeologists = {
+	OR = {
+		accepted_culture = culture_high_elf
+		accepted_culture = culture_blood_elf
+		accepted_culture = culture_goblin
+		accepted_culture = culture_goblin
+		accepted_culture = culture_goblin
+		accepted_culture = culture_wildhammer
+		accepted_culture = culture_dark_iron
+		accepted_culture = culture_ironforge
+	}
+}
+
+
+is_organization = {
+	
+}
+
+is_spectator = {
+
+}
+

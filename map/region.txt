@@ -1,0 +1,1526 @@
+# A province can belong to several areas.
+
+#-------------------
+# Eastern Kingdoms
+#-------------------
+region_isle_of_quel_danas = {
+    areas = {
+        area_upper_quel_danas
+        area_lower_quel_danas
+    }
+}
+
+region_eversong_woods = {
+    areas = {
+        area_sunstrider_isle
+        area_silvermoon
+        area_duskwither_hills
+        area_west_sanctum
+        area_fairbreeze_village
+        area_east_sanctum
+        area_zeb_watha
+    }
+}
+
+region_ghostlands = {
+    areas = {
+        area_andaroth
+        area_windrunner_spire
+        area_deatholme
+        area_tranquillien
+        area_amani_catacombs
+        area_thalassian_pass
+        area_sanctum_of_the_moon
+    }
+}
+
+region_zulaman = {
+    areas = {
+        area_zul_aman
+        area_maisara_hills
+        area_aman_tharon_keep
+        area_zul_mashar
+        area_tuskcross
+        area_wild_shore
+    }
+}
+
+region_eastern_plaguelands = {
+    areas = {
+        area_stratholme
+        area_quellithien_lodge
+        area_eastwall_tower
+        area_northdale
+        area_new_avalon
+        area_corins_crossing
+        area_the_marris_stead
+        area_eastwatch
+        area_plagueshore
+    }
+}
+
+region_western_plaguelands = {
+    areas = {
+        area_scholomance
+        area_lower_andorhal
+        area_andorhal
+        area_heartglen
+        area_andorhal_fields
+    }
+}
+
+region_tirisfal_glades = {
+    areas = {
+        area_lordaeron_capital
+        area_tirisfal_bulwark
+        area_scarlet_heartlands
+        area_brill
+        area_agamand
+        area_vandermar
+        area_webbed_coast
+        area_scarlet_coast
+    }
+}
+
+region_silverpine_forest = {
+    areas = {
+        area_silverpine_fields
+        area_silverpine_crossing
+        area_ambermill
+        area_shadowfang_keep
+    }
+}
+
+region_gilneas = {
+    areas = {
+        area_northgate
+        area_gilneas_capital
+        area_tempests_reach
+        area_the_blackwald
+        area_duskhaven
+        area_keel_harbor
+        area_gilnean_islands
+        area_purgation_isle
+        area_tempest_isles
+        area_havenswood
+        area_drisburg
+    }
+}
+
+region_alterac_mountains = {
+    areas = {
+        area_dalaran
+        area_alterac_headlands
+        area_alterac_heartland
+        area_strahnbrad
+        area_dun_baldar
+        area_frostwolf_keep
+    }
+}
+
+region_hillsbrad_foothills = {
+    areas = {
+        area_southshore
+        area_tarren_mill
+        area_durnholde_keep
+        area_eastpoint
+    }
+}
+
+region_tol_barad = {
+    areas = {
+        area_farson_hold
+        area_the_restless_front
+        area_baradin_hold
+		area_zul_dare
+    }
+}
+
+region_kul_tiras = {
+    areas = {
+        area_boralus
+        area_freehold
+        area_vigil_hill
+        area_norwington_estate
+        area_anglepoint_wharf
+        area_fallhaven
+        area_aroms_stand
+        area_waycrest_manor
+        area_brennadam
+        area_sagehold
+        area_tol_dagor
+        area_isle_of_pirates
+		area_western_spray
+        area_rustbolt
+        area_junkwatt_depot
+    }
+}
+
+region_arathi_highlands = {
+    areas = {
+        area_northfold
+        area_stromgarde
+        area_faldirs_cove
+        area_thandol_span
+        area_hammerfall
+        area_refuge_pointe
+        area_arathi_basin
+        area_arathi_strand
+    }
+}
+
+region_the_hinterlands = {
+    areas = {
+        area_aerie_peak
+        area_troll_lowlands
+        area_the_hinterlands
+        area_troll_highlands
+        area_seradane
+        area_revantusk
+        area_lonesome_den
+        area_zebjiri
+    }   
+}
+
+region_wetlands = {
+    areas = {
+        area_menethil
+        area_wetland_marsh
+        area_whelgars_retreat
+        area_dun_modr
+        area_lower_wetlands
+        area_upper_wetlands
+        area_dun_algaz
+    }
+}
+
+region_twilight_highlands = {
+    areas = {
+        area_grim_batol
+        area_vermillion_redoubt
+        area_thundermar
+        area_maw_of_madness
+        area_kirkhaven
+        area_obsidian_scar
+        area_twilight_shore
+        area_bastion_of_twilight
+        area_dragonmaw_port
+    }
+}
+
+region_loch_modan = {
+    areas = {
+        area_loch_modan_wildlands
+        area_loch_modan
+        area_valley_of_kings
+        area_thelsamar
+    }
+}
+
+region_dun_morogh = {
+    areas = {
+        area_eastern_dun_morogh
+        area_kharanos
+        area_anvilmar
+        area_frostmane_hills
+        area_gnomeregan_exterior
+        area_gnomeregan
+        area_ironforge
+        area_icewind_passage
+        area_brewstall
+        area_new_tinkertown
+        area_frozen_shore
+        area_frostsabre
+    }
+}
+
+region_badlands = {
+    areas = {
+        area_fuselight
+        area_uldaman
+        area_new_kargath
+        area_the_dustbowl
+    }
+}
+
+region_searing_gorge = {
+    areas = {
+        area_the_cauldron
+        area_thorium_point
+        area_iron_summit
+    }
+}
+
+region_burning_steppes = {
+    areas = {
+        area_blackrock_mountain
+        area_blackrock_exterior
+        area_blackrock_valley
+        area_dreadmaul_rock
+        area_valley_of_ashes
+        area_chiselgrip
+        area_ashen_shore
+    }
+}
+
+region_redridge_mountains = {
+    areas = {
+        area_redridge_trail
+        area_redridge_canyons
+        area_lakeshire
+        area_lakeshire_highway
+        area_stonewatch
+        area_shalewind_bluffs
+        area_redridge_heights
+    }
+}
+
+region_elwynn_forest = {
+    areas = {
+        area_stormwind
+        area_lower_stormwind
+        area_stormwind_coast
+        area_goldshire
+        area_northshire
+        area_westbrook
+        area_westvale
+        area_eastvale
+        area_stonecairn
+    }
+}
+
+region_swamp_of_sorrows = {
+    areas = {
+        area_stonard
+        area_splinterspear_bog
+        area_swamps_of_sorrow
+        area_sorrowmurk
+        area_crackling_banks
+        area_stagalbog
+        area_misty_reed
+    }
+}
+
+region_blasted_lands = {
+    areas = {
+        area_serpents_coil
+        area_the_blasted_land
+        area_the_tainted_land
+        area_the_red_reaches
+        area_the_shattered_landing
+    }
+}
+
+region_deadwind_pass = {
+    areas = {
+        area_deadwind_pass
+        area_karazhan
+    }
+}
+
+region_duskwood = {
+    areas = {
+        area_darkshire
+        area_twisting_forest
+        area_ravenhill
+        area_the_darkened_banks
+        area_twilight_grove
+    }
+}
+
+region_westfall = {
+    areas = {
+        area_sentinel_hill
+        area_westfall_farmland
+        area_moonbrook
+        area_westfall_shore
+        area_the_deadmines
+    }
+}
+
+region_stranglethorn_vale = {
+    areas = {
+        area_upper_troll_ruins
+        area_zul_gurub
+        area_fort_livingston
+        area_gurubashi_arena
+        area_lower_troll_ruins
+        area_booty_bay
+        area_mistvale
+        area_jaguero_isle
+		area_kalai
+		area_kurzen_encampment
+        area_zulakman
+    }
+}
+
+#-------------------
+# Kalimdor
+#-------------------
+region_teldrassil = {
+    areas = {
+        area_north_teldrassil
+        area_south_teldrassil
+        area_shadowglen
+        area_dolanaar
+        area_darnassus
+        area_ruttheran
+    }
+}
+
+region_bloodmyst_isle = {
+    areas = {
+        area_kessels_crossing
+        area_wrathscale
+        area_nazzivian
+        area_blood_watch
+        area_cryo_core
+        area_axxarien
+        area_loretharan
+    }
+}
+
+region_azuremyst_isle = {
+    areas = {
+        area_ammen_vale
+        area_azurewatch
+        area_wrathscale_point
+        area_exodar
+        area_stillpine_hold
+    }
+}
+
+region_moonglade = {
+    areas = {
+        area_moonglade
+    }
+}
+
+region_darkshore = {
+    areas = {
+	    area_mathystra
+        area_shatterspear_vale
+		area_lor_danel
+        area_auberdinei
+        area_twilight_vale
+		area_ameth_aran
+		area_naj_vel
+        area_grove_of_the_ancients
+        area_blackfathom_deep
+    }
+}
+
+region_winterspring = {
+    areas = {
+        area_frostwhisper_gorge
+        area_everlook
+        area_starfall_village
+        area_timbermaw_heartland
+        area_frostsaber_grounds
+        area_dread_chain
+    }
+}
+
+region_felwood = {
+    areas = {
+        area_felpaw_village
+        area_irontree_woods
+		area_jadefire_run
+		area_whisperwind
+        area_bloodvenom_post
+		area_jaedenar
+		area_shadow_hold
+		area_constellas
+		area_deadwood_village
+        area_emerald_sanctuary
+    }
+}
+
+region_mount_hyjal = {
+    areas = {
+		area_upper_groves
+        area_sethria_roost
+        area_nordrassil
+        area_grove_of_aessina
+        area_hyjal_lowland
+        area_ascendants_circle
+		area_grove_of_goldrinn
+    }   
+}
+
+region_ashenvale = {
+    areas = {
+	    area_zoram_gar
+		area_ordil_aran
+		area_thistlefur
+        area_maestras_post
+		area_aessina
+		area_stardust
+        area_astranaar
+		area_greenpaw_woods
+        area_raynewood_retreat
+		area_silverwing
+        area_splintertree_post
+		area_satyrnaar
+        area_forest_heart
+        area_felfire_hill
+    }
+}
+
+region_azshara = {
+    areas = {
+        area_the_shattered_strand
+        area_northern_azshara_forests
+        area_eldarath
+        area_forlorn_ridge
+        area_the_ruined_reaches
+        area_shattered_isles
+    }
+}
+
+region_durotar = {
+    areas = {
+        area_orgrimmar
+        area_orgrimmar_exterior
+        area_razor_hill
+        area_echo_isles
+        area_valley_of_trials
+        area_southfury_river
+        area_thunder_ridge
+        area_tiragarde_shore
+    }
+}
+
+region_north_barrens = {
+    areas = {
+        area_the_sludge_fen
+        area_the_dry_hills
+        area_the_crossroads
+        area_ratchet
+        area_the_wailing_caverns
+        area_forgotten_pools
+        area_raptor_grounds
+        area_fray_island
+        area_farwatch
+        area_dreadmist
+    }
+}
+
+region_south_barrens = {
+    areas = {
+        area_northwatch_hold
+        area_honor_stand
+        area_overgrowth
+        area_taurajo
+        area_desolation
+        area_blackthorn_ridge
+        area_the_great_lift
+    }
+}
+
+region_stonetalon_mountains = {
+    areas = {
+        area_stonetalon_peak
+        area_thaldarah_grove
+        area_mirkfallon_lake
+        area_windshear_crag
+        area_webwinder_path
+        area_malaka_jin
+    }
+}
+
+region_desolace = {
+    areas = {
+        area_kolkar_village
+        area_shok_thokar
+        area_ethel_rethor
+        area_ranazjar_ruins
+        area_ranazjar_isle
+        area_valley_of_spears
+        area_sargeron
+        area_outer_maraudon
+        area_inner_maraudon
+        area_gelkis_village
+        area_tethris_aran
+        area_thunderaxe_plains
+        area_thundering_coast
+        area_kolkar_outpost
+        area_mannoroc_dens
+    }
+}
+
+region_mulgore = {
+    areas = {
+        area_thunderbluff
+        area_wildmane_water_well
+        area_red_rocks
+        area_thunderhorn_water_well
+        area_winterhoof_waterwell
+        area_camp_narache
+        area_thornsnarl
+    }
+}
+
+region_dustwallow_marsh = {
+    areas = {
+        area_the_wrymbog
+        area_lost_point
+        area_onyxia_lair
+        area_tidefury_cove
+        area_theramore_isle
+        area_dreadmurk_coast
+        area_blackhoof_marshes
+        area_alcaz_isle
+        area_wrymbog_coast
+        area_mudsprocket
+    }
+}
+
+region_thousand_needles = {
+    areas = {
+        area_splithoof_heights
+        area_the_shimmering_flats
+        area_thousand_needles_canyons
+        area_thousand_needles
+        area_highperch
+        area_southsea_holdfast
+    }
+}
+
+region_feralas = {
+    areas = {
+        area_lariss_pavillion
+        area_camp_mojache
+        area_isildien
+        area_diremaul
+		area_diremaul_interior
+        area_forgotten_coast
+        area_sarnor_isle
+        area_camp_ataya
+        area_dream_bough
+        area_writhing_deep
+        area_high_wilderness
+        area_isle_of_dread
+    }
+}
+
+region_silithus = {
+    areas = {
+        area_cenarion_hold
+        area_hive_ash
+        area_hive_zora
+        area_hive_regal
+        area_inner_ahn_qiraj
+        area_outer_ahn_qiraj
+        area_inner_sanctum
+        area_skittering_sands
+        area_seething_shore
+    }
+}
+
+region_ungoro_crater = {
+    areas = {
+        area_lakkari_tar_pits
+        area_the_roiling_gardens
+        area_fire_plume_ridge
+        area_terror_run
+    }
+}
+
+region_tanaris = {
+    areas = {
+        area_the_noxious_lair
+        area_valley_of_the_watchers
+        area_southbank_shore
+        area_the_gaping_chasm
+        area_gadgetzan
+        area_zulfarrak
+		area_sandsorrow
+        area_steamwheedle_port
+        area_lands_end
+        area_dunemaul_grounds
+        area_dunemaul_grounds_two
+    }
+}
+
+region_uldum = {
+    areas = {
+        area_halls_of_origination
+		area_cursed_landing
+		area_sunstone_halls
+        area_obelisk_of_the_stars
+		area_khartuts_tomb
+        area_ramkahen
+        area_obelisk_of_the_sun
+		area_uldum_deserts
+        area_obelisk_of_the_moon
+        area_neferset
+        area_lost_city_of_the_tolvir
+        area_ruins_of_ammon
+        area_skittering_dunes
+        area_akhenet
+        area_pygmy_grounds
+        area_sahket
+    }
+}
+
+#-------------------
+# Northrend
+#-------------------
+region_borean_tundra = {
+    areas = {
+        area_coldarra
+        area_coast_of_echoes
+        area_gammoth
+        area_farshire
+        area_bloodspore_plains
+        area_riplash_ruins
+        area_isle_of_nasam
+        area_kaskala
+        area_amber_ledge
+        area_ruins_of_eldra_nath
+        area_the_geyser_fields
+        area_naxxanar
+        area_jorundall
+    }
+}
+
+region_wintergrasp = {
+    areas = {
+        area_wintergrasp
+        area_vault_of_archavon
+    }
+}
+
+region_sholazar_basin = {
+    areas = {
+        area_the_mosslight_pillar
+        area_the_suntouched_pillar
+        area_the_lifeblood_pillar
+        area_the_glimmering_pillar
+        area_bittertide_lakeshore
+        area_sapphire_hive
+        area_sholazar_shelf
+    }
+}
+
+region_dragonblight = {
+    areas = {
+        area_stars_rest
+        area_moonrest_gardens
+        area_moakai_harbor
+        area_wyrmrest_temple
+        area_south_dragon_nests
+        area_north_dragon_nests
+        area_south_hearthglen
+        area_north_hearthglen
+        area_galakronds_rest
+        area_icecrown_approach
+        area_scarlet_point
+        area_wintergarde_keep
+        area_naxxramas
+        area_dawns_reach
+        area_jintha_kalar
+        area_strand_of_the_ancients
+    }
+}
+
+region_icecrown = {
+    areas = {
+        area_icecrown_interior
+        area_aldurthar
+        area_the_conflagration
+        area_ymirheim
+        area_jotunheim
+        area_balagarde
+        area_onslaught_harbor
+        area_the_shadow_vault
+        area_accursed_cove
+        area_argent_tournament
+        area_north_valley_of_lost_hope
+        area_south_valley_of_lost_hope
+        area_argent_vanguard
+        area_the_broken_front
+        area_isle_of_conquest
+        area_corprethar
+    }
+}
+
+region_storm_peak = {
+    areas = {
+        area_k3
+        area_bunnhildar_village
+        area_temple_of_storms
+        area_valkyrion
+        area_frosthold
+        area_inventors_library
+        area_ulduar
+        area_terrace_of_the_makers
+        area_thunderfall
+        area_dun_niffelem
+    }
+}
+
+region_zuldrak = {
+    areas = {
+        area_gundrak
+        area_gundrak_raid
+        area_heb_drakkar
+        area_rhunok
+        area_zim_torga
+        area_kolramas
+        area_zim_abwa
+        area_drak_agal
+        area_draktharon_keep
+        area_zeramas
+        area_voltarus
+        area_ebon_watch
+    }
+}
+
+region_grizzly_hills = {
+    areas = {
+        area_zeb_halak
+        area_venture_bay
+        area_granite_springs
+        area_voldrune
+        area_amberpine_lodge
+        area_grizzlemaw
+        area_heartwood
+        area_thor_modan
+        area_redwood
+        area_camp_oneqwah
+        area_dun_argol
+        area_bloodmoon_isle
+        area_broken_bluffs
+    }
+}
+
+region_crystalsong = {
+    areas = {
+        area_forlorn_woods
+        area_unbound_thicket
+        area_sunreaver_and_windrunner_overlooks
+        area_dalaran_cs
+    }
+}
+
+region_howling_fjord = {
+    areas = {
+        area_gjalerbron
+        area_skorn
+        area_ember_clutch
+        area_kamagua
+        area_new_agamand
+        area_utgarde_keep
+        area_halvarde
+        area_nifflevar
+        area_vengeance_landing
+        area_the_glades
+        area_jorundal
+    }
+}
+
+#-------------------
+# Pandaria
+#-------------------
+region_hidden_valley = {
+    areas = {
+        area_hidden_valley
+    }
+}
+
+region_isle_of_thunder = {
+    areas = {
+        area_isle_of_thunder
+        area_throne_of_thunder
+    }
+}
+
+region_isle_of_giants = {
+    areas = {
+        area_isle_of_giants
+        area_isle_of_bones
+    }
+}
+
+region_timeless_isle = {
+    areas = {
+        area_timeless_isle
+    }
+}
+
+region_jade_forest = {
+    areas = {
+        area_pawdon_islands
+        area_moonwater_islands
+        area_jade_islands
+        area_windward_isle
+        area_thunder_islands
+        area_pawdon_settlement
+        area_moonwater
+        area_temple_of_the_jade_serpent
+        area_dookin_grounds
+        area_dawns_blossom
+        area_tian_monastery
+        area_honeydew_village
+        area_jadebreeze_vale
+        area_pearlfin_village
+        area_arboretum
+        area_greenstone
+        area_srila
+    }
+}
+
+region_valley_of_the_four_winds = {
+    areas = {
+        area_thunderfoot_fields
+        area_stormstout_fields
+        area_halfhill
+        area_stoneplow
+        area_thunderfoot_overlook
+    }
+}
+
+region_krasarang_wilds = {
+    areas = {
+        area_lions_landing
+        area_anglers_wharf
+        area_ruins_of_dojan
+        area_temple_of_the_red_crane
+        area_domination_point
+        area_dawnchaser_retreat
+        area_nayeli_lagoon
+    }
+}
+
+region_dread_wastes = {
+    areas = {
+        area_zan_vess
+        area_kypari_zar
+        area_heart_of_fear
+        area_horrid_march
+        area_klaxxi_vess
+        area_kor_vess
+    }
+}
+
+region_vale_of_eternal_blossoms = {
+    areas = {
+        area_mogu_shan_palace
+        area_whitepetal_lake
+        area_golden_plain
+        area_guo_lai_halls
+        area_setting_sun_gate
+    }
+}
+
+region_townlong_steppes = {
+    areas = {
+        area_dusklight_hollow
+        area_sumprushes
+        area_kri_vess
+        area_sik_vess
+        area_osul_basecamp
+        area_niuzao_temple
+        area_sra_vess
+        area_shan_ze_dao
+    }
+}
+
+region_kun_lai_summit = {
+    areas = {
+        area_kun_lai
+        area_zouchin_village
+        area_temple_of_the_white_tiger
+        area_kota_basecamp
+        area_mogujia
+        area_shado_pan_garrison
+        area_binan_village
+        area_yaungol_advance
+        area_snowblossom_isle
+        area_shado_pan_passage
+    }
+}
+
+#-------------------
+# Outland
+#-------------------
+region_hellfire_peninsula = {
+    areas = {
+        area_the_dark_portal
+        area_throne_of_kil_jaeden
+        area_cenarion_post
+        area_contested_lands
+        area_forge_camps_ridge
+        area_warp_fields
+        area_hellfire_citadel
+        area_honor_hold
+        area_maghar_post
+        area_falcon_watch
+        area_spinebreaker_mountains
+        area_thrallmar
+    }
+}
+
+region_zangarmarsh = {
+    areas = {
+        area_telredor
+        area_umbrafen
+        area_coilfang
+        area_sporeggar
+        area_zabra_jin
+        area_marshlight
+        area_ango_rosh_grounds
+    }
+}
+
+region_terokkar_forest = {
+    areas = {
+        area_shattrath
+        area_tuurem
+        area_contested_glade
+        area_skettis
+        area_upper_bone_wastes
+        area_lower_bone_wastes
+        area_auchindoun
+        area_bleeding_hollow_ruins
+    }
+}
+
+region_nagrand = {
+    areas = {
+        area_burning_blade_ruins
+        area_telaar
+        area_halaa
+        area_sunspring_post
+    }
+}
+
+region_shadowmoon_valley = {
+    areas = {
+        area_shadowmoon_wastes
+        area_coilskar_point
+        area_the_black_temple
+        area_the_hand_of_guldan
+        area_wildhammer_stronghold
+        area_sanctum_of_the_stars
+        area_netherwind_ledge
+    }
+}
+
+region_blades_edge_mountains = {
+    areas = {
+        area_ogrila
+        area_ravens_wood
+        area_bladespire
+        area_sylvanaar
+        area_thunderlord_stronghold
+        area_ruuan_weald
+        area_crystal_spine
+        area_gruuls_lair
+        area_deaths_door
+        area_razor_ridge
+    }
+}
+
+region_netherstorm = {
+    areas = {
+        area_area_52
+        area_sunfury_hold
+        area_ecodome_midrealm
+        area_stormspire
+        area_celestial_ridge
+        area_tempest_keep
+    }
+}
+
+#-------------------
+# Draenor
+#-------------------
+region_frostfire_ridge = {
+    areas = {
+        area_bladespire_citadel
+        area_worgol
+        area_frostwall
+        area_daggermaw
+        area_gromgar
+        area_magnarok
+        area_crackling_plains
+    }
+}
+
+region_gorgrond = {
+    areas = {
+        area_blackrock_foundry
+        area_everbloom_wilds
+        area_highpass
+        area_gronn_canyon
+        area_stonemaul_arena
+        area_tangleheart
+        area_bastion_rise
+    }
+}
+
+region_talador = {
+    areas = {
+        area_orunai
+        area_shattrath_draenor
+        area_auchindoun_draenor
+        area_telmor
+        area_arunna
+        area_tuurem_draenor
+        area_zangarra
+        area_gordal_fortress
+    }
+}
+
+region_tanaan_jungle = {
+    areas = {
+        area_dark_portal_draenor
+        area_fangrila
+        area_hellfire_citadel_draenor
+        area_throne_of_kiljaeden
+        area_temple_of_shanaar
+        area_zethgol
+    }
+}
+
+region_ashran = {
+    areas = {
+        area_ashran
+    }
+}
+
+region_farahlon = {
+    areas = {
+        area_blightstone
+        area_crystalwood
+    }
+}
+
+region_nagrand_draenor = {
+    areas = {
+        area_highmaul
+        area_oshugun
+        area_mokgol_outpost
+        area_ring_of_blood
+        area_throne_of_elements
+        area_telaar_draenor
+        area_hallvalor
+    }
+}
+
+region_spires_of_arak = {
+    areas = {
+        area_skettis_draenor
+        area_skyreach
+        area_bladefist_hold
+        area_bloodmane_valley
+        area_howling_crag
+    }
+}
+
+region_shadowmoon_valley_draenor = {
+    areas = {
+        area_lunarfall
+        area_anguish_fortress
+        area_embaari_village
+        area_elodor
+        area_karabor_draenor
+        area_shimmermoor
+        area_shazgul
+        area_darktide_roost
+    }
+}
+
+#-------------------
+# Broken Isles
+#-------------------
+region_highmountain = { 
+	areas = { 
+		area_neltharions_home 
+		area_eastern_highmountain 
+		area_bloodtotem_highland 
+		area_skyhorn_grounds 
+		area_central_highmountain 
+		area_northern_highmountain 
+	} 
+}
+region_valsharah = { 
+	areas = { 
+		area_crescent_vale 
+		area_emerald_grove 
+		area_western_valsarah 
+		area_cenarion_grove 
+		area_andutalah
+	} 
+}
+region_azsuna = { 
+	areas = { 
+		area_eye_of_the_storm 
+		area_warden_stand 
+		area_azsuna_ruins 
+		area_oceanus_cove 
+		area_azuregos_sanctum
+		area_zarkhenar
+	} 
+}
+region_suramar = { 
+	areas = { 
+		area_suramar_city 
+		area_broken_shore 
+		area_arcandor_ruins 
+		area_jondvik 
+		area_moonguard
+	} 
+}
+region_stormheim = { 
+	areas = { 
+		area_valkyrian_lands 
+		area_halls_of_valor 
+		area_tideskorn_coast 
+		area_eastern_stormheim 
+		area_helheim_entrance
+		area_storm_drake_hills
+	} 
+}
+
+#-------------------
+# South Seas
+#-------------------
+# Zandalar
+region_zuldazar = {
+    areas = {
+        area_dazar_alor
+        area_covescale_rise
+        area_xibala
+        area_mugambala
+        area_atal_dazar
+        area_atal_gral
+        area_blood_gate
+        area_tusk_isle
+        area_beastwatcher_glade
+        area_talgurub
+        area_zebahari
+        area_crescent_shore
+    }
+}
+
+region_nazmir = {
+    areas = {
+        area_heart_of_darkness
+        area_the_necropolis
+        area_primal_wetlands
+        area_terrace_of_sorrows
+        area_zalamak
+        area_torgas_rest
+        area_nazwatha
+        area_kragwas_burrow
+    }
+}
+
+region_voldun = {
+    areas = {
+        area_atul_aman
+        area_slithering_gulch
+        area_port_zemlan
+        area_whispering_crag
+        area_voldun_dunes
+        area_temple_of_akunda
+        area_terrace_of_the_devoted
+    }
+}
+
+# Lost Isles
+region_lost_isles = {
+    areas = {
+        area_the_erupted_mountain
+        area_vashj_elan
+        area_wild_overlook
+    }
+}
+
+# Kezan
+region_kezan = {
+    areas = {
+        area_bilgewater_port
+        area_drudgetown
+        area_mt_kajaro
+        area_port_kajaro
+        area_glimmering_isle
+    }
+}
+
+# Plunder Isle
+region_plunder_isle = {
+    areas = {
+        area_plunder_bay
+        area_bloodbush
+        area_fools_ridge
+        area_isles_of_plunder
+        area_kunza_kunza
+    }
+}
+
+# Skywall
+region_skywall = {
+    areas = {
+        area_vortex_pinnacle
+        area_throne_of_the_four_winds
+    }
+}
+
+# Deepholm
+region_deepholm = {
+    areas = {
+        area_temple_of_earth
+        area_needlerock
+        area_stonehearth
+        area_crimson_expanse
+    }
+}
+
+# Abyssal Maw
+region_abyssal_maw = {
+    areas = {
+        area_throne_of_neptulon
+        area_neptulons_ridge
+        area_trove_of_neptulon
+        area_neptulons_peak
+        area_shimmer_tide_trench
+        area_abyssal_gorge
+    }
+}
+
+# Firelands
+region_firelands = {
+    areas = {
+        area_molten_front
+        area_molten_ridge
+        area_molten_gap
+        area_ridge_of_ancient_flame
+        area_molten_fields
+        area_sulfuron_keep
+        area_sulfuron_mountains
+    }
+}
+
+# Argus
+region_krokuul = {
+    areas = {
+        area_deceivers_scar
+        area_krokul_hovel
+        area_xenedar
+    }
+}
+
+region_eredath = {
+    areas = {
+        area_triumvirates_end
+        area_shadowguard
+        area_seat_of_the_triumvirate
+        area_conversatory_of_the_arcane
+        area_azurelight
+    }
+}
+
+region_antoran_wastes = {
+    areas = {
+        area_antorus
+        area_terminus
+        area_spirit_crucible
+    }
+}
+
+# Vash'jir
+region_vashjir = {
+    areas = {
+        area_kelpthar_forest
+		area_shimmering_grotto
+		area_abyssal_depths
+        area_balor
+    }
+}
+
+# Nazjatar
+region_nazjatar = {
+    areas = {
+        area_mezzamere
+		area_zinazshari
+    }
+}
+
+# South Sea Islands
+region_south_sea_islands = {
+    areas = {
+        area_tel_abim
+        area_molten_cay
+        area_verdant_wilds
+        area_isle_of_skulls
+    }
+}
+
+# Paradise Isles
+region_darkspear_isles = {
+    areas = {
+        area_darkspear_isles
+        area_glave_isles
+        area_north_paradise_isles
+        area_south_paradise_isles
+        area_rotting_mire
+    }
+}
+
+# Titanic Isles
+region_glimmering_isles = {
+    areas = {
+        area_yevagos
+        area_nevorin
+        area_sirzax
+        area_myndythan
+        area_phylore
+        area_limsyla
+    }
+}
+region_ravaged_isles = {
+    areas = {
+        area_avezu
+        area_nasovi
+        area_tesevun
+        area_sathorin
+        area_tinotus
+        area_zasevusi
+        area_atakun
+    }
+}
+region_verdant_isles = {
+    areas = {
+        area_zaxrose
+        area_lostarin
+        area_elgudan
+        area_vurre
+        area_ascegos
+        area_canvia
+        area_veldyina
+        area_almeligos
+        area_ezyrun
+        area_gennizen
+        area_dalgim
+        area_dridazan
+        area_kiarron
+        area_onaddan
+        area_leivazun
+        area_atocin
+    }
+}
+region_shattered_isles = {
+    areas = {
+        area_eralina
+        area_zyrtila
+        area_illvel
+        area_zofelia
+        area_adrena
+        area_emania
+        area_hugari
+        area_hygemia
+        area_mevrash
+        area_ishondran
+        area_ontheran
+        area_levsykan
+        area_oxistryia
+        area_sixrest
+    }
+}
+    
+#-------------------
+# Sea
+#-------------------
+region_eastern_kingdom_seas = {
+	areas = {
+		area_eastern_kingdom_seas
+	}
+}
+
+region_kalimdor_seas = {
+	areas = {
+		area_kalimdor_seas
+	}
+}
+
+region_kul_tiras_seas = {
+	areas = {
+		area_kul_tiras_seas
+	}
+}
+
+region_broken_isles_seas = {
+	areas = {
+		area_broken_isles_seas
+	}
+}
+
+region_zandalar_seas = {
+	areas = {
+		area_zandalar_seas
+	}
+}
+
+region_paradise_seas = {
+	areas = {
+		area_paradise_seas
+	}
+}
+
+region_nazjatar_seas = {
+	areas = {
+		area_nazjatar_seas
+	}
+}
+
+region_volcanic_seas = {
+	areas = {
+		area_volcanic_seas
+	}
+}
+
+region_south_seas = {
+	areas = {
+		area_south_seas
+	}
+}
+
+region_pandaria_seas = {
+	areas = {
+		area_pandaria_seas
+        area_southern_passage
+	}
+}
+
+region_northrend_seas = {
+	areas = {
+		area_northrend_seas
+        area_northern_passage
+	}
+}
+
+region_draenor_seas = {
+	areas = {
+		area_draenor_seas
+	}
+}
+
+
+region_titanic_seas = {
+	areas = {
+		area_titanic_seas
+	}
+}
+
+
+#-------------------
+# Other
+#-------------------
+random_new_world_region = {
+
+}

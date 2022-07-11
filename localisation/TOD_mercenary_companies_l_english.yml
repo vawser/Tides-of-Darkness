@@ -1,0 +1,14 @@
+﻿l_english:
+ wwu_merc_regular_infantry: "Regular Infantry Company"
+ wwu_merc_regular_cavalry: "Regular Cavalry Company"
+ wwu_merc_regular_artillery: "Regular Artillery Company"
+ 
+ wwu_merc_disciplined_infantry: "Veteran Infantry Company"
+ wwu_merc_disciplined_cavalry: "Veteran Cavalry Company"
+ wwu_merc_disciplined_artillery: "Veteran Artillery Company"
+ 
+ wwu_merc_heroic_infantry: "Heroic Infantry Company"
+ wwu_merc_heroic_cavalry: "Heroic Cavalry Company"
+ wwu_merc_heroic_artillery: "Heroic Artillery Company"
+ 
+ wwu_merc_auxiliary_infantry: "Auxiliary Infantry Company"

@@ -1,0 +1,221 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+#---------------------------------------------
+# Ogre
+#---------------------------------------------
+deity_nath = {
+	drill_gain_modifier = 0.1
+	infantry_fire = 0.25
+	
+	allow = { 
+        religion = primitive
+        OR = { 
+			culture_group = culture_group_ogre
+			culture_group = culture_group_orc
+		}
+	}
+	
+	sprite = 20
+	
+	ai_will_do = {
+		factor = 1			
+	}	
+}
+
+deity_gruul = { 
+	siege_ability = 0.05
+	artillery_power = 0.05
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_ogre
+	}
+	sprite = 21
+	
+	ai_will_do = {
+		factor = 1			
+	}	
+}
+
+deity_borrok = { 
+	prestige_from_land = 0.5
+	army_tradition_from_battle = 0.5
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_ogre
+	}
+	sprite = 25
+	
+	ai_will_do = {
+		factor = 1			
+	}	
+}
+#---------------------------------------------
+# Wolvar
+#---------------------------------------------
+deity_kartak = { 
+	same_culture_advisor_cost = 0.1
+	production_efficiency = 0.05
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_wolvar
+	}
+	sprite = 24
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_wolvar
+		}			
+	}	
+}
+
+deity_robot = { 
+	build_cost = -0.1
+	build_time = -0.1
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_wolvar
+	}
+	sprite = 17
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+            
+            capital_scope = {
+                OR = {
+                    region = region_borean_tundra
+                    region = region_sholazar_basin
+                }
+		    }
+		}	
+	}
+}
+
+deity_shoveltusk = { 
+	global_unrest = -1
+	prestige_decay = -0.01
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_wolvar
+	}
+	sprite = 18
+	
+	ai_will_do = {
+        factor = 1
+        modifier = {
+			factor = 2
+            capital_scope = {
+                OR = {
+                    region = region_borean_tundra
+                    region = region_dragonblight
+                    region = region_grizzly_hills
+                }
+		    }
+		}	
+	}	
+}
+
+deity_proto_drake = { 
+	global_autonomy = -0.05
+	
+	allow = { 
+        religion = primitive
+        culture_group = culture_group_wolvar
+	}
+	sprite = 19
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			capital_scope = {
+                region = region_howling_fjord
+		    }
+		}	
+	}	
+}
+
+#---------------------------------------------
+# Tuskarr
+#---------------------------------------------
+deity_tayutka = { 
+	diplomats = 1
+	
+    allow = { 
+        religion = primitive
+        culture_group = culture_group_tuskarr
+	}
+	sprite = 16
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_tuskarr
+		}			
+	}	
+}
+
+deity_issliruk = { 
+	leader_naval_manuever = 1
+	sunk_ship_morale_hit_recieved = -0.1
+	
+    allow = { 
+        religion = primitive
+        culture_group = culture_group_tuskarr
+	}
+	sprite = 22
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_tuskarr
+		}			
+	}	
+}
+
+deity_karkut = { 
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	
+    allow = { 
+        religion = primitive
+        culture_group = culture_group_tuskarr
+	}
+	sprite = 16
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_tuskarr
+		}			
+	}	
+}
+
+deity_oacha_noa = { 
+	colonists = 1
+	
+    allow = { 
+        religion = primitive
+        culture_group = culture_group_tuskarr
+	}
+	sprite = 23
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_tuskarr
+		}			
+	}	
+}

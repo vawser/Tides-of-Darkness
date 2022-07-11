@@ -1,0 +1,11 @@
+native_generic_icon = {
+	graphical_culture = human_gfx
+	color = { 226 85 85 }
+	icon = 1
+	
+	unit = human_inf_a_1
+	
+	provinces = {
+		
+	}
+}

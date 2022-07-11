@@ -1,0 +1,182 @@
+age_orcish_horde = {
+	start = 598
+	
+	can_start = {
+		always = yes
+	}
+	
+    papacy = 1.0
+	religious_conflicts = yes
+    absolutism = { 
+        harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+    }
+    
+	objectives = {
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 30
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 1 }
+            }
+        }
+		obj_absolute_rule = {
+            absolutism = 80
+        }
+        obj_kalimdor_settlements = {
+		    always = no
+        }
+        obj_masterful_counsel = {
+			OR = {
+				philosopher = 3
+				natural_scientist = 3
+				artist = 3
+				treasurer = 3
+				theologian = 3
+				master_of_mint = 3
+				inquisitor = 3
+			}
+			OR = {
+				statesman = 3
+				naval_reformer = 3
+				trader = 3
+				spymaster = 3
+				colonial_governor = 3
+				diplomat = 3
+				navigator = 3
+			}
+			OR = {
+				army_reformer = 3
+				army_organiser = 3
+				commandant = 3
+				quartermaster = 3
+				recruitmaster = 3
+				fortification_expert = 3
+				grand_captain = 3
+			}
+        }
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.8
+        }
+        obj_colossal_navy = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.8
+        }
+        obj_inspirational_leader = {
+            has_commanding_three_star = yes
+        }
+	}		
+
+	abilities = {
+        abl_military_necessity = {
+			modifier = {
+				army_tradition = 0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_justified_conquest = {
+			modifier = {
+				province_warscore_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_mobilized_troops = {
+			modifier = {
+				movement_speed = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_inspired_fervor = {
+			modifier = {
+				global_missionary_strength = 0.01
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_cultural_purges = {
+			modifier = {
+				culture_conversion_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_administrative_expansion = {
+			modifier = {
+				expand_administration_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_mercantilism = {
+			modifier = {
+				mercantilism_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        abl_human_unity = {
+            allow = {
+                culture_group = culture_group_human
+            }
+			modifier = {
+				diplomatic_reputation = 2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        abl_draenor_supplies = {
+            allow = {
+                culture_group = culture_group_orc
+            }
+			modifier = {
+				global_manpower_modifier = 0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        abl_dwarven_firepower = {
+            allow = {
+                culture_group = culture_group_dwarven
+            }
+			modifier = {
+				fire_damage = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        abl_troll_berserkers = {
+            allow = {
+                culture_group = culture_group_troll
+            }
+			modifier = {
+				shock_damage = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}

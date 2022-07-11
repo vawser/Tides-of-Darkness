@@ -1,0 +1,1008 @@
+#-----------------------------------------
+# Citizenship (Level 3)
+#-----------------------------------------
+wwu_citizenship_landowner_voting_block = {
+	icon = "barracks"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+    royal_marriage = yes
+    
+	modifiers = {
+		diplomatic_upkeep = 1
+	}
+    
+    custom_attributes = {
+        enables_family_candidate_for_elections = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_citizenship_limited_citizenship = {
+	icon = "brush_it_off"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+		reelection_cost = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_citizenship_suffrage = {
+	icon = "silver_box"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+		republican_tradition = 0.05
+        female_advisor_chance = 0.25
+        num_accepted_cultures = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_citizenship_absolute_freedom = {
+	icon = "sprint"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        diplomatic_reputation = 1
+		republican_tradition = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_citizenship_crew_registry = {
+	icon = "book_4"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        reelection_cost = -0.2
+        pr_buccaneers_influence = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_citizenship_citizenship_by_force = {
+	icon = "blood_frenzy"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        global_sailors_modifier = 0.1
+        harsh_treatment_cost = -0.25
+        pr_captains_influence = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_citizenship_citizenship_for_loot = {
+	icon = "trading_post"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        privateer_efficiency = 0.1
+        global_tax_modifier = 0.1
+        pr_smugglers_influence = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Election Cycle (Level 7)
+#-----------------------------------------
+wwu_election_cycle_short = {
+	icon = "crash"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        election_cycle = -5
+        max_absolutism = -30
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_election_cycle_long = {
+	icon = "stonks"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        election_cycle = 2
+        max_absolutism = 20
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_election_cycle_term_limits = {
+	icon = "scroll_1"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        reelection_cost = 1.0
+        republican_tradition = 0.2 
+        candidate_random_bonus = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_election_cycle_puppet_masters = {
+	icon = "shadow_reflection"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        governing_capacity_modifier = 0.05
+	}
+    
+    custom_attributes = {
+        enables_puppet_event = yes
+        enables_bonus_on_relection_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_election_pirate_king = {
+	icon = "dirty_deeds"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    trigger = {
+        NOT = { has_reform = wwu_citizenship_crew_registry }
+    }
+    
+	modifiers = {
+        leader_naval_fire = 1
+        free_leader_pool = 1
+        pr_captains_influence = 0.1
+	}
+    
+    has_term_election = no
+    
+    force_admiral_leader = yes
+    admirals_become_rulers = yes
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_election_council_of_captains = {
+	icon = "note_1"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        election_cycle = 2
+        leader_naval_manuever = 1
+        pr_smugglers_influence = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_election_violent_elections = {
+	icon = "eviscerate"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        candidate_random_bonus = 2
+        land_morale = 0.05
+        pr_buccaneers_influence = 0.1
+	}
+    
+    custom_attributes = {
+        enables_pirate_death_events = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Separation of Powers (Level 10)
+#-----------------------------------------
+wwu_separation_of_powers_powerful_legislature = {
+	icon = "master_of_subtlety"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        stability_cost_modifier = -0.1
+        global_autonomy = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_separation_of_powers_regional_assemblies = {
+	icon = "natural_perfection"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    trigger = {
+		OR = {
+			NOT = { has_estate = estate_nobility }
+			crown_stronger_than_estate = { estate = estate_nobility }
+		}
+	}
+    
+	modifiers = {
+		state_maintenance_modifier = -0.1
+	}
+
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+    
+	custom_attributes = {
+		blocked_call_diet = yes
+	}
+    
+	post_removed_effect = {
+		give_estate_land_share_init = { estate = estate_nobility }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_separation_of_powers_autonomous_institutions = {
+	icon = "renewed_vigor"
+	allow_normal_conversion = yes
+
+    potential = {
+        is_normal_republic = yes
+    }
+	trigger = {
+        NOT = { has_reform = wwu_magic_magical_society }
+        NOT = { has_reform = wwu_assembly_checks_and_balances }
+        NOT = { has_reform = wwu_republican_institution_politicized_warfare }
+        NOT = { has_reform = wwu_fanaticism_embraced }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+        #NOT = { has_government_mechanic = russian_mechanic }
+        NOT = { has_government_mechanic = feudal_theocracy_mechanic }
+        NOT = { has_government_mechanic = tribal_federation_mechanic }
+        NOT = { has_government_mechanic = mamluk_mechanic }
+        NOT = { has_government_mechanic = iqta_mechanic }
+	}
+
+	modifiers = {
+		years_of_nationalism = -5
+	}
+
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+        
+		states_general_mechanic = {
+			sg_reformists = {
+				reform_progress_growth = 0.25
+                idea_cost = -0.05
+                development_cost = -0.05
+			}
+
+			sg_conservatives = {
+				advisor_cost = -0.2
+                advisor_pool = 1
+                stability_cost_modifier = -0.25
+			}
+		}
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_separation_of_powers_limited_councils = {
+	icon = "student_of_the_mind"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        yearly_corruption = -0.03
+        advisor_cost = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_separation_of_powers_to_the_victor_the_spoils = {
+	icon = "preparation"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        pr_captains_influence = 0.1
+	}
+    
+    custom_attributes = {
+		enables_spoiled_victor_event = yes
+		enables_reward_public_offices_decision = yes
+		enables_reward_promote_loyalists_decision = yes
+		enables_reward_loot_treasury_decision = yes
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_separation_of_powers_council_of_pirates = {
+	icon = "scroll_1"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    trigger = {
+		OR = {
+			NOT = { has_estate = estate_nobility }
+			crown_stronger_than_estate = { estate = estate_nobility }
+		}
+	}
+    
+	modifiers = {
+		sailor_maintenance_modifer = -0.25
+        pr_buccaneers_influence = 0.1
+	}
+
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+    
+	custom_attributes = {
+		blocked_call_diet = yes
+	}
+    
+	post_removed_effect = {
+		give_estate_land_share_init = { estate = estate_nobility }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_separation_of_powers_port_republics = {
+	icon = "human_sailor"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        republican_tradition = 0.1
+        global_ship_repair = 0.2
+        trade_efficiency = 0.05
+        pr_smugglers_influence = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Republican Institutions (Level 14)
+#-----------------------------------------
+wwu_republican_institution_alphabet_organisations = {
+	icon = "archaedas"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        state_maintenance_modifier = -0.05
+	}
+    
+    custom_attributes = {
+        enables_organisational_focus_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republican_institution_politicized_warfare = {
+	icon = "accretion"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+    trigger = {
+        NOT = { has_reform = wwu_magic_magical_society }
+        NOT = { has_reform = wwu_assembly_checks_and_balances }
+        NOT = { has_reform = wwu_separation_of_powers_autonomous_institutions }
+        NOT = { has_reform = wwu_fanaticism_embraced }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+        #NOT = { has_government_mechanic = russian_mechanic }
+        NOT = { has_government_mechanic = feudal_theocracy_mechanic }
+        NOT = { has_government_mechanic = tribal_federation_mechanic }
+        NOT = { has_government_mechanic = mamluk_mechanic }
+        NOT = { has_government_mechanic = iqta_mechanic }
+    }
+    
+	modifiers = {
+        global_manpower_modifier = 0.1
+        global_sailors_modifier = 0.1
+	}
+    
+    conditional = {
+		allow = { has_dlc = "Res Publica" }
+        
+		states_general_mechanic = {
+			sg_military = {
+				land_maintenance_modifier = -0.33
+                global_manpower_modifier = 0.1
+                global_manpower = 20.0
+                naval_maintenance_modifier = 0.25
+			}
+
+			sg_navy = {
+				naval_maintenance_modifier = -0.33
+                global_sailors_modifier = 0.25
+                land_maintenance_modifier = 0.25
+			}
+		}
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republican_institution_veto = {
+	icon = "scroll_2"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        stability_cost_modifier = -0.1
+        republican_tradition = 0.25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republican_institution_sacred_constitution = {
+	icon = "sacred_cleansing"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        land_morale = 0.05
+        republican_tradition = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_republican_institution_black_markets = {
+	icon = "treasure_chest"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        merchants = 1
+		trade_efficiency = 0.1
+	}
+    
+    boost_income = yes
+    
+    custom_attributes = {
+		is_merchant_republic = yes
+	}
+    
+    conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_reform
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_reform
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republican_institution_captain_retirement = {
+	icon = "tour_of_duty"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        development_cost = 0.05
+        build_cost = -0.1
+	}
+    
+    custom_attributes = {
+		enables_pirate_retirement = yes
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republican_institution_a_traitors_fate = {
+	icon = "cheap_shot"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        stability_cost_modifier = -0.1
+        pr_buccaneers_influence = 0.1
+	}
+    
+    custom_attributes = {
+        enables_execute_traitor_decision = yes
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# State Structure (Level 17)
+#-----------------------------------------
+wwu_state_structure_statehood = {
+	icon = "spires_of_ascension"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        governing_capacity = 100
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_state_structure_regionalism = {
+	icon = "temple_of_kotmogu"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        state_governing_cost = -0.15
+        state_maintenance_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_state_structure_united_cities = {
+	icon = "white_flags"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        development_cost = -0.1
+        governing_capacity_modifier = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_state_structure_confederation = {
+	icon = "three_flags"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        governing_capacity = 250
+        governing_capacity_modifier = 0.1
+        state_maintenance_modifier = -0.1
+        min_autonomy = 20
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_state_structure_united_ports = {
+	icon = "ensnare"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        global_ship_recruit_speed = -0.25
+        governing_capacity = 100
+        pr_buccaneers_influence = 0.1
+	}
+    
+    effect = {
+		add_effect_good_production = { VALUE = 50 GOOD = "naval_supplies" }
+		add_effect_good_production = { VALUE = 50 GOOD = "lumber" }
+	}
+    
+	removed_effect = {
+		remove_effect_good_production = { VALUE = 50 GOOD = "naval_supplies" }
+		remove_effect_good_production = { VALUE = 50 GOOD = "lumber" }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_state_structure_pirate_confederation = {
+	icon = "combat_readiness"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        navy_tradition = 0.5
+        state_maintenance_modifier = -0.15
+        pr_smugglers_influence = 0.1
+	}
+    
+    effect = {
+		add_effect_good_production = { VALUE = 50 GOOD = "pirates" }
+		add_effect_good_production = { VALUE = 50 GOOD = "smugglers" }
+	}
+    
+	removed_effect = {
+		remove_effect_good_production = { VALUE = 50 GOOD = "pirates" }
+		remove_effect_good_production = { VALUE = 50 GOOD = "smugglers" }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_state_structure_leashed_realms = {
+	icon = "clemency"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        global_tax_modifier = 0.1
+        governing_capacity_modifier = 0.1
+        pr_captains_influence = 0.1
+	}
+    
+    effect = {
+		add_effect_good_production = { VALUE = 50 GOOD = "slaves" }
+	}
+    
+	removed_effect = {
+		remove_effect_good_production = { VALUE = 50 GOOD = "slaves" }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Republican Authority (Level 21)
+#-----------------------------------------
+wwu_republic_authority_master_of_edicts = {
+	icon = "book_2"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        country_admin_power = 1
+        adm_advisor_cost = -0.2
+        adm_tech_cost_modifier = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republic_authority_chief_diplomat = {
+	icon = "empowered_touch"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        country_diplomatic_power = 1
+        dip_advisor_cost = -0.2
+        dip_tech_cost_modifier = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republic_authority_head_of_the_army = {
+	icon = "challenge"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        country_military_power = 1
+        mil_advisor_cost = -0.2
+        mil_tech_cost_modifier = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republic_authority_speaker_of_the_senate = {
+	icon = "champion"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_republic = yes
+    }
+    
+	modifiers = {
+        republican_tradition = 1.0
+        reelection_cost = -0.2
+        global_unrest = -1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Pirate
+wwu_republic_authority_lord_of_the_sea = {
+	icon = "submarine"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        leader_naval_fire = 2
+        diplomatic_reputation = 2
+        improve_relation_modifier = 0.1
+	}
+    
+    custom_attributes = {
+        enables_war_against_the_world_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republic_authority_corsair_master = {
+	icon = "taming"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        leader_naval_shock = 2
+        privateer_efficiency = 0.25
+        blockade_efficiency = 0.25
+	}
+    
+    custom_attributes = {
+        enables_war_against_the_world_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_republic_authority_swashbuckling_figurehead = {
+	icon = "spyglass"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_pirate_government = yes
+    }
+    
+	modifiers = {
+        leader_naval_manuever = 2
+        naval_morale = 0.05
+        flagship_cost = -0.25
+	}
+    
+    custom_attributes = {
+        enables_war_against_the_world_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+

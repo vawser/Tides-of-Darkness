@@ -1,0 +1,3693 @@
+#-----------------------------------------------------------------
+# Eastern Kingdoms
+#-----------------------------------------------------------------
+#-------------------
+# Isle of Quel'Danas
+#-------------------
+area_upper_quel_danas = {
+    2991 521 760 2990 2994 724 705 
+}
+
+area_lower_quel_danas = {
+    690 2992 2993
+}
+
+#-------------------
+# Eversong Woods
+#-------------------
+area_sunstrider_isle = {
+    558 978
+}
+
+area_silvermoon = {
+    660 626 676 2988 609
+}
+
+area_duskwither_hills = {
+    2987 944 704 643 2520 2519
+}
+
+area_west_sanctum = {
+    961 892
+}
+
+area_fairbreeze_village = {
+    575 593 2989 540 2518
+}
+
+area_east_sanctum = {
+    520 2986 2985
+}
+
+area_zeb_watha = {
+    960 1064 659 993 2513
+}
+
+#-------------------
+# Ghostlands
+#-------------------
+area_andaroth = {
+    2981 1029 2982 
+}
+
+area_windrunner_spire = {
+    629 1038 2515 2187 
+}
+
+area_deatholme = {
+    1039 2514 2979 2978 
+}
+
+area_sanctum_of_the_moon = {
+    1012 2517 1041 2980
+}
+
+area_tranquillien = {
+    2977 1013 945
+}
+
+area_amani_catacombs = {
+    876 844 860 
+}
+
+area_thalassian_pass = {
+    776 808 791
+}
+
+#-------------------
+# Zul'Aman
+#-------------------
+area_zul_aman = {
+    806 2983 822 2984
+}
+
+area_maisara_hills = {
+    2209 2211 2511 2512
+}
+
+area_aman_tharon_keep = {
+    2213 2212 2210
+}
+
+area_zul_mashar = {
+    743 2475 2476 2477
+}
+
+area_tuskcross = {
+    2190 2474 2473 2208
+}
+
+area_wild_shore = {
+    2215 2510 2214
+}
+
+#-------------------
+# Eastern Plaguelands
+#-------------------
+
+area_stratholme = {
+    642 2975 608 3075 625 592
+}
+
+area_quellithien_lodge = {
+    723 1921
+}
+
+area_eastwall_tower = {
+    507 2973 2976
+}
+
+area_northdale = {
+    1922 932 2179 729
+}
+
+area_new_avalon = {
+    3073 992 1011 1028 519 539 915
+}
+
+area_corins_crossing = {
+    574 928 3072 557 2974 1054
+}
+
+area_the_marris_stead = {
+    875 2971 3074 778 891 2972
+}
+
+area_eastwatch = {
+    859 2026 2096 2124 843
+}
+
+area_plagueshore = {
+    2170 2175 2172 2168 2027
+}
+
+#-------------------
+# Western Plaguelands
+#-------------------
+area_scholomance = {
+    790 2970 2969 2968 1844
+}
+
+area_lower_andorhal = {
+    607 591 2967 2020 
+}
+
+area_andorhal = {
+    688 703 1923 742
+}
+
+area_andorhal_fields = {
+    821 805 3069 722
+}
+
+area_heartglen = {
+    775 2021 2022 2023
+}
+
+#-------------------
+# Tirisfal Glades
+#-------------------
+area_lordaeron_capital = {
+    543 648 1927 1928 528 1926 731
+}
+
+area_tirisfal_bulwark = {
+    2958 2957 740 
+}
+
+area_scarlet_heartlands = {
+    979 964 1044 2025 2024
+}
+
+area_brill = {
+    931 2956 1015 3068
+}
+
+area_agamand = {
+    2955 560 1925 646 662 1950
+}
+
+area_vandermar = {
+    2954 2192 3059 3058 727
+}
+
+area_webbed_coast = {
+    711 1998 2001 2002
+}
+
+area_scarlet_coast = {
+    2016 2017 2018
+}
+
+#-------------------
+# Silverpine Forest
+#-------------------
+area_silverpine_fields = {
+    663 1947 677 1948 1946
+}
+
+area_silverpine_crossing = {
+    2959 702 746 671 2963
+}
+
+area_ambermill = {
+    720 2961 2960 672
+}
+
+area_shadowfang_keep = {
+    686 2962 685 1924
+}
+
+#-------------------
+# Gilneas
+#-------------------
+area_northgate = {
+    914 525 505 848 3017
+}
+
+area_gilneas_capital = {
+    927
+}
+
+area_tempests_reach = {
+    890 3021 908
+}
+
+area_the_blackwald = {
+    820 842 3020 804
+}
+
+area_duskhaven = {
+    3018 3016 3019
+}
+
+area_keel_harbor = {
+    774 809 789 
+}
+
+area_gilnean_islands = {
+    757
+}
+
+area_purgation_isle = {
+    962
+}
+
+area_tempest_isles = {
+    858
+}
+
+area_havenswood = {
+    4106 4105
+}
+
+area_drisburg = {
+    4107
+}
+
+#-------------------
+# Alterac Mountains
+#-------------------
+area_dalaran = {
+    863 2964 
+}
+
+area_alterac_headlands = {
+    3066 518 1010 3067
+}
+
+area_alterac_heartland = {
+    773 2965 3070 756 
+}
+
+area_strahnbrad = {
+    556 2966 943
+}
+
+area_dun_baldar = {
+    3060 3064 3065
+}
+
+area_frostwolf_keep = {
+    3061 3063 3062
+}
+
+#-------------------
+# Hillsbrad Foothills
+#-------------------
+area_southshore = {
+    991 959 976 2996 
+}
+
+area_tarren_mill = {
+    538 1027
+}
+
+area_durnholde_keep = {
+    624 741 
+}
+
+area_eastpoint = {
+    721 845 2995 1931
+}
+
+#-------------------
+# Tol Barad
+#-------------------
+area_farson_hold = {
+    2004 957 2003 2006
+}
+
+area_the_restless_front = {
+    2009 2005 2007 2008 974
+}
+
+area_baradin_hold = {
+    2010 2011 989 2013 2012
+}
+
+#-------------------
+# Zul'dare
+#-------------------
+area_zul_dare = {
+	691
+}
+
+#-------------------
+# Kul Tiras
+#-------------------
+area_boralus = {
+    570 3011 3015 3013
+}
+
+area_freehold = {
+    257 258 259 260
+}
+
+area_vigil_hill = {
+    262 261 3009 
+}
+
+area_norwington_estate = {
+    2015 179 3012  
+}
+
+area_anglepoint_wharf = {
+    3014 182 181
+}
+
+area_fallhaven = {
+    824 2014 639
+}
+
+area_aroms_stand = {
+    264 277 263 280
+}
+
+area_waycrest_manor = {
+    281 279 278
+}
+
+area_brennadam = {
+    171 170 180
+}
+
+area_sagehold = {
+    169 11 168 3010 1
+}
+
+area_tol_dagor = {
+    4108
+}
+
+area_isle_of_pirates = {
+    4109
+}
+
+#-------------------
+# Mechagon
+#-------------------
+area_western_spray = {
+    2702 2703 2706
+}
+
+area_rustbolt = {
+    246 249 2708 2707 
+}
+
+area_junkwatt_depot = {
+    247 2705 2701 2704
+}
+
+
+#-------------------
+# Arathi Highlands
+#-------------------
+area_northfold = {
+    527 1929 1934 966 3004
+}
+
+area_arathi_basin = {
+    3047 1000 3007
+}
+
+area_stromgarde = {
+    3002 3001 3003 3000 981 
+}
+
+area_faldirs_cove = {
+    506 
+}
+
+area_thandol_span = {
+    687 1933 641 1937 1932
+}
+
+area_hammerfall = {
+    606 1935 1936 623 897
+}
+
+area_refuge_pointe = {
+    673 3006 
+}
+
+
+area_arathi_strand = {
+    3005 1770 1769 1768
+}
+
+#-------------------
+# The Hinterlands
+#-------------------
+area_aerie_peak = {
+    889 644 1930
+}
+
+area_troll_lowlands = {
+    926 942 2997 2998 
+}
+
+area_the_hinterlands = {
+    958 975 1009 
+}
+
+area_troll_highlands = {
+    1125 1938 537 2999
+}
+
+area_revantusk = {
+    517 1772 1771 1875
+}
+
+area_seradane = {
+   1026
+}
+
+area_lonesome_den = {
+    1916 763 990
+}
+
+area_zebjiri = {
+    1831 1827 1830 1825
+}
+
+#-------------------
+# Wetlands
+#-------------------
+area_menethil = {
+    1055 622 1767 3022
+}
+
+area_wetland_marsh = {
+    580 3023 3026 1764 3024
+}
+
+area_whelgars_retreat = {
+    1032 656 571
+}
+
+area_dun_modr = {
+    874 3027 1763 1939 788 1765
+}
+
+area_lower_wetlands = {
+    999 1940 3028 
+}
+
+area_upper_wetlands = {
+    516 554 536 1751
+}
+
+area_dun_algaz = {
+    589 1766 605
+}
+
+#-------------------
+# Northron Highlands
+#-------------------
+area_grim_batol = {
+    1061 1025 1762 878
+}
+
+area_vermillion_redoubt = {
+    803 841
+}
+
+area_thundermar = {
+    787 1016 1760 1761 
+}
+
+area_maw_of_madness = {
+    888 873 925 856 1755
+}
+
+area_kirkhaven = {
+    802 1753 1754 739 
+}
+
+area_dragonmaw_port = {
+    755 1756 1757 
+}
+
+area_obsidian_scar = {
+    2164 610 701 613 632
+}
+
+area_twilight_shore = {
+    597 614 581 542 1758 1759
+}
+
+area_bastion_of_twilight = {
+    710 561 730 631 744
+}
+
+#-------------------
+# Loch Modan
+#-------------------
+area_loch_modan_wildlands = {
+    3032 1941 1047 792
+}
+
+area_loch_modan = {
+    3029 1942 3034 1752
+}
+
+area_thelsamar = {
+    655 1048 3031 1046 3030 1944
+}
+
+area_valley_of_kings = {
+    3033 1137 552 1953 1945
+}
+
+#-------------------
+# Dun Morogh
+#-------------------
+area_eastern_dun_morogh = {
+    515 3053 1943 1134 1007 988
+}
+
+area_kharanos = {
+    956 2506 2507 3044
+}
+
+area_anvilmar = {
+    817 3045 3043 1949 801 3041
+}
+
+area_frostmane_hills = {
+    3042 3035 1951 1001 2516
+}
+
+area_gnomeregan_exterior = {
+    1142 3039 855 839 
+}
+
+area_gnomeregan = {
+    887 3036 3037 3038 
+}
+
+area_ironforge = {
+    941 3052 3048 3049 3050 3051
+}
+
+area_icewind_passage = {
+    973 1746 1747 
+}
+
+area_brewstall = {
+    1750 1749 3025
+}
+
+area_new_tinkertown = {
+    1140 872 3040
+}
+
+area_frozen_shore = {
+    1748 1006 1208
+}
+
+area_frostsabre = {
+    4110
+}
+
+#-------------------
+# Badlands
+#-------------------
+area_fuselight = {
+    1977 1975 1976 1745
+}
+
+area_uldaman = {
+    1968 1970 1971 1969
+}
+
+area_new_kargath = {
+    1967 1979 1974
+}
+
+area_the_dustbowl = {
+    1973 1972 1978
+}
+
+#-------------------
+# Searing Gorge
+#-------------------
+area_the_cauldron = {
+    1954 1955 1956 1958 
+}
+
+area_thorium_point = {
+    1965 1959 1960 1966
+}
+
+area_iron_summit = {
+    1957 1961 1964 
+}
+
+#-------------------
+# Burning Steppes
+#-------------------
+area_blackrock_mountain = {
+    1962 3057 1952 3154 3155 3156
+}
+
+area_blackrock_exterior = {
+    1983 1982 1981 1980 1659 1653
+}
+
+area_blackrock_valley = {
+    3054 1991 1741 1984
+}
+
+area_chiselgrip = {
+    1985 3055 1986
+}
+
+area_dreadmaul_rock = {
+    1987 1988 3056 
+}
+
+area_valley_of_ashes = {
+    1989 1990 
+}
+
+area_ashen_shore = {
+    1742 1743 1744
+}
+
+#-------------------
+# Redridge Mountains
+#-------------------
+area_redridge_trail = {
+    2193 2163 1507 1992
+}
+
+area_redridge_canyons = {
+    752 772 1525 1601
+}
+
+area_lakeshire = {
+    737 785 2194 717 2195
+}
+
+area_lakeshire_highway = {
+    683 1993 669 
+}
+
+area_stonewatch = {
+    800 2196 816
+}
+
+area_shalewind_bluffs = {
+    838 2197 2199
+}
+
+area_redridge_heights = {
+    1994 2198 1523 650
+}
+
+#-------------------
+# Elwynn Forest
+#-------------------
+area_stormwind = {
+    1022 2203 2505 2142
+}
+
+area_lower_stormwind = {
+    2149 2202 2204 2206
+}
+
+area_stormwind_coast = {
+    2205 2207 2141
+}
+
+area_goldshire = {
+    603 2139 2138 550 567
+}
+
+area_northshire = {
+    619 2200 2140 1639 1618
+}
+
+area_westbrook = {
+    1058 533
+}
+
+area_westvale = {
+    587 986 2146 2147 2145 913 
+}
+
+area_eastvale = {
+    661 2148 954
+}
+
+area_stonecairn = {
+    1005 2143 2144
+}
+
+#-------------------
+# Swamp of Sorrows
+#-------------------
+area_stonard = {
+    707 2180 884 
+}
+
+area_splinterspear_bog = {
+    2181 864 725 2191
+}
+
+area_swamps_of_sorrow = {
+    2155 2156 994 1505
+}
+
+area_sorrowmurk = {
+    638 885 1995 2158 2188 2189 1506
+}
+
+area_crackling_banks = {
+    547 949 2186 2159 2157
+}
+
+area_stagalbog = {
+    2183 2160 2184 594
+}
+
+area_misty_reed = {
+    879 2185 
+}
+
+#-------------------
+# Blasted Lands
+#-------------------
+area_serpents_coil = {
+    1034 630 1050
+}
+
+area_the_blasted_land = {
+    1035 1045 807 1033 
+}
+
+area_the_tainted_land = {
+    853 836 2171 1504
+}
+
+area_the_red_reaches = {
+    814 869 1037 2173 
+}
+
+area_the_shattered_landing = {
+    1043 553 1042 2174
+}
+
+#-------------------
+# Deadwind Pass
+#-------------------
+area_deadwind_pass = {
+    2176 938 2182 2162
+}
+
+area_karazhan = {
+    953 921 2161
+}
+
+#-------------------
+# Duskwood
+#-------------------
+area_darkshire = {
+    1021 1004 2177 1057 
+}
+
+area_twisting_forest = {
+    985 970 586 2153 602 
+}
+
+area_ravenhill = {
+    618 637 2152 682 
+}
+
+area_the_darkened_banks = {
+    653 2151 2150 903 2178
+}
+
+area_twilight_grove = {
+    698
+}
+
+#-------------------
+# Westfall
+#-------------------
+area_sentinel_hill = {
+    716 771 736 
+}
+
+area_westfall_farmland = {
+    751 2000 870 904 922
+}
+
+area_moonbrook = {
+    596 784 612
+}
+
+area_westfall_shore = {
+    815 2154 837 627
+}
+
+area_the_deadmines = {
+    1999 799 2169
+}
+
+#-------------------
+# Stranglethorn Vale
+#-------------------
+area_upper_troll_ruins = {
+    715 750 735 
+}
+
+area_kalai = {
+    636 652 681 697
+}
+
+area_kurzen_encampment = {
+     565 601 585 1997 1996
+}
+
+area_zul_gurub = {
+    783 3077 3078 3079 3080
+}
+
+area_fort_livingston = {
+    548 1056 531 511
+}
+
+area_gurubashi_arena = {
+    969 1003 1020 984 
+}
+
+area_lower_troll_ruins = {
+    937 920 883 852 
+}
+
+area_booty_bay = {
+    2166 996 215
+}
+
+area_mistvale = {
+    2167 868 693
+}
+
+area_jaguero_isle = {
+    997 2165
+}
+
+area_zulakman = {
+    902 1478 1480 1502 1500
+}
+
+#-----------------------------------------------------------------
+# Kalimdor
+#-----------------------------------------------------------------
+#-------------------
+# Teldrassil
+#-------------------
+area_north_teldrassil = {
+	1070 3336 3337 3338
+}
+
+area_south_teldrassil = {
+	1071 3267 3329 3333
+}
+
+area_shadowglen = {
+	1069 3340 3341 3342
+}
+
+area_dolanaar = {
+	1067 1068 1072 3334 3335 3339
+}
+
+area_darnassus = {
+	1073 3168 3169 3170 3325 3326 3327 
+}
+
+area_ruttheran = {
+	1065 3328 3330 3331 3332
+}
+
+#-------------------
+# Bloodmyst Isle
+#-------------------
+area_kessels_crossing = {
+    2271 2272 1085 3369
+}
+
+area_wrathscale = {
+    1084 2269 2270 3370 3371 3372
+}
+
+area_nazzivian = {
+    2273 1081 1082 3368
+}
+
+area_blood_watch = {
+    1077 2266 3364
+}
+
+area_cryo_core = {
+    1083 2267 1080 2275 1079 3360
+}
+
+area_axxarien = {
+    1078 1076 2274 3361 3366
+}
+
+area_loretharan = {
+    1074 1075 2268 3362 3363 3365 3367
+}
+
+#-------------------
+# Azuremyst Isle
+#-------------------
+area_ammen_vale = {
+    1094 2261 1093 2258 2259 2260
+}
+
+area_azurewatch = {
+    1089 2262 3352 3353 3354 3358
+}
+
+area_wrathscale_point = {
+    1090 1091 1092 2263 3350 3373 3374 3349
+}
+
+area_exodar = {
+    1087 2265 3344 3345 3346 3347 3348 3351
+}
+
+area_stillpine_hold = {
+    1086 1088 1095 2264 3355 3356 3357
+}
+
+#-------------------
+# Moonglade
+#-------------------
+area_moonglade = {
+	1325 1326 1324 2135 2136
+}
+
+#-------------------
+# Darkshore
+#-------------------
+area_mathystra = {
+    1297 2255 4711 4712 4714
+}
+
+area_shatterspear_vale = {
+    1295 1296 4713 4715 4716
+}
+
+area_lor_danel = {
+    1298 1299 4707 4708 4709 4710
+}
+
+area_auberdinei = {
+    1300 4700 4703 4704 4705 4706
+}
+
+area_twilight_vale = {
+    2254 2253 4701 4702 4697 4698 4699
+}
+
+area_ameth_aran = {
+    1301 4688 4689 4694 4695 4696
+}
+
+area_naj_vel = {
+    1303 2251 2252 4685 4686 4687 
+}
+
+area_grove_of_the_ancients = {
+    1302 1410 4690 4691 4692 4693
+}
+
+area_blackfathom_deep = {
+    1304 4680 4681 4682 4683 4684
+}
+
+#-------------------
+# Winterspring
+#-------------------
+area_frostwhisper_gorge = {
+    2216 1333 1332 1412
+}
+
+area_everlook = {
+    1330 2217 2218 
+}
+
+area_starfall_village = {
+    1416 1331 1427 1418
+}
+
+area_timbermaw_heartland = {
+    2219 2220 1323 1322
+}
+
+area_frostsaber_grounds = {
+    1329 1327 1424 1328
+}
+
+area_dread_chain = {
+    4094
+}
+
+#-------------------
+# Felwood
+#-------------------
+area_felpaw_village = {
+    2221 1319 1320 1321 4747
+}
+
+area_irontree_woods = {
+    2222 2223 4744 4745 4746
+}
+
+area_jadefire_run = {
+    2224 4742 4743
+}
+
+area_whisperwind = {
+    2225 4739 4740 4741
+}
+
+area_bloodvenom_post = {
+    1318 4735 4736 4737 4738
+}
+
+area_jaedenar = {
+    1317 4731 4732 4733 4734
+}
+
+area_shadow_hold = {
+    4727 4728 4729 4730
+}
+
+area_constellas = {
+    1316 4724 4725 4726
+}
+
+area_deadwood_village = {
+    1314 4719 4720 4721 4723
+}
+
+area_emerald_sanctuary = {
+    1315 2226 4717 4718 4722
+}
+
+#-------------------
+# Mount Hyjal
+#-------------------
+area_sethria_roost = {
+    1341 
+}
+
+area_nordrassil = {
+    1334 3194 3199 3200 
+}
+
+area_upper_groves = {
+	1335 3197 3195 3206
+}
+
+area_grove_of_aessina = {
+    1338 1339 1340 3202 
+}
+
+area_grove_of_goldrinn = {
+    1336 1337 3198 3205 
+}
+
+area_hyjal_lowland = {
+    1348 1345 1347 1346 3203 3204
+}
+
+area_ascendants_circle = {
+    1342 1343 1344
+}
+
+#-------------------
+# Ashenvale
+#-------------------
+area_zoram_gar = {
+    1306 2229 4674 4675
+}
+
+area_ordil_aran = {
+    1305 2228 2256 4676 4677 4678 4679
+}
+
+area_thistlefur = {
+    1309 2238 4669 4654 4655 4656 4657
+}
+
+area_maestras_post = {
+    1307 4670 4671 4672 4673
+}
+
+area_aessina = {
+    1308 2237 4666 4667 4668
+}
+
+area_stardust = {
+    1311 1313 4646 4658 4659 4660
+}
+
+area_astranaar = {
+    1310 4661 4662 4663 4664 4665
+}
+
+area_greenpaw_woods = {
+    2230 2232 4644 4645 4651 4652 4653
+}
+
+area_raynewood_retreat = {
+    1312 2227 4647 4649 4650
+}
+
+area_silverwing = {
+    1349 1351 2231 2235 4642 4643
+}
+
+area_splintertree_post = {
+    4638 4639 4640 
+}
+
+area_satyrnaar = {
+    2234 4636 4637 4648 
+}
+
+area_forest_heart = {
+    2233 1353
+}
+
+area_felfire_hill = {
+    1350 1354 2236 4634 4635 4641
+}
+
+#-------------------
+# Azshara
+#-------------------
+area_the_shattered_strand = {
+    1428 1429 2246 2247
+}
+
+area_northern_azshara_forests = {
+    1430 2250 1432 2244 
+}
+
+area_eldarath = {
+    2249 1431 2245 1436 2239
+}
+
+area_forlorn_ridge = {
+    2240 2248 1352 1433 2242
+}
+
+area_the_ruined_reaches = {
+    2243 2241 1434
+}
+
+area_shattered_isles = {
+    4092 4090 4091 4089
+}
+
+#-------------------
+# Durotar
+#-------------------
+area_orgrimmar = {
+    3164 3165 3166 3167 3395 3396 3397 3398 3399
+}
+
+area_orgrimmar_exterior = {
+    1378 1426 2289 3400 3409 3410
+}
+
+area_razor_hill = {
+    1381 2290 2294 3408 3407
+}
+
+area_echo_isles = { 
+    1385 1384 3403 3404 3405
+}
+
+area_valley_of_trials = {
+    2291 1383 2293 3402
+}
+
+area_southfury_river = {
+    3470 1380 2284 3401
+}
+
+area_thunder_ridge = {
+    3469 1379 2288 3468
+}
+
+area_tiragarde_shore = {
+    2292 3406 1382
+}
+
+#-------------------
+# North Barrens
+#-------------------
+area_the_sludge_fen = {
+    2282 1371 1370 3471 
+}
+
+area_the_dry_hills = {
+    1365 1409 1420 3453 3475
+}
+
+area_the_crossroads = {
+    1373 1422 3464 3465 
+}
+
+area_ratchet = {
+    1375 3461 3462 
+}
+
+area_the_wailing_caverns = {
+    1374 3456 3457 3458 3459 3460
+}
+
+area_forgotten_pools = {
+    1368 3454 3455 3474
+}
+
+area_raptor_grounds = {
+    2286 1376 3447 1423
+}
+
+area_fray_island = {
+    3463 
+}
+
+area_farwatch = {
+    1372 3467 2285 3472 2283
+}
+
+area_dreadmist = {
+    3473 1421 3466
+}
+
+#-------------------
+# South Barrens
+#-------------------
+area_northwatch_hold = {
+    1439 1440 2949 3442 3443 3444 3449
+}
+
+area_honor_stand = {
+    1369 1443 3451 3452
+}
+
+area_overgrowth = {
+    1442 3446 3448 
+}
+
+area_taurajo = {
+    1441 1444 3440 3441 3445
+}
+
+area_desolation = {
+    1447 3435 3436 3437 3438 3439
+}
+
+area_blackthorn_ridge = {
+    2287 1465 1446 1448 1464 3434
+}
+
+area_the_great_lift = {
+    1458 1459 1449
+}
+
+
+#-------------------
+# Stonetalon Mountains
+#-------------------
+area_stonetalon_peak = {
+    1355 1356 2277 1359 3634 3651 3652 3653 3654 3655 3656 3662
+}
+
+area_thaldarah_grove = {
+    1358 1360 1386 3657 3658 3659 3660 3661
+}
+
+area_mirkfallon_lake = {
+    1405 1357 1362 3649 3650 3645 3646 3647 3648
+}
+
+area_windshear_crag = {
+    1364 1367 1361 1406 1363 3635 3636 3637 3638 3640 3641
+}
+
+area_webwinder_path = {
+    2278 1407 2279 3639 3642 3643 3644
+}
+
+area_malaka_jin = {
+    2280 1408 2281 1366
+}
+
+#-------------------
+# Desolace
+#-------------------
+area_sargeron = {
+    1387 2298 1467 3695 3668 
+}
+
+area_tethris_aran = {
+    2299 3693 3692 3688
+}
+
+area_thunderaxe_plains = {
+    1400 3690 3691 1392 3689
+}
+
+area_shok_thokar = {
+    1390 3677 3676 2300 1255
+}
+
+area_ranazjar_ruins = {
+    1403
+}
+
+area_ranazjar_isle = {
+    1399
+}
+
+area_valley_of_spears = {
+    1391 1254 1256 3680 3679 3681 
+}
+
+area_outer_maraudon = {
+    1398 1394 3663 3666 2302
+}
+
+area_inner_maraudon = {
+    3667 3665 3664 1395
+}
+
+area_gelkis_village = {
+    1396 2301 3669 1402  
+}
+
+area_ethel_rethor = {
+    1393 3686 3687 3684 3685 3694 
+}
+
+area_kolkar_village = {
+    1389 1293 1292 1294
+}
+
+area_thundering_coast = {
+    1257 3683 3682 
+}
+
+area_kolkar_outpost = {
+    1401 3678 3671 3670 
+}
+
+area_mannoroc_dens = {
+    3672 3673 3674 3675
+}
+
+#-------------------
+# Mulgore
+#-------------------
+area_thunderbluff = {
+    3426 1397 1388 3424 3423 3425 1473
+}
+
+area_wildmane_water_well = {
+    1468 1469 3427 1377 
+}
+
+area_red_rocks = {
+    1470 1482 1471 3420 3428 1404
+}
+
+area_thunderhorn_water_well = {
+    1472 1474 2296 3421 3422
+}
+
+area_winterhoof_waterwell = {
+    1476 1445 2297 1475 3418 3419 3429
+}
+
+area_camp_narache = {
+    1477 1483 2295 3416 3417 1484
+}
+
+area_thornsnarl = {
+    3412 3413 3414 3415 3411
+}
+
+#-------------------
+# Dustwallow Marsh
+#-------------------
+area_the_wrymbog = {
+    1454 3483 3484 3485 3486 3498
+}
+
+area_mudsprocket = {
+    1453 1455 3496 3497 3501 3502
+}
+   
+area_onyxia_lair = {
+    3487 3488 3489 3490 3491 3492
+}
+
+area_tidefury_cove = {
+    1462 1452 3499 
+}
+
+area_theramore_isle = {
+    1456 2951 3477 3478 3479
+}
+
+area_dreadmurk_coast = {
+    1461 2201 2952 2953 3504 3510
+}
+
+area_blackhoof_marshes = {
+    1450 1451 3505 3506 3507 3508 
+}
+
+area_alcaz_isle = {
+    1438 3480 3481 3482 3511 3512
+}
+
+area_wrymbog_coast = {
+    3493 3494 3495
+}
+
+area_lost_point = {
+    3509 1463 3513 3503 2950 3500
+}
+
+#-------------------
+# Thousand Needles
+#-------------------
+area_splithoof_heights = {
+    1457 1460 1581 4505
+}
+
+area_the_shimmering_flats = {
+    2318 2319 2317 4506 4507 4508 4509 4510
+}
+
+area_thousand_needles_canyons = {
+    2316 2320 2315 2314 2313 4497
+}
+
+area_thousand_needles = {
+    1582 1583 1584 4498 4499 4504
+}
+
+area_highperch = {
+    1585 1580 4500 4501 4502 4503
+}
+
+area_southsea_holdfast = {
+    1579 1550 4511 4512
+}
+
+#-------------------
+# Feralas
+#-------------------
+area_lariss_pavillion = {
+    2311 2312 2310 1496 4490 4491 4492
+}
+
+area_camp_mojache = {
+    1493 1494 2309 1495 4487 4488 4489 4493 4494
+}
+
+area_writhing_deep = {
+    2308 3218 1249 4495 4496
+}
+
+area_isildien = {
+    1492 2307 1246 4481 4482 4483 4484 4485
+}
+
+area_diremaul = {
+    1490 2504 1252 1253 4449 4452 
+}
+
+area_diremaul_interior = {
+    4450 4451 4453 4454 4455 4456 4457 4458
+}
+
+area_forgotten_coast = {
+    2306 1488 1498 1250 4459 4460 4461 4462 4475 4476 4477
+}
+
+area_sarnor_isle = {
+    1489 4463 4464 4465
+}
+
+area_camp_ataya = {
+    1486 1251 1485 4470 4471 4472 4473 4474
+}
+
+area_dream_bough = {
+    2304 1497 2303 2305 1487 4469
+}
+
+area_high_wilderness = {
+    1491 1499 1248 1247 4478 4479 4480 4486
+}
+
+area_isle_of_dread = {
+    568 569 572 4466 4467 4468
+}
+
+#-------------------
+# Silithus
+#-------------------
+area_cenarion_hold = {
+    1511 1510 1513
+}
+
+area_hive_ash = {
+    1509 1515 1508 1245 448
+}
+
+area_hive_zora = {
+    1516 1514 1519 
+}
+
+area_hive_regal = {
+    1512 1518 1517 1522 3215
+}
+
+area_inner_ahn_qiraj = {
+    366 3161 3162 365 367
+}
+
+area_outer_ahn_qiraj = {
+    361 360 2330 2329
+}
+
+area_inner_sanctum = {
+    362 1521 363 1520 3163 364 
+}
+
+area_skittering_sands = {
+    3219 1014 4632 4633
+}
+
+area_seething_shore = {
+    4057 4058 4059 4060 4061 
+}
+
+#-------------------
+# Un'goro Crater
+#-------------------
+area_lakkari_tar_pits = {
+    1526 1528 1527 4519 4520 4521 4522 4524
+}
+
+area_the_roiling_gardens = {
+    1529 1530 1531 1539 416 4513 4517 4518
+}
+
+area_fire_plume_ridge = {
+    1533 1534 1540 1532 4523
+}
+
+area_terror_run = {
+    1535 1536 1537 3217 2322 4514 4515 4516
+}
+
+#-------------------
+# Tanaris
+#-------------------
+area_the_noxious_lair = {
+    1545 1538 4540 4541 
+}
+
+area_valley_of_the_watchers = {
+    1547 2321 2328 4546 4547 4548 4549
+}
+
+area_southbank_shore = {
+    1552 2323 1544 4556 4557 4558 4559
+}
+
+area_the_gaping_chasm = {
+    1548 1555 1242 4561 4562 4563 4564 4565
+}
+
+area_gadgetzan = {
+    2325 1543 4534 4535 4536 4537 4554 4555
+}
+
+area_zulfarrak = {
+    1541 4525 4526 4527 4528 4529
+}
+
+area_sandsorrow = {
+    1542 1554 4530 4531 4532 4533
+}
+
+area_steamwheedle_port = {
+    2326 2327 1551 2324 4550 4551 4552 4553
+}
+
+area_lands_end = {
+    1549 1243 1239 4062 4063 4566 4567 4568 
+}
+
+area_dunemaul_grounds = {
+    1241 1546 4538 4542 4543 4544 4545 
+}
+
+area_dunemaul_grounds_two = {
+    1244 1553 4539 4560 
+}
+
+#-------------------
+# Uldum
+#-------------------
+area_halls_of_origination = {
+    4577 4578 4579 4580 4581 4582 4583
+}
+
+area_cursed_landing = {
+    1557 1558 4569 4570  
+}
+
+area_sunstone_halls = {
+    483 1575 4572 4573 4574 4575 4576
+}
+
+area_obelisk_of_the_stars = {
+    1570 1576 4588 4589 4590 4591 4592
+}
+
+area_khartuts_tomb = {
+    1571 4595 4596 4597
+}
+
+area_ramkahen = {
+    1569 477 4603 4604 4605 4606 4607
+}
+
+area_obelisk_of_the_sun = {
+    1564 1574  481 482 4616 4624 4626 
+}
+
+area_uldum_deserts = {
+    4627 4628 4629 4630 4631
+}
+
+area_ruins_of_ammon = {
+    1567 472 1566 4623 4625
+}
+
+area_obelisk_of_the_moon = {
+    1572 1573 1568 4611 4612 4613 4614 4615
+}
+
+area_neferset = {
+   1563 1565 474 473 4618 4619 4620 4621 4622
+}
+
+area_lost_city_of_the_tolvir = {
+    1559 4598 4599 4600 4601
+}
+
+area_skittering_dunes = {
+    1234 1235 1236
+}
+
+area_akhenet = {
+    476 1562 1237 1238 4584 4585 4602 4617
+}
+
+area_pygmy_grounds = {
+    475 1240 1556 4571 4586 4587 4593 4594
+}
+
+area_sahket = {
+    480 3216 1578 1577 4608 4609 4610
+}
+
+#-----------------------------------------------------------------
+# Northrend
+#-----------------------------------------------------------------
+#-------------------
+# Borean Tundra
+#-------------------
+area_coldarra = {
+    1260 530 1233 1259 1261 1258
+}
+
+area_coast_of_echoes = {
+    2332 983 2120 
+}
+
+area_gammoth = {
+    510 2122 2121 3270 3271 3273
+}
+
+area_farshire = {
+    2336 1052 2335 3233 3272
+}
+
+area_bloodspore_plains = {
+    2348 2337 2339
+}
+
+area_riplash_ruins = {
+    1002 1019 
+}
+
+area_isle_of_nasam = {
+    2123 2334 2331
+}
+
+area_kaskala = {
+    2116 2341 919 2338
+}
+
+area_amber_ledge = {
+    968 2333 2340 2346 2345
+}
+
+area_ruins_of_eldra_nath = {
+    2347 951 936 2119 2125 3274
+}
+
+area_the_geyser_fields = {
+    900 2342 2343 881 3268 3269
+}
+
+area_naxxanar = {
+    2344 866 850 2117 2118 3275 3276 3277 3278 3324
+}
+
+area_jorundall = {
+    4093
+}
+
+#-------------------
+# Wintergrasp
+#-------------------
+area_wintergrasp = {
+    1282 708 834 862 2129 2126 2128 2127 3231
+}
+
+area_vault_of_archavon = {
+    3224 
+}
+
+#-------------------
+# Dragonblight
+#-------------------
+area_stars_rest = {
+    796 2399 995 2398 781 3248 3249
+}
+
+area_moonrest_gardens = {
+    812 2130 1283 2397 1281 2492 3232
+}
+
+area_moakai_harbor = {
+    2400 2401 2131 748 2403 2402
+}
+
+area_wyrmrest_temple = {
+    982 3241 3242 3243 3244 3245 3246 3247
+}
+
+area_south_dragon_nests = {
+    509 2493 3250
+}
+
+area_north_dragon_nests = {
+    529 545 3251 3252 3253
+}
+
+area_south_hearthglen = {
+    935 3235 3236 3237
+}
+
+area_north_hearthglen = {
+    679 2404 2491 1018
+}
+
+area_galakronds_rest = {
+    733 2411 2410 713 2405 2408 3255
+}
+
+area_icecrown_approach = {
+    2133 2406 2132 
+}
+
+area_scarlet_point = {
+    2134 2413 1051
+}
+
+area_wintergarde_keep = {
+    2418 634 2419 3234 3254
+}
+
+area_naxxramas = {
+    599 2416 2414 2490
+}
+
+area_dawns_reach = {
+    583 2415 2412
+}
+
+area_strand_of_the_ancients = {
+    4101 4103 4102
+}
+
+#-------------------
+# Sholazar Basin
+#-------------------
+area_the_mosslight_pillar = {
+    766 2351 2349 2099 2115 2350
+}
+
+area_the_suntouched_pillar = {
+    916 526 2359 692
+}
+
+area_the_lifeblood_pillar = {
+    939 2356 595 2355 1265
+}
+
+area_the_glimmering_pillar = {
+    971 762 2358 1264 2354 2100
+}
+
+area_bittertide_lakeshore = {
+    1263 2353 2352
+}
+
+area_sapphire_hive = {
+    2357 826
+}
+
+area_sholazar_shelf = {
+    2097 578 1262 2098
+}
+
+#-------------------
+# Icecrown
+#-------------------
+area_icecrown_interior = {
+    1268 3220 3222 3226 3227 3221 3225 2407
+}
+
+area_corprethar = {
+    1267 2368 2370 2367 3223
+}
+
+area_aldurthar = {
+    1270 2373 2372 2375
+}
+
+area_the_conflagration = {
+    523 726 2374 2371 3256
+}
+
+area_ymirheim = {
+    947 2369 3228 3229
+}
+
+area_jotunheim = {
+    761 2363 2364 2365 
+}
+
+area_balagarde = {
+    1225 1266 2361 2360 2362 
+}
+
+area_onslaught_harbor = {
+    846 2381
+}
+
+area_the_shadow_vault = {
+    1269 2366 827
+}
+
+area_accursed_cove = {
+    829 3264
+}
+
+area_argent_tournament = {
+    2378 911 1226 2494
+}
+
+area_north_valley_of_lost_hope = {
+    930 895 777 3258 3261
+}
+
+area_south_valley_of_lost_hope = {
+    2376 3257 3259 3260
+}
+
+area_argent_vanguard = {
+    830 2379 2377 628
+}
+
+area_the_broken_front = {
+    901 2380 998 
+}
+
+area_isle_of_conquest = {
+    4095 4096 4098 4099 4100 4097
+}
+
+#-------------------
+# Storm Peak
+#-------------------
+area_k3 = {
+    1278 645 1275 2383 2382
+}
+
+area_bunnhildar_village = {
+    1280 2388 2387 
+}
+
+area_temple_of_storms = {
+    1277 946 2386 2391
+}
+
+area_valkyrion = {
+    522 2389 1279 896
+}
+
+area_frosthold = {
+    576 2384 2385
+}
+
+area_inventors_library = {
+    894 2390 1291 1229 3343
+}
+
+area_ulduar = {
+    728 2495 2497 2498 2499 2500 2496 2502 2501 2503 3230
+}
+
+area_terrace_of_the_makers = {
+    764 3265 3266 2394 1228
+}
+
+area_thunderfall = {
+    2392 2393 3263 1227
+}
+
+area_dun_niffelem = {
+    828 753 541 2395 2396 3264 3262
+}
+
+#-------------------
+# Zul'drak
+#-------------------
+area_gundrak = {
+    1286 810 2441 2440 
+}
+
+area_gundrak_raid = {
+    794 3310 3311 3312 3313 3314
+}
+
+area_heb_drakkar = {
+    832 1287 898 3315 3316
+}
+
+area_rhunok = {
+    917 2438 2436 2439 3317 3318
+}
+
+area_zim_torga = {
+    1017 2442 933 2437 3319 3320 3321
+}
+
+area_kolramas = {
+    2428 544 2435 2429 2434 3323
+}
+
+area_zim_abwa = {
+    2431 2430 2427 2432
+}
+
+area_drak_agal = {
+    2433 1285 562 582 779 3322
+}
+
+area_draktharon_keep = {
+    1284 633 2421
+}
+
+area_zeramas = {
+    649 2420 2422 2425
+}
+
+area_voltarus = {
+    2423 2424 598
+}
+
+area_ebon_watch = {
+    1274 664 615 2426
+}
+
+area_jintha_kalar = {
+    563 2417
+}
+
+#-------------------
+# Grizzly Hills
+#-------------------
+area_zeb_halak = {
+    950 2458 967 849 2483 2484 3292 3293
+}
+
+area_venture_bay = {
+    1289 2455 918 2481 2480 2479
+}
+
+area_granite_springs = {
+    934 2114 2457 2456 
+}
+
+area_voldrune = {
+    899 2109 865 2478 3296
+}
+
+area_amberpine_lodge = {
+    2454 880 2453
+}
+
+area_grizzlemaw = {
+    833 2112 2113 2451 2482 3295 3297 3298
+}
+
+area_heartwood = {
+    2452 2444 811 2485 3294 
+}
+
+area_thor_modan = {
+    2443 732 795 2487 2486 3301 3306 3307 3308 
+}
+
+area_redwood = {
+    2447 712 2445 2449 2488 3299 3300 3309
+}
+
+area_camp_oneqwah = {
+    767 2446 2450 2111 3302
+}
+
+area_dun_argol = {
+    780 2448 747 2489 3305
+}
+
+area_bloodmoon_isle = {
+    695
+}
+
+area_broken_bluffs = {
+    3303 3304
+}
+
+#-------------------
+# Crystalsong
+#-------------------
+area_forlorn_woods = {
+    1272 2409 893 3284 3286 3287
+}
+
+area_unbound_thicket = {
+    1273 3282 3283
+}
+
+area_sunreaver_and_windrunner_overlooks = {
+    1276 825 3288 3289 3290 3291
+}
+
+area_dalaran_cs = {
+    1271 706 3279 3280 3281 3285
+}
+
+#-------------------
+# Howling Fjord
+#-------------------
+area_gjalerbron = {
+    680 651 2459
+}
+
+area_skorn = {
+    696 2460 3238
+}
+
+area_ember_clutch = {
+    2463 600 635
+}
+
+area_kamagua = {
+    584 2462 564
+}
+
+area_new_agamand = {
+    546 2105 2465 1290 2466 882
+}
+
+area_utgarde_keep = {
+    2467 734 2464 2104
+}
+
+area_halvarde = {
+    2110 769 749 
+}
+
+area_nifflevar = {
+    782 2102 2103 797
+}
+
+area_vengeance_landing = {
+    714 867 2468 3239 3240
+}
+
+area_the_glades = {
+    2107 2461 2108 2106 835 1288 851
+}
+
+area_jorundal = {
+    4104
+}
+
+#-----------------------------------------------------------------
+# Outland 
+#-----------------------------------------------------------------
+#-------------------
+# Hellfire Peninsula
+#-------------------
+area_the_dark_portal = {
+    1586 2028 1587 3957
+}
+
+area_throne_of_kil_jaeden = {
+    1593 3955
+}
+
+area_cenarion_post = {
+    4414 4416 4417
+}
+
+area_contested_lands = {
+    1602 4419 4424 4425
+}
+
+area_forge_camps_ridge = {
+    1594 2030 2031 2032
+}
+
+area_warp_fields = {
+    2033 1652 4420 4421
+}
+
+area_hellfire_citadel = {
+    1591 4407 4413 4418 4422 4423
+}
+
+area_honor_hold = {
+    1589 1590 4408 4410
+}
+
+area_maghar_post = {
+    1595 1598 2035 4426
+}
+
+area_falcon_watch = {
+    1597 1599 2034 1596 4415
+}
+
+area_spinebreaker_mountains = {
+    1588 2029 3956 3959 4409
+}
+
+area_thrallmar = {
+    1592 3958 4411 4412
+}
+
+#-------------------
+# Zangarmarsh
+#-------------------
+area_telredor = {
+    1603 1619 1604 1608 3697
+}
+
+area_umbrafen = {
+    1606 1605 2049 1607
+}
+
+area_coilfang = {
+    1610 1609 1611 2064 3696
+}
+
+area_sporeggar = {
+    1614 1613
+}
+
+area_zabra_jin = {
+    1612 2062 2063 1620 
+}
+
+area_marshlight = {
+    1615 1617 2065
+}
+
+area_ango_rosh_grounds = {
+    1616 2066
+}
+
+#-------------------
+# Terokkar Forest
+#-------------------
+area_shattrath = {
+    1641 1642
+}
+
+area_tuurem = {
+    1643 2048 2041
+}
+
+area_contested_glade = {
+    1646 1647 1654 1644 1645
+}
+
+area_skettis = {
+    1651 2040 2039 2038
+}
+
+area_upper_bone_wastes = {
+    2042 2044 1648 1658 2043 2047
+}
+
+area_lower_bone_wastes = {
+    1655 2045 1657 
+}
+
+area_auchindoun = {
+    1649
+}
+
+area_bleeding_hollow_ruins = {
+    2046 1650 1656 
+}
+
+#-------------------
+# Nagrand
+#-------------------
+area_burning_blade_ruins = {
+    1634 2051 2052 1637 1638 1633
+}
+
+area_telaar = {
+    1632 2050 1631 1636 1625
+}
+
+area_halaa = {
+    1627 1628 1629 1630
+}
+
+area_sunspring_post = {
+    1623 1626 1622 1624 1621 1635
+}
+
+#-------------------
+# Shadowmoon Valley
+#-------------------
+area_shadowmoon_wastes = {
+    1674 1661 1675 1662
+}
+
+area_coilskar_point = {
+    1668 1679 1670 1667
+}
+
+area_the_black_temple = {
+    1671
+}
+
+area_the_hand_of_guldan = {
+    2037 1669 1677 1672
+}
+
+area_wildhammer_stronghold = {
+    1664 1676 1663 1678
+}
+
+area_sanctum_of_the_stars = {
+    1666 1665 2036 
+}
+
+area_netherwind_ledge = {
+    1673
+}
+
+#-------------------
+# Blades Edge Mountains
+#-------------------
+area_ogrila = {
+    1680 1681 1682 2053 3699
+}
+
+area_ravens_wood = {
+    1683 1684 3705
+}
+
+area_bladespire = {
+    1685 1686 3698 
+}
+
+area_sylvanaar = {
+    1689 1688 3701 3700
+}
+
+area_thunderlord_stronghold = {
+    1687 3702
+}
+
+area_ruuan_weald = {
+    1693 1694 3704
+}
+
+area_crystal_spine = {
+    1697 1696 3703
+}
+
+area_gruuls_lair = {
+    2101 1695 
+}
+
+area_deaths_door = {
+    1690 2055 1692 1691 
+}
+
+area_razor_ridge = {
+    2054 1698 1699 3706
+}
+
+
+#-------------------
+# Netherstorm
+#-------------------
+area_area_52 = {
+    1702 1704 1701 2056 1703
+}
+
+area_sunfury_hold = {
+    1706 1707 1708
+}
+
+area_ecodome_midrealm = {
+    1710 2057 1709 2058
+}   
+
+area_stormspire = {
+    1705 1711 1712 1713 2061 2060 1714
+}
+
+area_celestial_ridge = {
+    2059 1715 1716
+}
+
+area_tempest_keep = {
+    1717
+}
+
+#-----------------------------------------------------------------
+# Draenor
+#-----------------------------------------------------------------
+# Frostfire Ridge
+area_bladespire_citadel = {
+    3863 3864 
+}
+
+area_worgol = {
+    3868 3865 3867
+}
+
+area_frostwall = {
+    3860 3859
+}
+
+area_daggermaw = {
+    3862 3861 
+}
+
+area_gromgar = {
+    3857 3858 3856 
+}
+
+area_magnarok = {
+    3855 3852 3827
+}
+
+area_crackling_plains = {
+    3854 3866 3853
+}
+
+# Gorgrond
+area_blackrock_foundry = {
+    3844 3843 3836 3842
+}
+
+area_everbloom_wilds = {
+    3841 3840 3839 
+}
+
+area_highpass = {
+    3838 3837 3830
+}
+
+area_gronn_canyon = {
+    3834 3833 3835
+}
+
+area_stonemaul_arena = {
+    3832 3831 
+}
+
+area_tangleheart = {
+    3828 3829
+}
+
+area_bastion_rise = {
+    3825 3826 3804
+}
+
+# Tanaan Jungle
+area_dark_portal_draenor = {
+    3792 3791 
+}
+
+area_fangrila = {
+    3789 3788 3786 
+}
+
+area_hellfire_citadel_draenor = {
+    3785 3783
+}
+
+area_throne_of_kiljaeden = {
+    3790 3805
+}
+
+area_temple_of_shanaar = {
+    3784 3782
+}
+
+area_zethgol = {
+    3953 3954
+}
+
+# Talador
+area_orunai = {
+    3781 3780 3779
+}
+
+area_shattrath_draenor = {
+    3765 3803 3771
+}
+
+area_auchindoun_draenor = {
+    3774 3770 3769 
+}
+
+area_telmor = {
+    3767 3768 
+}
+
+area_arunna = {
+    3775 3773 
+}
+
+area_tuurem_draenor = {
+    3772 3778 3777
+}
+
+area_zangarra = {
+    3787
+}
+
+area_gordal_fortress = {
+    3793 3776
+}
+
+# Nagrand
+area_highmaul = {
+    3748 3749
+}
+
+area_oshugun = {
+    3753 3754
+}
+
+area_mokgol_outpost = {
+    3751 3752 3757
+}
+
+area_ring_of_blood = {
+    3750 3758 3759
+}
+
+area_throne_of_elements = {
+    3760 3761 3763
+}
+
+area_telaar_draenor = {
+    3755 3756 3952
+}
+
+area_hallvalor = {
+    3762 3766 3764
+}
+
+# Shadowmoon Valley
+area_lunarfall = {
+    3796 3795 
+}
+
+area_anguish_fortress = {
+    3798 3801
+}
+
+area_embaari_village = {
+    3851 3800
+}
+
+area_elodor = {
+    3797 3799
+}
+
+area_karabor_draenor = {
+    3806 3807
+}
+
+area_shimmermoor = {
+    3808 3809
+}
+
+area_shazgul = {
+    3810 3811
+}
+
+area_darktide_roost = {
+    3812
+}
+
+# Spires of Arak
+area_skettis_draenor = {
+    3817 3816
+}
+
+area_skyreach = {
+    3814 3819
+}
+
+area_bladefist_hold = {
+    3815 3818 3824
+}
+
+area_bloodmane_valley = {
+    3823 3821 3822
+}
+
+area_howling_crag = {
+    3820 3813 3794
+} 
+
+# Farahlon
+area_blightstone = {
+    3850 3846 3845 
+}
+
+area_crystalwood = {
+    3847 3849 3848 
+}
+
+# Ashran
+area_ashran = {
+    3802
+}
+
+#-----------------------------------------------------------------
+# Pandaria 
+#-----------------------------------------------------------------
+#-------------------
+# Hidden Valley
+#-------------------
+area_hidden_valley = {
+	1800 1801 1802 1806 4443
+}
+
+#-------------------
+# Isle of Thunder
+#-------------------
+area_isle_of_thunder = {
+	1884 1885 1886 1887 1883 1882
+}
+
+area_throne_of_thunder = {
+    1888 1891 1889 1890
+}
+
+#-------------------
+# Isle of Giants
+#-------------------
+area_isle_of_giants = {
+	1920 4119 4120 
+}
+
+area_isle_of_bones = {
+    4123 4122
+}
+
+#-------------------
+# Timeless Isle
+#-------------------
+area_timeless_isle = {
+    4125 4126 4124 4127 4129 4128
+}
+
+#-------------------
+# Jade Forest
+#-------------------
+area_pawdon_islands = {
+    1735 
+}
+
+area_moonwater_islands = {
+    1734 
+}
+
+area_jade_islands = {
+    1736
+}
+
+area_windward_isle = {
+    1727
+}
+
+area_thunder_islands = {
+    1737 4439
+}
+
+area_pawdon_settlement = {
+    1720 2070 2071 1721 4427
+}
+
+area_jadebreeze_vale = {
+    4430 4429 4428
+}
+
+area_moonwater = {
+    1718 1738 2068 4431
+}
+
+area_pearlfin_village = {
+    2067 2069 1739 1719
+}
+
+area_temple_of_the_jade_serpent = {
+    1722 1723 4436 1740
+}
+
+area_dookin_grounds = {
+    2079 2073 1724 2077 2072
+}
+
+area_dawns_blossom = {
+    1725 2076 4433 4437
+}
+
+area_arboretum = {
+    1726 4435 4432
+}
+
+area_greenstone = {
+    2075 4438 2074 1732 4440 4442
+}
+
+area_srila = {
+    4441 1730 1728
+}
+
+area_tian_monastery = {
+    1729 1733 4434
+}
+
+area_honeydew_village = {
+    2080 2078 1731
+}
+
+#-------------------
+# Valley of the Four Winds
+#-------------------
+area_thunderfoot_fields = {
+    1799 1805 1797 1798
+}
+
+area_stormstout_fields = {
+    1794 1804 1793
+}
+
+area_halfhill = {
+    1796 1803 1795
+}
+
+area_stoneplow = {
+    1792 1791 1790 
+}
+
+area_thunderfoot_overlook = {
+    1786 1785 1466
+}
+
+#-------------------
+# Krasarang Wilds
+#-------------------
+area_lions_landing = {
+    1788 1773 1774 
+}
+
+area_anglers_wharf = {
+    1775
+}
+
+area_ruins_of_dojan = {
+    1776 1777 1784 1778
+}
+
+area_temple_of_the_red_crane = {
+    1781 1779 1909 1417
+}
+
+area_domination_point = {
+    1787 405 348
+}
+
+area_dawnchaser_retreat = {
+    1782 1789 1783 840
+}
+
+area_nayeli_lagoon = {
+    1780 1206
+}
+
+#-------------------
+# Dread Wastes
+#-------------------
+area_zan_vess = {
+    1838 1855 1837
+}
+
+area_kypari_zar = {
+    1834 1835 1845 1836 1846 1849 1848 1853
+}
+
+area_heart_of_fear = {
+    1839 1854 1852 1847 1856
+}
+
+area_horrid_march = {
+    1829 1850 1851 1435 1437
+}
+
+area_klaxxi_vess = {
+    1840 1833 1832 1858
+}
+
+area_kor_vess = {
+    1842 1841 1857 1843
+}
+
+#-------------------
+# Vale of Eternal Blossoms
+#-------------------
+area_mogu_shan_palace = {
+    1807 1820 1808 1809 1822 1810
+}
+
+area_whitepetal_lake = {
+    1812 1813 1821
+}
+
+area_golden_plain = {
+    1824 1811 1818
+}
+
+area_guo_lai_halls = {
+    1817 1816 1815 
+}
+
+area_setting_sun_gate = {
+    1819 1823 1814
+}
+
+#-------------------
+# Townlong Steppes
+#-------------------
+area_dusklight_hollow = {
+    1864 1859
+}
+
+area_sumprushes = {
+    1872 1873 1860 1874
+}
+
+area_kri_vess = {
+    1863 1878 1876
+}
+
+area_sik_vess = {
+    1866 1865 1870
+}
+
+area_osul_basecamp = {
+    1828 1862 1877 1861
+}
+
+area_niuzao_temple = {
+    1867 1880 1881 1871 4446
+}
+
+area_sra_vess = {
+    1868 1879 4448 4447 
+}
+
+area_shan_ze_dao = {
+    1869 4444 4445
+}
+
+#-------------------
+# Kunlai Summit
+#-------------------
+area_kun_lai = {
+    1903 1892 3210 3211 3212
+}
+
+area_zouchin_village = {
+    1905 1904 1915 1902 3213
+}
+
+area_temple_of_the_white_tiger = {
+    1901 1914 1917 3214
+}
+
+area_kota_basecamp = {
+    1894 1893 1900 1906
+}
+
+area_mogujia = {
+    1907 1896
+}
+
+area_shado_pan_garrison = {
+    1895 1919 1910
+}
+
+area_binan_village = {
+    1898 1911 1897 1908 1912
+}
+
+area_yaungol_advance = {
+    1913 1899 1918
+}
+
+area_snowblossom_isle = {
+    4121 4155
+}
+
+area_shado_pan_passage = {
+    2607 2608 2609 2610
+}
+
+#-----------------------------------------------------------------
+# Broken Isles
+#-----------------------------------------------------------------
+# Highmountain
+area_northern_highmountain = { 
+    2634 2637 3192 
+}
+area_eastern_highmountain = { 
+    2636 3188 
+}
+area_bloodtotem_highland = { 
+    2635 2638 3187 
+}
+area_skyhorn_grounds = { 
+    2639 3189 3190 
+}
+area_central_highmountain = { 
+    2640 2641 2642 
+}
+area_neltharions_home = { 
+    3191 2643 
+}
+
+# Val'sharah
+area_crescent_vale = { 
+    2651 3180 
+}
+area_emerald_grove = { 
+    2653 2654 2655 
+}
+area_western_valsarah = { 
+    2644 2645 2646 2649 
+}
+area_cenarion_grove = { 
+    2647 2648 2650 
+}
+area_andutalah = { 
+    3181 2652 2677 
+}
+
+# Azsuna
+area_eye_of_the_storm = { 
+    2666 
+}
+area_warden_stand = { 
+    2656 2657 2691 
+}
+area_oceanus_cove = { 
+    3179 2658 
+}
+area_azsuna_ruins = { 
+    2659 2662 3178 
+}
+area_azuregos_sanctum = { 
+    2663 2664 2665 
+}
+area_zarkhenar = { 
+    2660 2661 
+}
+
+# Suramar
+area_suramar_city = { 
+    3182 3183 2669 
+}
+area_broken_shore = { 
+    2667 2668 
+}
+area_arcandor_ruins = { 
+    2674 2675 2676 
+}
+area_jondvik = { 
+    2670 2671 
+}
+area_moonguard = { 
+    2672 2673 
+}
+
+# Stormheim
+area_valkyrian_lands = { 
+    2678 2679 3184 
+}
+area_halls_of_valor = { 
+    2689 2690 
+}
+area_tideskorn_coast = { 
+    2684 2685 2686 
+}
+area_eastern_stormheim = { 
+    2688 3185 
+}
+area_helheim_entrance = { 
+    2687 3186 
+}
+area_storm_drake_hills = { 
+    2680 2681 2682 2683 
+}
+
+#-----------------------------------------------------------------
+# South Seas
+#-----------------------------------------------------------------
+#-------------------
+# Zandalar
+#-------------------
+area_dazar_alor = {
+	2619 2750 2469 2749 2747 2751 2748 2613 
+}
+
+area_covescale_rise = {
+    2746 2745 2744 1133 2616
+}
+
+area_xibala = {
+	2611 2471 2509
+}
+
+area_mugambala = {
+    2758 2621 2757 
+}
+
+area_atal_dazar = {
+    2470 2620 1108 2756 
+}
+
+area_atal_gral = {
+	1112 2742 2508 2743
+}
+
+area_blood_gate = {
+    2622 1136 2755 
+}
+
+area_tusk_isle = {
+    1135 2615 
+}
+
+area_beastwatcher_glade = {
+    2614 2752 2754 2753
+}
+
+area_talgurub = {
+    1110 2617 2740 2741
+}
+
+area_zebahari = {
+    1111 2720 2739
+}
+
+area_crescent_shore = {
+    1232 2612 2760
+}
+
+#-------------------
+# Nazmir
+#-------------------
+area_heart_of_darkness = {
+	1122 2723 2724 2722
+}
+
+area_the_necropolis = {
+    1127 2624 2623 2727
+}
+
+area_primal_wetlands = {
+    2625 1123 2618
+}
+
+area_terrace_of_sorrows = {
+    1126 1124 2718 2719 2721
+}
+
+area_zalamak = {
+    2726 2725 1132 2715
+}
+
+area_torgas_rest = {
+    2709 2710 2711 2712 1128
+}
+
+area_nazwatha = {
+    2714 1129 2713
+}
+
+area_kragwas_burrow = {
+    2716 2717 1130
+}
+
+#-------------------
+# Vol'dun
+#-------------------
+area_slithering_gulch = {
+	1119 2629 2628 1118
+}
+
+area_atul_aman = {
+	1115 1131 2736 2737 1117
+}
+
+area_whispering_crag = {
+    2626 1120 2730 2731 2729
+}
+
+area_voldun_dunes = {
+    2627 2630 2733 2728
+}
+
+area_port_zemlan = {
+    2633 1114 2738 2759
+}
+
+area_temple_of_akunda = {
+    2632 1116 2735 2734
+}
+
+area_terrace_of_the_devoted = {
+    1113 2631 2732
+}
+
+#-------------------
+# Lost Isles
+#-------------------
+area_the_erupted_mountain = {
+    1097 1109 1098 1099 1100 1101
+}
+
+area_vashj_elan = {
+    1106 1107
+}
+
+area_wild_overlook = {
+    1102 1105 1103 1104
+}
+
+#-------------------
+# Kezan
+#-------------------
+area_bilgewater_port = {
+    4085 4084 4086 
+}
+
+area_drudgetown = {
+    4083 4082 4081 
+}
+
+area_mt_kajaro = {
+    4074 4075 4076 
+}
+
+area_port_kajaro = {
+    4078 4080 4077 4079
+}
+
+area_glimmering_isle = {
+    4088 4087
+}
+
+
+#-------------------
+# Plunder Isle
+#-------------------
+area_plunder_bay = {
+	2472 3207 3208 3209 4134
+}
+
+area_bloodbush = {
+    4140 4138 4139 
+}
+
+area_fools_ridge = {
+    4135 4136 4137 
+}
+
+area_isles_of_plunder = {
+    4131 4130 
+}
+
+area_kunza_kunza = {
+    4133 4132
+}
+
+#-------------------
+# Deepholm
+#-------------------
+
+
+#-------------------
+# Vashj'ir
+#-------------------
+area_kelpthar_forest = {
+	3171
+}
+
+area_shimmering_grotto = {
+	3172 3173 3174
+}
+
+area_abyssal_depths = {
+	3175 3176 3177
+}
+
+area_balor = {
+    4111
+}
+
+#-------------------
+# Nazjatar
+#-------------------
+area_mezzamere = {
+    573 577 579 588 590  
+}
+
+area_zinazshari = {
+    611 620 621 616 617
+}
+
+#-------------------
+# South Sea Islands
+#-------------------
+
+area_tel_abim = {
+    4067 4066 4068 4069 4070 4065
+}
+
+area_molten_cay = {
+    4064
+}
+
+area_verdant_wilds = {
+    4071
+}
+
+area_isle_of_skulls = {
+    4073 4072
+}
+
+#-------------------
+# Darkspear Isles
+#-------------------
+area_darkspear_isles = {
+    4152 4116 4147 
+}
+
+area_north_paradise_isles = {
+    4144 4114 4145 4146 4115
+}
+
+area_south_paradise_isles = {
+    4112 4143 4141 4142 
+}
+
+area_glave_isles = {
+    4118 4113 4153 4154
+}
+
+area_rotting_mire = {
+    4151 4117 4150 4149 4148
+}
+
+#-------------------
+# Forgotten Isles
+#-------------------
+# North
+area_yevagos = {
+    4393 4392 4391 
+}
+
+area_nevorin = {
+    4395 4394 4396  
+}
+
+area_sirzax = {
+    4390 4389 4387
+}
+
+area_myndythan = {
+    4400 4401 4399 4388
+}
+
+area_phylore = {
+    4404 4398 4397 4405
+}
+
+area_limsyla = {
+    4406 4403 4402
+}
+
+# West
+area_avezu = {
+    4366 4369 4365 4367 4364
+}
+
+area_nasovi = {
+    4362 4368 4370 4361
+}
+
+area_tesevun = {
+    4373 4363 4372
+}
+
+area_sathorin = {
+    4371 4375 4376 4374
+}
+
+area_tinotus = {
+    4377 4378 4379 4380
+}
+
+area_zasevusi = {
+    4386 4385 4383
+}
+
+area_atakun = {
+    4384 4382 4381
+}
+
+# East
+area_zaxrose = {
+    4354 4353 4355 4352 4351 4350 4349 4348
+}
+
+area_lostarin = {
+    4356 4357 4358 4359 4360
+}
+
+area_elgudan = {
+    4344 4342 4343
+}
+
+area_vurre = {
+    4327 4325 4326 
+}
+
+area_ascegos = {
+    4323 4322 4324 4321
+}
+
+area_canvia = {
+    4328 4329 4330 4331
+}
+
+area_veldyina = {
+    4333 4332 4334 
+}
+
+area_almeligos = {
+    4335 4336 4346 4340 4341
+}
+
+area_ezyrun = {
+    4320 4337 4338 4339
+}
+
+area_gennizen = {
+    4347 4345 4319 
+}
+
+area_dalgim = {
+    4318 4317 4312 
+}
+
+area_dridazan = {
+    4316 4314 4313 4315
+}
+
+area_kiarron = {
+    4307 4310 4306 4305
+}
+
+area_onaddan = {
+    4308 4304 4303 4302
+}
+
+area_leivazun = {
+    4311 4309 4301
+}
+
+area_atocin = {
+    4300 4297 4299 4298 4296 4295
+}
+
+# South
+area_eralina = {
+    4232 4233 4234 4235
+}
+
+area_zyrtila = {
+    4236 4237 4238 4239 4240
+}
+
+area_illvel = {
+    4244 4246 4245 4243 4242 4241
+}
+
+area_zofelia = {
+    4247
+}
+
+area_adrena = {
+    4248
+}
+
+area_emania = {
+    4291 4294 4292 4293
+}
+
+area_hugari = {
+    4288 4290 4289 4287
+}
+
+area_hygemia = {
+    4249 4250 4253 4251 4252
+}
+
+area_mevrash = {
+    4259 4254 4255 4258 4256 4260 4257
+}
+
+area_ishondran = {
+    4266 4265 4264 4263 4262
+}
+
+area_ontheran = {
+    4270 4269 4267 
+}
+
+area_levsykan = {
+    4273 4268 4271 4261 4274 4286
+}
+
+area_oxistryia = {
+    4272 4275 4277 4276 4278
+}
+
+area_sixrest = {
+    4285 4283 4284 4281 4282 4280 4279
+}
+
+#-----------------------------------------------------------------
+# Elemental Planes
+#-----------------------------------------------------------------
+# Skywall
+area_vortex_pinnacle = {
+    1560 2526 2525 2524 2522 2523
+}
+
+area_throne_of_the_four_winds = {
+    1561 2530 2529 2528 2527 2531
+}
+
+# Deepholm
+area_temple_of_earth = {
+    2700 2536 2537 2538 
+}
+
+area_needlerock = {
+    3157 2534 2532 2533 2540 
+}
+
+area_stonehearth = {
+    3160 2542 3159  
+}
+
+area_crimson_expanse = {
+    2535 3158 2539 2541 
+}
+
+# Abyssal Maw
+area_throne_of_neptulon = {
+    2554 2544 2555 2545 2543
+}
+
+area_neptulons_ridge = {
+    2548 2549 2551 2550 2552 2553
+}
+
+area_trove_of_neptulon = {
+    2557 2558 2556 
+}
+
+area_neptulons_peak = {
+    2563 2546 2547 2562 
+}
+
+area_shimmer_tide_trench = {
+    2566 2565 2561 2564 
+}
+
+area_abyssal_gorge = {
+    2570 2569 2568 2559
+}
+
+# Firelands
+area_molten_front = {
+    2581 2578 2572 2571 2573
+}
+
+area_molten_ridge = {
+   2575 2574 2576 2577 2579 2580
+}
+
+area_molten_gap = {
+    2582 2583 2584
+}
+
+area_ridge_of_ancient_flame = {
+    2596 2597 2598 2595 2589 2585
+}
+
+area_molten_fields = {
+    2592 2591 2590 2594 2593
+}
+
+area_sulfuron_keep = {
+    2602 2601 2604 2600 2599
+}
+
+area_sulfuron_mountains = {
+    2605 2603 2606 2588 2587 2586
+}
+
+#-----------------------------------------------------------------
+# Argus
+#-----------------------------------------------------------------
+# Krokuun
+area_deceivers_scar = {
+    2784 2782 2781 2778 2785
+}
+
+area_krokul_hovel = {
+    2780 2777 2776 2775
+}
+
+area_xenedar = {
+    2774 2779 2783
+}
+
+# Eredath
+area_triumvirates_end = {
+    2789 2795 2793 
+}
+
+area_shadowguard = {
+    2787 2794 2788
+}
+
+area_seat_of_the_triumvirate = {
+    2797 2786 2798
+}
+
+area_conversatory_of_the_arcane = {
+    2791 2796 2790 
+}
+
+area_azurelight = {
+    2799 2792
+}
+
+# Antoran Wastes
+area_antorus = {
+    2768 2773 2769 2767
+}
+
+area_terminus = {
+    2764 2765 2770
+}
+
+area_spirit_crucible = {
+    2771 2766 2772
+}
+
+#-----------------------------------------------------------------
+# Ocean
+#-----------------------------------------------------------------
+# Eastern Kingdoms
+area_eastern_kingdom_seas = {
+    3721 268 272 4051 4052 4051 4050 272 268 4053 4047 4048 4049 269 276 289 290 291 295 354 355 356 357 358
+    297 298 300 303 302 304 306 308 310 312 311 486 359 314 
+    420 267 421 266 417 429 428 50 243 245 255 251 252 254 265 502 495 499 494 493 489 488 
+    316 318 319 322 323 325 327 329 220 217 221 224 226 227 229 232 234 236 238 240 244 503 512 513 514 524 532 534 535 549 551 559 566 555 
+}
+
+# Kalimdor
+area_kalimdor_seas = {
+    49 59 283 282 284 65 117 118 73 58 115 122 285 116 72 83 71 56 52 91 93 92 69 54 90 94 89 4215 53 55 47 87 88 86 85 66 51 67 48 138 4214 107 110 111 80 68
+}
+
+# Kul Tiras
+area_kul_tiras_seas = {
+    76 426 3995 4001 4005 4000 3994 3996 12 3961 95 41
+}
+
+# Broken Isles
+area_broken_isles_seas = {
+    414 3992 216 3998 3989 3988 3987 3997 3990  
+}
+
+# Zandalar
+area_zandalar_seas = {
+    4010 4007 430 4006 4019 4016 432 4022 4030 140 3720 3579
+}
+
+# Paradise Isles
+area_paradise_seas = {
+    4038 77 151 5 61 60 42 60 42 79
+}
+
+# Nazjatar
+area_nazjatar_seas = {
+    6 399 398 387 3983 388 394 31 124 82
+}
+
+# Kezan/Lost Isles
+area_volcanic_seas = {
+    4224 381 379 380 3977 3976 3979 3978 70 32
+}
+
+# South Seas
+area_south_seas = {
+    3975 34 3967 35 372 3965 3970 3969 145 142
+}
+
+# Pandaria
+area_pandaria_seas = {
+    2082 4031 4029 4028 2083 10 81 3972 407 4026 2093 410 413 442 2091 2087 2088 4035 2089 2081 409 4034 4033 4032 2090 4036 2092 2085 441 2084 443 64 148 63 146
+}
+
+# Northrend
+area_northrend_seas = {
+    191 190 188 186 3966 185 184 189 160 161 162 172 175 173 208 164 165 187 166 163 192 286 353 287 350 351 352 
+}
+
+# Draenor
+area_draenor_seas = {
+    3895 3894 3890 3891 3889 3893 3887 3892 3873 3876 3877 3874 3875 3884 3885 3878 3870 3871 3869 3901 3886 3898 3897 3882 
+}
+
+# Titanic Isles
+area_titanic_seas = {
+    144 103 4200 4189 114 139 4196 4197 78 62 4225 4190 4171 4195 4194 4185 4172 4199 4188 4170 4187 4198 4210 4229 4231 4203 4169 4228 4226 4202 4223 4201 143 141 4227
+}
+
+# Misc
+area_southern_passage = {
+    3 2 4219 377 30
+}
+
+area_northern_passage = {
+    4213 3729 43 386
+}

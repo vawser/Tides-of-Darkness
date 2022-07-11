@@ -1,0 +1,14 @@
+######################################################
+# Documentation
+# ----------------------------------------------------
+# All dates are in the King's Calender format
+######################################################
+
+bookmark =
+{
+	name = "TIDES_OF_DARKNESS_NAME"
+	desc = "TIDES_OF_DARKNESS_DESC"
+	date = 598.1.1
+    
+	country = LOR
+}

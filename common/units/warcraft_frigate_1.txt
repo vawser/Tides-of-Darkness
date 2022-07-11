@@ -1,0 +1,11 @@
+type = light_ship
+sprite_level = 1
+
+hull_size = 12
+base_cannons = 15
+sail_speed = 12
+
+trade_power = 5.0
+
+blockade = 5
+sailors = 100

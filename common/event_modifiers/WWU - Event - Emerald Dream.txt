@@ -1,0 +1,19 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Event: 
+dreaming = {
+	monthly_piety = 0.03
+}
+
+# Event: 
+long_slumber_sickness = {
+	all_power_cost = 0.25
+	global_manpower_modifier = -0.5
+    global_regiment_recruit_speed = 1.0
+}
+
+# Event:
+slumber_sickness = {
+	all_power_cost = 0.1
+}

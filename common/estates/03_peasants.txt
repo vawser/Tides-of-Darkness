@@ -1,0 +1,95 @@
+estate_peasants = {
+	icon = 11
+    color = { 53 145 61 }
+    
+	influence_from_dev_modifier = 0.5
+    
+    # ----- Names -----
+    custom_name = {
+        desc = estate_peasants_blood_troll
+        trigger = {
+            has_reform = blood_matriarchy_reform
+        }
+    }
+    
+	# ----- Conditions -----
+	trigger = {
+        is_nomad = no
+        NOT = { has_reform = wwu_labor_tier_slavery }
+	}
+
+	# ----- Country -----
+	country_modifier_happy = {
+		global_unrest = -2
+		development_cost = -0.1
+		production_efficiency = 0.15
+	}
+	country_modifier_neutral = {
+		global_unrest = -1
+		development_cost = -0.05
+		production_efficiency = 0.05
+	}	
+	country_modifier_angry = {
+		global_unrest = 2
+		development_cost = 0.1
+		production_efficiency = -0.15
+	}	
+    
+	land_ownership_modifier = {
+		peasants_loyalty_modifier = 0.2
+	}
+
+    province_independence_weight = {
+		factor = 1
+	}
+    
+	# ----- Influence -----
+	base_influence = 10
+    
+	# ----- Loyalty -----
+    loyalty_modifier = {
+		desc = EST_VAL_POSITIVE_STABILITY
+		trigger = {
+			stability = 1
+		}
+		loyalty = 10
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_NEGATIVE_STABILITY
+		trigger = {
+			NOT = { stability = 0 }
+		}
+		loyalty = -10
+	}
+    
+    loyalty_modifier = {
+		desc = EST_VAL_REBELLIOUS_PEOPLE
+		trigger = {
+			average_effective_unrest = 6
+		}
+		loyalty = -10
+	}
+    
+    # ----- Privileges -----
+	privileges = {
+		estate_peasants_land_rights
+		estate_peasants_increased_taxation
+		estate_peasants_guaranteed_autonomy
+		estate_peasants_meritocratic_promotion
+		estate_peasants_manpower
+		estate_peasants_religious_tolerance
+        estate_peasants_titanic_engineering
+        estate_peasants_serfdom_enforced
+        estate_peasants_mercenary_recruitment
+	}
+
+    # ----- Agendas -----
+	agendas = {
+		estate_peasants_develop_x
+		estate_peasants_build_tavern_in_y
+		estate_peasants_increase_autonomy_in_province_x
+		estate_peasants_three_privileges
+		estate_peasants_hire_advisor
+		estate_peasants_fire_advisor
+	}
+}

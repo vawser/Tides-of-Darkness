@@ -1,0 +1,424 @@
+change_overlord = {
+	type = take_capital
+	
+    attacker = {
+		badboy_factor = 0.5
+        prestige_factor = 2.0
+        peace_cost_factor = 2.0
+
+		peace_options = {
+			po_become_vassal
+            po_release_vassals
+            po_release_annexed
+            po_demand_provinces
+		}
+	}
+    
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	war_name = FACTIONS_WAR_NAME	
+}
+
+factions_war = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 0.5
+        prestige_factor = 2.0
+        peace_cost_factor = 2.0
+        
+        peace_options = {
+            po_revoke_cores
+            po_release_annexed
+            po_gold
+            po_concede_defeat
+            po_demand_provinces
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = FACTIONS_WAR_NAME	
+}
+
+legion_invasion_goal = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 2.0
+        prestige_factor = 1.0
+        peace_cost_factor = 0.5
+        
+        peace_options = {
+            po_demand_provinces
+            po_gold
+            po_become_vassal
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = INVASION_WAR_NAME	
+}
+
+continental_landing = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 2
+        prestige_factor = 0
+        peace_cost_factor = 1
+        
+        allowed_provinces = {
+            has_port = yes
+        }
+        
+        peace_options = {
+            po_demand_provinces
+            po_revoke_cores
+            po_release_vassals
+            po_release_annexed
+            po_gold
+            po_become_vassal
+            po_concede_defeat
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = CONTINENTAL_WAR_NAME
+}
+
+war_against_evil = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 0.75
+        prestige_factor = 1.25
+        peace_cost_factor = 0.75
+        
+        peace_options = {
+            po_release_vassals
+            po_release_annexed
+            po_change_religion
+            po_revoke_cores
+            po_demand_provinces
+            po_become_vassal
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = GOOD_WAR_NAME	
+}
+
+war_against_men = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 0.50
+        prestige_factor = 0.75
+        peace_cost_factor = 0.50
+        
+        peace_options = {
+            po_release_vassals
+            po_release_annexed
+            po_change_religion
+            po_revoke_cores
+            po_demand_provinces
+            po_become_vassal
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = INVASION_WAR_NAME	
+}
+
+titan_clash = {
+	type = take_capital
+       
+    attacker = {
+        badboy_factor = 1.50
+        prestige_factor = 1.50
+        peace_cost_factor = 1.50
+        
+        peace_options = {
+            po_change_religion
+            po_demand_provinces
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = TITAN_CLASH	
+}
+
+# 25%
+take_capital_ruthless = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = RUTHLESS_WAR_NAME
+}
+# 50%
+take_capital_barbarous = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = BARBAROUS_WAR_NAME
+}
+# 75%
+take_capital_merciless = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = MERCILESS_WAR_NAME
+}
+# 100%
+take_capital_justified = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+		
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = JUSTIFIED_WAR_NAME
+}
+
+take_capital_unification = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 0.5
+        prestige_factor = 2
+        peace_cost_factor = 0.5
+        
+        peace_options = {
+            po_subjugate_vassal
+            po_demand_provinces
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = UNIFICATION_WAR_NAME
+}
+
+take_capital_force_religion = {
+	type = take_capital
+	
+    attacker = {
+        badboy_factor = 0.5
+        prestige_factor = 2
+        peace_cost_factor = 0.5
+        
+        peace_options = {
+            po_change_religion
+            po_demand_provinces
+        }
+	}
+    
+    defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+    
+	war_name = RELIGIOUS_UNIFICATION_WAR_NAME
+}
+
+usurp_warchief = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_gold
+			po_humiliate
+			po_usurp_warchief
+		}
+        
+        deny_annex = yes
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}	
+	
+	war_name = USURPATION_WAR_NAME
+}

@@ -1,0 +1,104 @@
+#--------------------------
+# Factions
+#--------------------------
+# alliance
+# horde
+# old_horde
+
+# Alliance
+cannot_join_alliance = {
+	OR = {
+		primary_culture = culture_sand_troll
+		primary_culture = culture_jungle_troll
+		primary_culture = culture_forest_troll
+		culture_group = culture_group_orc
+		culture_group = culture_group_mogu
+	}
+}
+
+# Horde
+cannot_join_horde = { 
+	OR = {
+		culture_group = culture_group_human
+		culture_group = culture_group_draenei
+		culture_group = culture_group_darnassian
+	}
+}
+
+# Old Horde
+cannot_join_old_horde = { 
+	OR = {
+		culture_group = culture_group_human
+		culture_group = culture_group_draenei
+		culture_group = culture_group_darnassian
+	}
+}
+
+# Trade Coalition
+cannot_join_trade_coalition = {
+	NOT = { culture_group = culture_group_goblin }
+}
+
+is_historical_alliance_member = {
+    OR = {
+        tag = STW # Stormwind
+        tag = A08 # Lordaeron
+        tag = A10 # Stratholme
+        tag = A12 # Gilneas
+        tag = A14 # Kul Tiras
+        tag = A16 # Stromgarde
+        tag = A18 # Dalaran
+        tag = A29 # Ironforge
+        tag = A32 # Gnomeregan
+        tag = A90 # Quel'Thelas
+        tag = A94 # Darnassus
+        tag = A30 # Kingdom of Thaurissan
+        tag = A56 # Exodar
+        tag = SOL # Sons of Lothar
+        tag = P35 # Huojin Order
+    }
+}
+
+is_historical_horde_member = {
+    OR = {
+        tag = A48 # Orgrimmar
+        tag = A50 # Thrallmar
+        tag = A70 # Darkspear
+        tag = A91 # Silvermoon
+        tag = THB # Thunder Bluff
+        tag = P14 # The Forsaken
+        tag = P36 # Tushui Order
+    }
+}
+
+is_historical_old_horde_member = {
+    OR = {
+        tag = B88 # Shadow Council
+        tag = A34 # Shadowmoon
+        tag = A35 # Warsong
+        tag = A36 # Shattered Hand
+        tag = A37 # Thunderlord
+        tag = A38 # Laughing Skull
+        tag = A39 # Bonechewer
+        tag = A40 # Bleeding Hollow
+        tag = A41 # Blackrock
+        tag = A42 # Stormreaver
+        tag = A43 # Twilight's Hammer
+        tag = A44 # Burning Blade
+        tag = A45 # Dragonmaw
+        tag = A46 # Frostwolf
+        tag = A58 # Amani
+    }
+}
+
+is_historical_trade_coalition_member = {
+    OR = {
+        tag = A79 # Bilgewater
+        tag = A80 # Steamwheedle
+        tag = A81 # Venture Company
+        tag = A83 # Blackwater
+        tag = RTC # Ratchet
+        tag = GDG # Gadgetzan
+        tag = MTL # Motherlode
+    }
+}

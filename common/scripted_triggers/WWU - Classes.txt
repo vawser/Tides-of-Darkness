@@ -1,0 +1,128 @@
+# Classes
+can_be_warrior = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+}
+
+can_be_paladin = {
+	religion_group = light_group
+}
+
+can_be_priest = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+}
+
+can_be_rogue = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+}
+
+can_be_mage = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+	NOT = { religion = fel }
+}
+
+can_be_warlock = {
+	religion = fel
+}
+
+can_be_druid = {
+	OR = {
+		religion_group = elemental_group
+		religion_group = life_group
+		religion = voodoo
+		religion = hakkari
+		religion = bloodmancy
+	}
+	NOT = { religion = elune }
+	NOT = { religion = celestials }
+}
+
+can_be_hunter = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+}
+
+can_be_shaman = {
+	OR = {
+		religion_group = elemental_group
+		religion_group = life_group
+		religion = voodoo
+		religion = hakkari
+		religion = bloodmancy
+	}
+	NOT = { religion = elune }
+	NOT = { religion = celestials }
+}
+
+can_be_death_knight = {
+	OR = {
+		religion = cult_of_the_damned
+		culture_group = culture_group_scourge
+		primary_culture = culture_death_knight
+	}
+}
+
+can_be_monk = {
+	OR = {
+		religion_group = death_group
+		religion_group = disorder_group
+		religion_group = elemental_group
+		religion_group = life_group
+		religion_group = light_group
+		religion_group = order_group
+		religion_group = philosophy_group
+		religion_group = shadow_group
+	}
+}
+
+can_be_demon_hunter = {
+	OR = {
+		culture_group = culture_group_thalassian
+		culture_group = culture_group_darnassian
+	}
+	NOT = { religion = druidism }
+}
+

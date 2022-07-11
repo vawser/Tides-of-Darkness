@@ -1,0 +1,1384 @@
+#-----------------------------------------
+# Tribal Organisation (Level 0)
+#-----------------------------------------
+# Generic reforms
+wwu_tribal_established_hierarchy_reform = {
+	icon = "ancestral_call"
+    
+    potential = {
+        NOT = { is_native_government = yes }
+        NOT = { has_reform = wwu_tribal_chain_of_command_reform }
+    }
+    
+	modifiers = {
+		governing_capacity_modifier = 0.1
+        global_manpower_modifier = 0.1
+	}
+
+	ai = {
+		factor = 1.0
+	}
+}
+
+wwu_tribal_established_warband_reform = {
+	icon = "dual_wield"
+    
+    potential = {
+        NOT = { is_native_government = yes }
+        NOT = { has_reform = wwu_tribal_chain_of_command_reform }
+    }
+    
+    raze_province = yes
+    
+	modifiers = {
+		land_forcelimit_modifier = 0.1
+		land_morale = 0.05
+	}
+
+	ai = {
+		factor = 1.0
+	}
+}
+
+wwu_tribal_tribal_council_reform = {
+	icon = "note_4"
+    
+    potential = {
+        NOT = { is_native_government = yes }
+        NOT = { has_reform = wwu_tribal_chain_of_command_reform }
+    }
+    
+	modifiers = {
+		diplomatic_reputation = 1
+        global_unrest = -2
+	}
+
+	ai = {
+		factor = 1.0
+	}
+}
+
+# For the Expeditionary Force/Criminal Organisation governments
+wwu_tribal_chain_of_command_reform = {
+	icon = "combat_readiness"
+    
+    potential = {
+        OR = {
+            has_reform = criminal_organization_reform
+            has_reform = expeditionary_force_reform
+        }
+    }
+    
+	modifiers = {
+		land_morale = 0.05
+        yearly_absolutism = 0.5
+        max_absolutism = 10
+	}
+
+	ai = {
+		factor = 1.0
+	}
+}
+wwu_tribal_delegated_command_reform = {
+	icon = "scroll_1"
+    
+    potential = {
+        OR = {
+            has_reform = criminal_organization_reform
+            has_reform = expeditionary_force_reform
+        }
+    }
+    
+	modifiers = {
+		stability_cost_modifier = -0.25
+        core_creation = -0.1
+	}
+
+	ai = {
+		factor = 1.0
+	}
+}
+
+# For tribes that Native Mechanics
+wwu_tribal_war_band_reform = {
+	icon = "dual_wield"
+    
+    potential = {
+        is_native_government = yes
+    }
+    
+	modifiers = {
+		land_forcelimit = 15
+        land_maintenance_modifier = -0.75
+	}
+	conditional = {
+		allow = { has_dlc = "Conquest of Paradise" }
+        
+		allow_migration = yes
+        native_mechanic = yes
+        
+		custom_attributes = {
+			enable_settled_mechanics = no
+			enable_tribal_grazing = yes
+		}
+	}
+
+	ai = {
+		factor = 1.0
+
+		modifier = {
+			factor = 2
+			
+            culture_group = culture_group_centaur
+		}
+	}
+}
+
+wwu_tribal_seasonal_travel_reform = {
+	icon = "fish_bones"
+    
+    potential = {
+        is_native_government = yes
+    }
+    
+	modifiers = {
+		migration_cost = -0.25
+		tribal_development_growth = 0.05
+        
+        land_forcelimit = 10
+        land_maintenance_modifier = -0.5
+	}
+	conditional = {
+		allow = { has_dlc = "Conquest of Paradise" }
+        
+        native_mechanic = yes
+		allow_migration = yes
+        
+		custom_attributes = {
+			enable_settled_mechanics = no
+			enable_tribal_grazing = yes
+		}
+	}
+
+	ai = {
+		factor = 1.0
+
+		modifier = {
+			factor = 2
+			
+            culture_group = culture_group_tauren
+		}
+	}
+}
+
+wwu_tribal_settle_down_reform = {
+	icon = "craftsman"
+    
+    potential = {
+        is_native_government = yes
+    }
+    
+	modifiers = {
+		global_institution_spread = 0.2
+		add_tribal_land_cost = 2.0
+		governing_capacity_modifier = -0.25
+	}
+	conditional = {
+		allow = { has_dlc = "Conquest of Paradise" }
+        
+        native_mechanic = yes
+		allow_migration = no
+        
+		custom_attributes = {
+			enable_settled_mechanics = yes
+			enable_tribal_grazing = no
+		}
+	}
+	removed_effect = {
+		add_stability = -1
+	}
+
+	ai = {
+		factor = 0.5
+		
+		modifier = { 
+			factor = 2
+			#tribal_development = 30
+			total_development = 30
+		}
+
+		modifier = { 
+			factor = 2
+			#tribal_development = 40
+			total_development = 40
+		}
+	}
+}
+
+#-----------------------------------------
+# Warriors (Level 1)
+#-----------------------------------------
+wwu_warriors_battlefield_tactics = {
+	icon = "backstab"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        land_forcelimit_modifier = 0.1
+        drill_gain_modifier = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_raid_and_pillage = {
+	icon = "blackrock_ore"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        loot_amount = 0.25
+        available_province_loot = 0.25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_ambush_tactics = {
+	icon = "master_of_subtlety"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        hostile_attrition = 1
+        defensiveness = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_magical_affinity = {
+	icon = "greater_invisibility"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        fire_damage = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_nomadic_warriors = {
+	icon = "challenge"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        raze_power_gain = 0.1
+        cavalry_power = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Orc
+wwu_warriors_unrelenting_savagery = {
+	icon = "backstab"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    
+	modifiers = {
+        infantry_shock = 0.33
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Orc - Unique
+wwu_warriors_war_songs = {
+	icon = "shout"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A35
+    }
+
+	modifiers = {
+        horde_unity = 1.0
+	}
+    
+    custom_attributes = {
+        enables_warsong_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_cannibalistic_tendencies = {
+	icon = "cannibal"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A39 # Bonechewer
+    }
+    
+	modifiers = {
+        infantry_power = 0.05
+        hostile_attrition = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_dragon_tamers = {
+	icon = "valithra"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A45 # Dragonmaw
+    }
+    
+	modifiers = {
+        cavalry_fire = 0.5
+        artillery_bonus_vs_fort = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_warg_kinship = {
+	icon = "thrall"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        OR = {
+            tag = A37 # Thunderlord
+            tag = A46 # Frostwolf
+        }
+    }
+    
+	modifiers = {
+        cavalry_power = 0.05
+        movement_speed = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_spiritual_vigor = {
+	icon = "dreamstate"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A34 # Shadowmoon
+    }
+    
+	modifiers = {
+        recover_army_morale_speed = 0.05
+        land_attrition = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_shattered_hands = {
+	icon = "brittle_bones"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A36 # Shattered Hand
+    }
+    
+	modifiers = {
+        shock_damage = 0.05
+        raze_power_gain = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_bloodthirsty_warriors = {
+	icon = "blood_splatter"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A38 # Laughing Skull
+    }
+    
+	modifiers = {
+        land_morale = 0.05
+        war_exhaustion = -0.03
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_dark_ritualists = {
+	icon = "clarity_of_power"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A40 # Bleeding Hollow
+    }
+    
+	modifiers = {
+        hostile_attrition = 1
+        manpower_in_true_faith_provinces = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_blackrock_machinery = {
+	icon = "blackrock_ore"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A41 # Blackrock
+    }
+    
+	modifiers = {
+        discipline = 0.025
+        production_efficiency = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_power_of_the_pale = {
+	icon = "shadow_reflection"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A43 # Twilight's Hammer
+    }
+    
+	modifiers = {
+        fire_damage = 0.05
+        province_warscore_cost = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_warriors_blademasters = {
+	icon = "bladestorm"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+        tag = A44 # Burning Blade
+    }
+    
+	modifiers = {
+        mil_tech_cost_modifier = -0.05
+        infantry_power = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Paganism (Level 2)
+#-----------------------------------------
+wwu_paganism_ritualistic_practices = {
+	icon = "berserk"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        global_unrest = -1
+	}
+    
+    custom_attributes = {
+        enables_perform_ritual_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_sacrificial_rites = {
+	icon = "assassinate"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        years_of_nationalism = -3
+	}
+    
+    custom_attributes = {
+        enables_perform_sacrifice_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_respect_the_faith = {
+	icon = "book_2"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        tolerance_own = 1
+        ae_impact = -0.05
+	}
+    
+    custom_attributes = {
+        enables_consult_the_elders_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_mercenaries_of_faith = {
+	icon = "dice"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        global_missionary_strength = 0.01
+	}
+    
+    custom_attributes = {
+        enables_adopt_tribal_religion_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_many_gods_one_horde = {
+	icon = "disguise"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        tolerance_heathen = 2
+        global_heretic_missionary_strength = 0.01
+	}
+    
+    custom_attributes = {
+        enables_unite_heathens_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Orc
+wwu_paganism_elemental_communion = {
+	icon = "echo_of_the_elements"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        OR = {
+            religion = shamanism
+            AND = {
+                NOT = { current_age = age_rise_of_the_horde }
+                NOT = { current_age = age_orcish_horde }
+            }
+        }
+    }
+    
+	modifiers = {
+        tolerance_own = 2
+	}
+
+    custom_attributes = {
+        enables_embark_on_spirit_journey_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_slaves_of_mannoroth = {
+	icon = "fel_skull"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        religion = fel
+    }
+    
+	modifiers = {
+        discipline = 0.025
+	}
+
+    custom_attributes = {
+        enables_demonic_covenant_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_paganism_occult_shadows = {
+	icon = "clarity_of_power"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        OR = {
+            is_old_god_religion = yes
+            OR = {
+                AND = {
+                    tag = A43
+                    is_old_god_religion = yes
+                }
+                AND = {
+                    A43 = {
+                        is_old_god_religion = yes
+                    }
+                    alliance_with = A43
+                }
+                AND = {
+                    A43 = {
+                        is_old_god_religion = yes
+                    }
+                    is_subject_of = A43
+                }
+            }
+        }
+    }
+    
+	modifiers = {
+        land_morale = 0.05
+        global_missionary_strength = 0.01
+	}
+
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Tribal Magic (Level 3)
+#-----------------------------------------
+wwu_tribal_magic_fetishes = {
+	icon = "mana_tree"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        production_efficiency = 0.05
+	}
+    
+    custom_attributes = {
+        enables_craft_fetish_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_funeral_rites = {
+	icon = "lunar_guidance"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        prestige = 0.5
+	}
+    
+    custom_attributes = {
+        enables_bless_tomb_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_totemism = {
+	icon = "red_rage"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        manpower_recovery_speed = 0.1
+	}
+    
+    custom_attributes = {
+        enables_construct_totem_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_constructs = {
+	icon = "natural_perfection"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        global_trade_goods_size_modifier = 0.05
+	}
+    
+    custom_attributes = {
+        enables_produce_constructs_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_wild_magic = {
+	icon = "immolation"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        shock_damage = 0.05
+	}
+    
+    custom_attributes = {
+        enables_expel_wild_magic_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_altar_of_storms = {
+	icon = "stormstrike"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        OR = {
+            religion = shamanism
+            religion = fel
+        }
+    }
+    
+	modifiers = {
+        all_power_cost = -0.03
+	}
+
+    custom_attributes = {
+        mechanic_enables_orc_monarch_lifespan_boost = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_temple_of_the_damned = {
+	icon = "brittle_bones"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        OR = {
+            tag = A42 # Stormreaver
+            any_owned_province = {
+                region = region_elwynn_forest
+            }
+        }
+    }
+    
+	modifiers = {
+        leader_land_fire = 1
+        leader_land_shock = 1
+        free_leader_pool = 1
+	}
+
+    custom_attributes = {
+        enables_spread_death_and_decay_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_magic_warlock_coven = {
+	icon = "demonic_power"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_orc_tribe = yes
+    }
+    trigger = {
+        OR = {
+            tag = A42 # Stormreaver
+            religion = fel
+        }
+    }
+    
+	modifiers = {
+        artillery_fire = 0.33
+        fire_damage = 0.05
+	}
+
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Prisoners (Level 4)
+#-----------------------------------------
+wwu_prisoners_captive_ransom = {
+	icon = "trading_post"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        global_tax_modifier = 0.1
+	}
+    
+    custom_attributes = {
+        enables_ransom_captives_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_prisoners_captive_enslavement = {
+	icon = "clemency"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        build_cost = -0.1
+        build_time = -0.1
+	}
+    
+    custom_attributes = {
+        enables_enslave_captives_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_prisoners_captive_integration = {
+	icon = "brush_it_off"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        governing_capacity_modifier = 0.05
+        num_accepted_cultures = 1
+	}
+    
+    custom_attributes = {
+        enables_integrate_captives_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_prisoners_captive_execution = {
+	icon = "revenge"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        discipline = 0.05
+        ae_impact = 0.1
+	}
+    
+    custom_attributes = {
+        enables_execute_captives_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_prisoners_captive_conscription = {
+	icon = "preparation"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        manpower_recovery_speed = 0.1
+	}
+    
+    custom_attributes = {
+        enables_conscript_captives_event = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Tribal Structure (Level 5)
+#-----------------------------------------
+wwu_tribal_structure_hierarchical = {
+	icon = "dirty_deeds"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        governing_capacity = 200
+        free_leader_pool = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_structure_clans = {
+	icon = "make_camp"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        governing_capacity_modifier = 0.1
+        min_autonomy_in_territories = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_structure_religious_order = {
+	icon = "clarity_of_purpose"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    trigger = {
+        NOT = { has_reform = wwu_paganism_mercenaries_of_faith }
+    }
+    
+	modifiers = {
+        missionaries = 1
+        state_maintenance_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_structure_tributaries = {
+	icon = "hunger_for_blood"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+	modifiers = {
+        accept_vassalization_reasons = 20
+        reduced_liberty_desire = 10  
+        vassal_income = 0.25
+        min_autonomy = 25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_tribal_structure_nomadic_kinship = {
+	icon = "murder_of_crows"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        governing_capacity_modifier = 0.1
+        vassal_forcelimit_bonus = 0.33
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Chieftains (Level 6)
+#-----------------------------------------
+wwu_chieftains_strongman = {
+	icon = "brittle_bones"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+       yearly_corruption = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_chieftains_tyrant = {
+	icon = "blood_frenzy"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+       years_of_nationalism = -5
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_chieftains_tribal_vote = {
+	icon = "bronze_box"
+	allow_normal_conversion = yes
+   
+    potential = {
+        is_normal_tribe = yes
+        NOT = { has_government_attribute = generals_become_rulers }
+        NOT = { has_government_attribute = admirals_become_rulers }
+    }
+   
+    heir = no
+    has_term_election = no
+    election_on_death = yes
+    
+	modifiers = {
+        stability_cost_modifier = -0.1
+	}
+   
+    custom_attributes = {
+        enables_tribal_vote = yes
+    }
+   
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_chieftains_tribal_succession = {
+	icon = "champion"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    trigger = {
+        has_government_attribute = heir
+    }
+    
+	modifiers = {
+        monarch_admin_power = 2
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_chieftains_warrior_lords = {
+	icon = "bladestorm"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        global_unrest = -1
+	}
+    
+    custom_attributes = {
+        enables_horde_unity_bonus_during_war = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Outsiders (Level 7)
+#-----------------------------------------
+wwu_outsiders_distrusted = {
+	icon = "archaedas"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        defensiveness = 0.25
+        fort_maintenance_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_outsiders_tolerated = {
+	icon = "ancestral_guardian"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        mercenary_cost = -0.1
+        merc_maintenance_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_outsiders_executed = {
+	icon = "accretion"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        loot_amount = 0.25
+        available_province_loot = 0.25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_outsiders_embraced = {
+	icon = "hand_of_light"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        diplomatic_reputation = 1
+        improve_relation_modifier = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_outsiders_traded_with = {
+	icon = "storehouse"
+	allow_normal_conversion = yes
+    
+    potential = {
+        is_nomad_government = yes
+    }
+    
+	modifiers = {
+        merchants = 1
+        global_trade_power = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Civilization (Level 8)
+#-----------------------------------------
+wwu_civilization_the_old_way = {
+	icon = "ancestral_call"
+	allow_normal_conversion = yes
+
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        global_unrest = -1
+        core_creation = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_civilization_synthesis_of_experience = {
+	icon = "crown_of_heaven"
+	allow_normal_conversion = yes
+
+    potential = {
+        is_normal_tribe = yes
+    }
+    
+	modifiers = {
+        governing_capacity_modifier = 0.1
+        reform_progress_growth = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+

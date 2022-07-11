@@ -1,0 +1,20 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Event: 
+demon_soul = {
+	liberty_desire = -10
+}
+
+# Event: 
+distrust_of_warlocks = {
+    tolerance_own = -2
+    global_unrest = 2
+}
+
+# Event: 
+shamanistic_reform = {
+	global_missionary_strength = 0.01
+	global_unrest = -1
+	missionaries = 1
+}

@@ -1,0 +1,384 @@
+#------------------------------------
+# Order
+#------------------------------------
+order_group = {
+
+	center_of_religion = 1568
+	
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
+	crusade_name = CRUSADE
+	
+    arcane = {
+		color = { 102 146 227 }
+		icon = 13
+		
+		country = {
+            advisor_cost = -0.1
+			all_power_cost = -0.1
+		}
+		country_as_secondary = {
+            advisor_cost = -0.05
+			all_power_cost = -0.05
+		}
+        
+		has_patriarchs = yes
+		
+		orthodox_icons = {
+            # Order
+            spec_arcane = {
+				stability_cost_modifier = -0.33
+  				yearly_patriarch_authority = -0.01
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 100
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 1000
+						NOT = { stability = 0 }
+					}
+				}
+			}
+			spec_frost = {
+				global_unrest = -3
+  				yearly_patriarch_authority = -0.01
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 100
+						NOT = { patriarch_authority = 20 }
+					}
+				}
+			}
+			spec_fire = {
+				global_autonomy = -0.1
+				yearly_patriarch_authority = -0.01
+                
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 100
+						NOT = { patriarch_authority = 20 }
+					}
+				}
+			}
+            # Disorder
+			spec_affliction = {
+				siege_ability = 0.1
+				yearly_patriarch_authority = -0.03
+                
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 100
+						is_at_war = yes
+					}
+				}
+			}
+			spec_destruction = {
+				artillery_power = 0.15
+				yearly_patriarch_authority = -0.03
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 100
+						is_at_war = yes
+					}
+				}
+			}
+			spec_demonology = {
+				shock_damage = 0.15
+				yearly_patriarch_authority = -0.03
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 100
+						is_at_war = yes
+					}
+				}
+			}
+			spec_havoc = {
+				fire_damage = 0.15
+				yearly_patriarch_authority = -0.03
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 100
+						is_at_war = yes
+					}
+				}
+			}
+			spec_vengeance = {
+				hostile_attrition = 5
+				yearly_patriarch_authority = -0.03
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = { patriarch_authority = 20 }
+					}
+					modifier = {
+						factor = 100
+						is_at_war = yes
+					}
+				}
+			}
+		}
+		
+		on_convert = {
+			change_religion = arcane
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+        
+        heretic = { HERETIC }
+        
+        harmonized_modifier = harmonized_arcane
+	}
+
+    titan_worship = {
+		color = { 253 204 09 }
+		icon = 23
+		
+		allowed_center_conversion = {
+			corrupt_titan_worship
+		}
+		will_get_center = {
+            any_owned_province = {
+                religion = corrupt_titan_worship
+                is_in_capital_area = yes
+                is_reformation_center = no
+            }
+        }
+		
+		country = {
+            build_cost = -0.2
+			defensiveness = 0.25
+		}
+		country_as_secondary = {
+            build_cost = -0.1
+			defensiveness = 0.125
+		}
+        province = {
+            local_missionary_strength = -0.03
+        }
+        
+		holy_sites = { 2495 1514 1573 1968 1122 }
+		
+		blessings = {
+			titan_gift_of_the_stone
+			titan_cosmic_knowledge
+			titan_protectors_of_history
+			titan_life_binding
+			titan_master_of_magic
+		}
+		
+		on_convert = {
+			change_religion = titan_worship
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+        
+        heretic = { HERETIC }
+        
+        harmonized_modifier = harmonized_titan_worship
+	}
+	
+	corrupt_titan_worship = {
+		color = { 225 215 09 }
+		icon = 41
+		
+		allowed_center_conversion = {
+			titan_worship
+		}
+		will_get_center = {
+            any_owned_province = {
+                religion = titan_worship
+                is_in_capital_area = yes
+                is_reformation_center = no
+            }
+        }
+		
+		country = {
+			build_cost = -0.2
+			discipline = 0.05
+		}
+        country_as_secondary = {
+			build_cost = -0.1
+			discipline = 0.025
+		}
+        province = {
+            local_missionary_strength = -0.03
+        }
+        
+		holy_sites = { 2495 1514 1573 1968 1122 }
+		
+		blessings = {
+			corrupt_titan_the_dark_heart
+			corrupt_titan_cosmic_knowledge
+			corrupt_titan_protectors_of_history
+			corrupt_titan_breath_of_death
+			corrupt_titan_master_of_magic
+		}
+		
+		on_convert = {
+			change_religion = corrupt_titan_worship
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+        
+        heretic = { HERETIC }
+        
+        harmonized_modifier = harmonized_corrupt_titan_worship
+	}
+    
+	mystery_of_the_makers = {
+		color = { 0.33 0.33 0.33 }
+		icon = 36
+		
+		country = {
+			prestige_decay = -0.03
+            monthly_splendor = 2
+		}
+		country_as_secondary = {
+			prestige_decay = -0.015
+            monthly_splendor = 1
+		}
+        province = {
+            local_missionary_strength = 0.01
+        }
+        
+        heretic = { HERETIC }
+        
+        harmonized_modifier = harmonized_mystery_of_the_makers
+	}
+    
+    dragon_aspects = {
+        color = { 213 114 96 }
+		icon = 10
+		
+		country = {
+            diplomatic_upkeep = 2
+            diplomatic_reputation = 3
+		}
+        country_as_secondary = {
+            diplomatic_upkeep = 1
+            diplomatic_reputation = 1.5
+		}
+        province = {
+            local_missionary_strength = -0.01
+        }
+        
+        can_have_secondary_religion = yes
+        uses_harmony = yes
+        
+        on_convert = {
+			change_religion = dragon_aspects
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+        heretic = { HERETIC }
+    }
+    
+    corrupt_dragon_aspect = {
+        color = { 33 20 30 }
+		icon = 47
+		
+		country = {
+            siege_ability = 0.2
+            years_of_nationalism = -10
+		}
+        country_as_secondary = {
+            siege_ability = 0.1
+            years_of_nationalism = -5
+		}
+        province = {
+            local_missionary_strength = -0.02
+        }
+        
+        can_have_secondary_religion = yes
+        
+        on_convert = {
+			change_religion = corrupt_dragon_aspect
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+        
+        heretic = { HERETIC }
+        
+        harmonized_modifier = harmonized_corrupt_dragon_aspect
+    }
+}

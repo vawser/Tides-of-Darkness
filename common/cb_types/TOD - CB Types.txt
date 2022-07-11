@@ -1,0 +1,182 @@
+#--------------------------------------------
+# Triggered
+#--------------------------------------------
+cb_pirates = {
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = blockade_ports
+}
+
+#--------------------------------------------
+# Pre-requisitie
+#--------------------------------------------
+cb_distant_conquest = {
+	valid_for_subject = no
+
+    prerequisites = {
+        has_idea = wwu_expansion_ideas_2
+		is_free_or_tributary_trigger = yes
+        FROM = {
+            NOT = {
+                capital_scope = { continent = ROOT }
+            }
+        }
+	}
+
+	war_goal = take_capital_justified
+}
+
+cb_silvermoon_land = {
+    prerequisites = {   
+        tag = SIL
+        
+		OR = {
+            region_isle_of_quel_danas = {
+                owned_by = FROM
+            }
+            region_eversong_woods = {
+                owned_by = FROM
+            }
+            region_ghostlands = {
+                owned_by = FROM
+            }
+            region_isle_of_quel_danas = {
+                owned_by = FROM
+            }
+        }
+	}	
+    
+    war_goal = take_capital_justified
+}
+
+cb_azeroth_assault = {
+	prerequisites = {
+        culture_group = culture_group_orc
+        
+		FROM = {
+            culture_group = culture_group_human
+		}
+	}
+	
+	war_goal = take_capital_justified
+}
+
+cb_against_evil = {
+	valid_for_subject = no
+
+	prerequisites = {
+		NOT = { has_country_modifier = is_evil }
+        NOT = { government = tribal }
+		FROM = {
+			has_country_modifier = is_evil
+			capital_scope = { continent = ROOT }
+		}
+	}
+	
+	war_goal = war_against_evil
+}
+
+cb_for_the_alliance = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_country_modifier = head_of_alliance
+		FROM = {
+			culture_group = culture_group_human
+		}
+	}
+	
+	war_goal = take_capital_merciless
+}
+
+cb_for_the_horde = {
+	valid_for_subject = no
+
+	prerequisites = {
+		culture_group = culture_group_human
+		FROM = {
+			has_country_modifier = head_of_alliance
+		}
+	}
+	
+	war_goal = take_capital_merciless
+}
+
+cb_invasion = {
+	valid_for_subject = no
+	is_triggered_only = yes
+	
+	war_goal = take_capital_ruthless
+}
+
+cb_merciless_war = {
+	valid_for_subject = no
+
+	prerequisites = {
+        has_idea = wwu_imperialism_ideas_7
+		is_free_or_tributary_trigger = yes
+	}
+
+	war_goal = take_capital_merciless
+}
+
+cb_subjugate_lesser_trolls = {
+    valid_for_subject = no
+
+	prerequisites = {
+        culture_group = culture_group_troll
+        has_country_modifier = mission_amani_subjugation
+        provinces_on_capital_continent_of = FROM
+        
+        FROM = {
+            culture_group = culture_group_troll
+            is_subject = no
+        }
+	}
+
+	war_goal = take_capital_vassalize
+}
+
+cb_cleanse_evil = {
+    valid_for_subject = no
+
+	prerequisites = {
+        has_reform = wwu_ambition_a_just_world
+        is_considered_good = yes
+        
+        FROM = {
+            is_considered_evil = yes
+        }
+	}
+
+	war_goal = take_capital_merciless
+}
+
+cb_cultural_unification = {
+    valid_for_subject = no
+
+	prerequisites = {
+        has_reform = wwu_ambition_unification
+        
+        FROM = {
+            culture_group = ROOT
+        }
+	}
+
+	war_goal = take_capital_unification
+}
+
+cb_religious_unification = {
+    valid_for_subject = no
+
+	prerequisites = {
+        has_reform = wwu_ambition_one_faith
+        
+        FROM = {
+            NOT = { religion_group = ROOT }
+        }
+	}
+
+	war_goal = take_capital_force_religion
+}

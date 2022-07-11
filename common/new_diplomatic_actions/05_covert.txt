@@ -1,0 +1,483 @@
+#---------------------------------------
+# Bribe Administration
+#---------------------------------------
+bribe_administration = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = bribe_administration_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		has_estate = estate_mercantile_guild
+	}
+	is_allowed = {
+		years_of_income = 1
+		FROM = { NOT = { has_country_modifier = bribed } }
+        FROM = { 
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_BRIBE_ADMINISTRATION
+                NOT = { has_country_modifier = cooldown_bribe_administration }
+            }
+        }
+	}
+	on_accept = {
+		add_years_of_income = -1
+		add_spy_network_in = {
+			who = FROM
+			value = 25
+		}
+		add_country_modifier = { 
+			name = bribed
+			duration = 365
+		}
+        FROM = {
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_bribe_administration
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+        }
+	}
+	on_decline = 	{ 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		years_of_income = 4
+	}
+}
+
+
+#---------------------------------------
+# Conduct Raid
+#---------------------------------------
+form_raid = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = form_raid_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		has_estate = estate_adventuring_guild
+        NOT = { has_country_modifier = is_evil }
+        FROM = {
+            has_country_modifier = is_evil
+        }
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+        custom_trigger_tooltip = {
+            tooltip = NO_ACTIVE_RAID
+            NOT = {
+                has_global_flag = active_raid
+            }
+        }
+		FROM = { 
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_CONDUCT_RAID
+                NOT = { has_country_modifier = cooldown_conduct_raid }
+            }
+        }
+	}
+	on_accept = {
+        hidden_effect = {
+            set_global_flag = active_raid
+            set_country_flag = raid_owner
+            
+            FROM = {
+                set_country_flag = raid_target
+            }
+        }
+		add_spy_network_in = {
+			who = FROM
+			value = -50
+		}
+		FROM = {
+			random_owned_province = {
+				spawn_rebels = {
+					type = adventurer_rebels
+					size = 3
+					friend = ROOT
+                    win = yes
+				}
+			}
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_conduct_raid
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+		}
+	}
+	on_decline = 	{ 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		is_enemy = FROM
+	}
+}
+
+#---------------------------------------
+# Assassinate Ruler
+#---------------------------------------
+assassinate_ruler = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = assassinate_ruler_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		has_estate = estate_criminal_syndicate
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 70
+		}
+		custom_trigger_tooltip = {
+			tooltip = DIP_ALREADY_HAS_PLOT
+			NOT = { any_country = {
+				ROOT = { has_country_flag = plotting_assassination_of@PREV }
+			} }
+		}
+		FROM = { 
+            has_regency = no
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_ASSASSINATE_RULER
+                NOT = { has_country_modifier = cooldown_assassinate_ruler }
+            }
+        }
+	}
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -70
+		}
+        FROM = {
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_assassinate_ruler
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+        }
+		hidden_effect = {
+			set_country_flag = plotting_assassination_of@FROM
+			random_list = {
+				1 = {
+					set_country_flag = poison_plot
+				}
+				1 = {
+					set_country_flag = snake_plot
+				}
+				1 = {
+					set_country_flag = stab_plot
+				}
+				1 = {
+					set_country_flag = hunting_plot
+                    
+                    trigger = {
+                        FROM = {
+                            NOT = {
+                                OR = {
+                                    culture_group = culture_group_darnassian
+                                    has_ruler_flag = druid_personality
+                                }
+                            }
+                        }
+                    }
+				}
+				1 = {
+					set_country_flag = fall_plot
+                    
+                    trigger = {
+                        FROM = {
+                            NOT = {
+                                heir_age = 20
+                                OR = {
+                                    culture_group = culture_group_dragonkin
+                                    culture_group = culture_group_arrakoa
+                                    culture_group = culture_group_titan
+                                    culture_group = culture_group_harpy
+                                    culture_group = culture_group_ethereal
+                                }
+                            }
+                        }
+                    }
+				}
+			}
+		}
+	}
+	on_decline = 	{ 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		is_enemy = FROM
+	}
+}
+
+#---------------------------------------
+# Recruit Manpower
+#---------------------------------------
+recruit_manpower = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = recruit_manpower_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		has_estate = estate_warriors_guild
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 35
+		}
+		manpower = 5
+        FROM = {
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_RECRUIT_MANPOWER
+                NOT = { has_country_modifier = cooldown_recruit_manpower }
+            }
+        }
+	}
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -35
+		}
+		add_manpower = 5
+		FROM = { 
+            add_manpower = -5 
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_recruit_manpower
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+        }
+	}
+	on_decline = { 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		NOT = { manpower = 5 }
+	}
+}
+
+#---------------------------------------
+# Spread Religion
+#---------------------------------------
+spread_religion = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = spread_religion_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		has_estate = estate_religious_order
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+		FROM = {
+			NOT = { religion = ROOT }
+			any_owned_province = {
+				NOT = { religion = ROOT }
+			}
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_SPREAD_RELIGION
+                NOT = { has_country_modifier = cooldown_spread_religion }
+            }
+		}
+	}
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -50
+		}
+		FROM = {
+			random_owned_province = {
+				limit = { NOT = { religion = ROOT } }
+				change_religion = ROOT
+			}
+			random_owned_province = {
+				limit = { NOT = { religion = ROOT } }
+				change_religion = ROOT
+			}
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_spread_religion
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+		}
+	}
+	on_decline = 	{ 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}
+
+#---------------------------------------
+# Spread Fel
+#---------------------------------------
+spread_fel = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = spread_fel_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+        religion = fel
+	}
+	is_allowed = {
+        reform_desire = 0.25
+        
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+		FROM = {
+			NOT = { religion = ROOT }
+			any_owned_province = {
+				NOT = { religion = ROOT }
+			}
+            custom_trigger_tooltip = {
+                tooltip = RECENTLY_TARGET_OF_SPREAD_FEL
+                NOT = { has_country_modifier = cooldown_spread_fel }
+            }
+		}
+	}
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -50
+		}
+		FROM = {
+			random_owned_province = {
+				limit = { NOT = { religion = ROOT } }
+				province_event = { id = wwu_fel.1 }
+			}
+            hidden_effect = {
+                add_country_modifier = {
+                    name = cooldown_spread_fel
+                    duration = 3650
+                    hidden = yes
+                }
+            }
+		}
+	}
+	on_decline = { 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}
+
+#---------------------------------------
+# Claim Port
+#---------------------------------------
+claim_port = {
+	category = covert
+	
+	alert_index = 40
+	alert_tooltip = claim_port_tooltip
+	
+	require_acceptance = no # Whether the recipient gets an option to decline
+	
+	is_visible = {
+        is_pirate = yes
+        any_owned_province = {
+            has_port = yes
+        }
+        FROM = {
+            any_owned_province = {
+                has_port = yes
+                NOT = { is_claim = ROOT }
+            }
+        }
+	}
+	is_allowed = {
+        any_owned_province = {
+            has_port = yes
+        }
+        FROM = {
+            any_owned_province = {
+                has_port = yes
+                NOT = { is_claim = ROOT }
+            }
+        }
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+	}
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -50
+		}
+		FROM = {
+			random_owned_province = {
+				limit = { 
+                    has_port = yes
+                    NOT = { is_claim = ROOT } 
+                }
+                add_claim = ROOT
+			}
+		}
+	}
+	on_decline = { 
+	}
+	
+	ai_acceptance = { 
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}

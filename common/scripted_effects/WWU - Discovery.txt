@@ -1,0 +1,631 @@
+setup_world_discovery = {
+    # Eastern Kingdoms
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_kul_tiras
+                    continent = continent_eastern_kingdoms
+                }
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_broken_isles = yes
+        discover_plunder_isle = yes
+        discover_kul_tiras = yes
+		
+        discover_outland = yes
+        discover_draenor = yes
+        discover_elemental_plane = yes
+        discover_argus = yes
+    }
+    
+    # Kalimdor
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_kalimdor
+            }
+        }
+        discover_kalimdor = yes
+        discover_south_seas = yes
+        discover_paradise_isles = yes
+        discover_nazjatar = yes
+    }
+    
+    # Northrend
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_northrend
+            }
+        }
+        discover_northrend = yes
+        discover_broken_isles = yes
+    }
+    
+    # Pandaria
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_pandaria
+            }
+        }
+        discover_pandaria = yes
+        discover_zandalar = yes
+        discover_paradise_isles = yes
+        discover_south_seas = yes
+    }
+    
+    # Broken Isles
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_broken_isles
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_broken_isles = yes
+		discover_kul_tiras = yes
+        discover_zandalar = yes
+        discover_plunder_isle = yes
+        discover_nazjatar = yes
+    }
+    
+    # Zandalar
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_zandalar
+            }
+        }
+		discover_kul_tiras = yes
+        discover_zandalar = yes
+        discover_plunder_isle = yes
+        discover_eastern_kingdoms = yes
+        discover_pandaria = yes
+        discover_nazjatar = yes
+    }
+    
+    # Plunder Isle
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_plunder_isle
+                    continent = continent_vashjir
+                }
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_plunder_isle = yes
+		discover_kul_tiras = yes
+        discover_zandalar = yes
+    }
+    
+    # Nazjatar
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_nazjatar
+            }
+        }
+        discover_paradise_isles = yes
+        discover_nazjatar = yes
+        discover_south_seas = yes
+        discover_broken_isles = yes
+		discover_kul_tiras = yes
+        discover_zandalar = yes
+        discover_pandaria = yes
+    }
+    
+    # Paradise Isles
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_paradise_isles
+            }
+        }
+        discover_paradise_isles = yes
+        discover_nazjatar = yes
+        discover_south_seas = yes
+        discover_broken_isles = yes
+		discover_kul_tiras = yes
+        discover_zandalar = yes
+        discover_pandaria = yes
+    }
+    
+    # South Seas
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_south_seas
+                }
+            }
+        }
+        discover_south_seas = yes
+        discover_kalimdor = yes
+        discover_paradise_isles = yes
+        discover_nazjatar = yes
+        discover_pandaria = yes
+        discover_paradise_isles = yes
+    }
+    
+    # Outland 
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_outland
+            }
+        }
+        discover_outland = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+    
+    # Draenor
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_draenor
+            }
+        }
+        discover_outland = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+    
+    # Forgotten Isles
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_forgotten_isles
+            }
+        }
+        discover_forgotten_isles = yes
+        discover_kalimdor = yes
+    }
+    
+    # Elemental Plane
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_skywall
+                    continent = continent_deepholm
+                    continent = continent_abyssal_maw
+                    continent = continent_firelands
+                }
+            }
+        }
+        
+        reveal_all_discovery = yes
+    }
+    
+    # Argus
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_argus
+            }
+        }
+        
+        reveal_all_discovery = yes
+    }
+}
+
+# Year 592 and onwards
+reveal_first_war_discovery = {
+    # Eastern Kingdoms
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_kul_tiras
+                    continent = continent_eastern_kingdoms
+                }
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_broken_isles = yes
+        discover_plunder_isle = yes
+		discover_kul_tiras = yes
+        
+        discover_outland = yes
+        discover_draenor = yes
+    }
+    
+    # Outland 
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_outland
+            }
+        }
+        discover_outland = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+    
+    # Draenor
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_draenor
+            }
+        }
+        discover_outland = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+}
+
+# Year 598 and onwards
+reveal_second_war_discovery = {
+    # Eastern Kingdoms
+    if = {
+        limit = {
+            capital_scope = {
+                OR = {
+                    continent = continent_kul_tiras
+                    continent = continent_eastern_kingdoms
+                }
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_broken_isles = yes
+        discover_plunder_isle = yes
+        discover_northrend = yes
+		discover_kul_tiras = yes
+        
+        discover_outland = yes
+        discover_draenor = yes
+    }
+    
+    # Northrend
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_northrend
+            }
+        }
+        discover_eastern_kingdoms = yes
+        discover_northrend = yes
+        discover_broken_isles = yes
+		discover_kul_tiras = yes
+        
+        discover_outland = yes
+        discover_draenor = yes
+    }
+    
+    # Outland 
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_outland
+            }
+        }
+        discover_outland = yes
+        discover_northrend = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+    
+    # Draenor
+    if = {
+        limit = {
+            capital_scope = {
+                continent = continent_draenor
+            }
+        }
+        discover_outland = yes
+        discover_northrend = yes
+        discover_draenor = yes
+        discover_eastern_kingdoms = yes
+		discover_kul_tiras = yes
+    }
+}
+
+# Year 600 and onwards
+reveal_all_discovery = {
+    # Show everything other than Dragon Isles
+    discover_eastern_kingdoms = yes
+    discover_kalimdor = yes
+    discover_northrend = yes
+    discover_pandaria = yes
+	discover_kul_tiras = yes
+    discover_zandalar = yes
+    discover_broken_isles = yes
+    discover_nazjatar = yes
+    discover_paradise_isles = yes
+    discover_plunder_isle = yes
+    discover_south_seas = yes
+    discover_outland = yes
+    discover_draenor = yes
+    discover_elemental_plane = yes
+    discover_argus = yes
+}
+
+discover_eastern_kingdoms = {
+    eastern_kingdom_superregion = {
+		discover_country = ROOT
+	}
+    region_eastern_kingdom_seas = {
+        discover_country = ROOT
+    }
+    ek_lakes = {
+        discover_country = ROOT
+    }
+    ek_wasteland = {
+        discover_country = ROOT
+    }
+    3905 = {
+        discover_country = ROOT
+    }
+}
+
+discover_kul_tiras = {
+	kul_tiras_superregion = {
+		discover_country = ROOT
+	}
+	region_kul_tiras_seas = {
+		discover_country = ROOT
+	}
+    3717 = {
+        discover_country = ROOT
+    }
+}
+
+discover_kalimdor = {
+    kalimdor_superregion = {
+		discover_country = ROOT
+	}
+    region_kalimdor_seas = {
+        discover_country = ROOT
+    }
+    kalimdor_lakes = {
+        discover_country = ROOT
+    }
+    kalimdor_wasteland = {
+        discover_country = ROOT
+    }
+    3722 = {
+        discover_country = ROOT
+    }
+    3725 = {
+        discover_country = ROOT
+    }
+}
+
+discover_northrend = {
+    northrend_superregion = {
+		discover_country = ROOT
+	}
+    region_northrend_seas = {
+        discover_country = ROOT
+    }
+    northrend_lakes = {
+        discover_country = ROOT
+    }
+    northrend_wasteland = {
+        discover_country = ROOT
+    }
+    3726 = {
+        discover_country = ROOT
+    }
+    4 = {
+        discover_country = ROOT
+    }
+    3719 = {
+        discover_country = ROOT
+    }
+}
+
+discover_pandaria = {
+    pandaria_superregion = {
+		discover_country = ROOT
+	}
+    region_pandaria_seas = {
+        discover_country = ROOT
+    }
+    pandaria_lakes = {
+        discover_country = ROOT
+    }
+    pandaria_wasteland = {
+        discover_country = ROOT
+    }
+    3718 = {
+        discover_country = ROOT
+    }
+    3723 = {
+        discover_country = ROOT
+    }
+}
+
+discover_zandalar = {
+    zandalar_superregion = {
+		discover_country = ROOT
+	}
+    region_zandalar_seas = {
+        discover_country = ROOT
+    }
+    zandalar_lakes = {
+        discover_country = ROOT
+    }
+    zandalar_wasteland = {
+        discover_country = ROOT
+    }
+    3717 = {
+        discover_country = ROOT
+    }
+    
+}
+
+discover_broken_isles = {
+    broken_isles_superregion = {
+        discover_country = ROOT
+    }
+    region_broken_isles_seas = {
+        discover_country = ROOT
+    }
+    broken_isles_lakes = {
+        discover_country = ROOT
+    }
+    broken_isles_wasteland = {
+        discover_country = ROOT
+    }
+    3719 = {
+        discover_country = ROOT
+    }
+}
+
+discover_nazjatar = {
+    nazjatar_superregion = {
+        discover_country = ROOT
+    }
+    region_nazjatar_seas = {
+        discover_country = ROOT
+    }
+    3726 = {
+        discover_country = ROOT
+    }
+    3725 = {
+        discover_country = ROOT
+    }
+}
+
+discover_paradise_isles = {
+    paradise_isles_superregion = {
+        discover_country = ROOT
+    }
+    region_paradise_seas = {
+        discover_country = ROOT
+    }
+}
+
+discover_plunder_isle = {
+    plunder_isle_superregion = {
+		discover_country = ROOT
+	}
+    vashjir_superregion = {
+		discover_country = ROOT
+	}
+    region_eastern_kingdom_seas = {
+        discover_country = ROOT
+    }
+    area_southern_passage = {
+        discover_country = ROOT
+    }
+    3718 = {
+        discover_country = ROOT
+    }
+}
+
+discover_south_seas = {
+    south_seas_superregion = {
+		discover_country = ROOT
+	}
+    region_south_seas = {
+        discover_country = ROOT
+    }
+    region_volcanic_seas = {
+        discover_country = ROOT
+    }
+    south_sea_wasteland ={
+        discover_country = ROOT
+    }
+    3722 = {
+        discover_country = ROOT
+    }
+    3724 = {
+        discover_country = ROOT
+    }
+    3725 = {
+        discover_country = ROOT
+    }
+}
+
+discover_forgotten_isles = {
+    forgotten_isles_superregion = {
+        discover_country = ROOT
+    }
+    region_titanic_seas = {
+        discover_country = ROOT
+    }
+    3740 = {
+        discover_country = ROOT
+    }
+    3739 = {
+        discover_country = ROOT
+    }
+}
+
+discover_outland = {
+    outland_superregion = {
+		discover_country = ROOT
+	}
+    outland_lakes = {
+        discover_country = ROOT
+    }
+    outland_wasteland = {
+        discover_country = ROOT
+    }
+    outland_void_wasteland = {
+        discover_country = ROOT
+    }
+    4208 = {
+        discover_country = ROOT
+    }
+}
+
+discover_draenor = {
+    draenor_superregion = {
+        discover_country = ROOT
+    }
+    region_draenor_seas = {
+        discover_country = ROOT
+    }
+    draenor_lakes = {
+        discover_country = ROOT
+    }
+    draenor_wasteland = {
+        discover_country = ROOT
+    }
+    draenor_ocean_wasteland = {
+        discover_country = ROOT
+    }
+    4208 = {
+        discover_country = ROOT
+    }
+}
+
+discover_elemental_plane = {
+    elemental_plane_superregion = {
+        discover_country = ROOT
+    }
+    elemental_plane_wasteland = {
+        discover_country = ROOT
+    }
+    4208 = {
+        discover_country = ROOT
+    }
+}
+
+discover_argus = {
+    continent_argus = {
+        discover_country = ROOT
+    }
+    4208 = {
+        discover_country = ROOT
+    }
+    3737 = {
+        discover_country = ROOT
+    }
+}
+

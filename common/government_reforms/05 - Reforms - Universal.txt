@@ -1,0 +1,1452 @@
+#-----------------------------------------
+# Labor Organisation 
+#-----------------------------------------
+wwu_labor_tier_commission = {
+	icon = "bronze_box"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = {
+            estate_influence = { 
+                estate = estate_slaves
+                influence = 5
+            }
+        }
+    }
+
+	modifiers = {
+		build_cost = -0.1
+        global_tax_modifier = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_labor_tier_guild_labor = {
+	icon = "craftsman"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = {
+            estate_influence = { 
+                estate = estate_slaves
+                influence = 5
+            }
+        }
+    }
+    
+	modifiers = {
+		build_time = -0.1
+        production_efficiency = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_labor_tier_serfdom = {
+	icon = "dead_canary"
+	allow_normal_conversion = yes
+
+    trigger = {
+        has_estate = estate_peasants
+        NOT = {
+            estate_influence = { 
+                estate = estate_slaves
+                influence = 5
+            }
+        }
+    }
+
+	modifiers = {
+		state_governing_cost = -0.1
+	}
+    
+    effect = {
+        set_estate_privilege = estate_peasants_serfdom_enforced
+    }
+    
+    removed_effect = {
+        remove_estate_privilege = estate_peasants_serfdom_enforced
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_labor_tier_slavery = {
+	icon = "clemency"
+	allow_normal_conversion = yes
+
+    trigger = {
+        OR = {
+            has_estate = estate_peasants
+            has_estate = estate_slaves
+			has_reform = wwu_labor_tier_slavery
+        }
+    }
+
+	modifiers = {
+        global_manpower = 40.0
+        diplomatic_reputation = -1
+	}
+    
+    effect = {
+        custom_tooltip = enable_slave_estate_tt
+    }
+    removed_effect = {
+        custom_tooltip = disable_slave_estate_tt
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Human
+wwu_labor_tier_peasantry = {
+	icon = "barn"
+	allow_normal_conversion = yes
+
+    potential = {
+        culture_group = culture_group_human
+    }
+    trigger = {
+        culture_group = culture_group_human
+    }
+
+	modifiers = {
+        global_unrest = -1
+	}
+    
+    effect = {
+		add_effect_good_production = { VALUE = 100 GOOD = "grain" }
+		add_effect_good_production = { VALUE = 100 GOOD = "fur" }
+	}
+    
+	removed_effect = {
+		remove_effect_good_production = { VALUE = 100 GOOD = "grain" }
+		remove_effect_good_production = { VALUE = 100 GOOD = "fur" }
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Miliary Organisation 
+#-----------------------------------------
+wwu_military_conscription = {
+	icon = "barracks"
+	allow_normal_conversion = yes
+
+	modifiers = {
+		land_forcelimit_modifier = 0.1
+        manpower_recovery_speed = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_military_mercenary_camps = {
+	icon = "gladiator_medallion"
+	allow_normal_conversion = yes
+
+	modifiers = {
+		merc_maintenance_modifier = -0.1
+	}
+    effect = {
+        custom_tooltip = enable_auxiliary_infantry_company_tt
+    }
+    removed_effect = {
+        custom_tooltip = disable_auxiliary_infantry_company_tt
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_military_professionalism = {
+	icon = "power_strikes"
+	allow_normal_conversion = yes
+
+	modifiers = {
+		supply_limit_modifier = 0.1
+        army_tradition_decay = -0.005
+        drill_decay_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_military_elitism = {
+	icon = "preparation"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        discipline = 0.025
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Human
+wwu_military_knighthood = {
+	icon = "atonement"
+	allow_normal_conversion = yes
+
+    potential = {
+        culture_group = culture_group_human
+    }
+    trigger = {
+        culture_group = culture_group_human
+    }
+
+	modifiers = {
+        cavalry_power = 0.05
+        cavalry_shock = 0.25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Economic Organisation 
+#-----------------------------------------
+wwu_economic_extensive_taxation = {
+	icon = "trading_post"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        global_tax_modifier = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_economic_trade_monopoly = {
+	icon = "note_2"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        merchants = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_economic_industrial_society = {
+	icon = "jack_of_all_trades"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        production_efficiency = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_economic_war_economy = {
+	icon = "dual_wield"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        loot_amount = 0.1
+        war_taxes_cost_modifier = -0.5
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Trade Organisation 
+#-----------------------------------------
+wwu_trade_free_trade = {
+	icon = "blueprint"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        diplomatic_upkeep = 1
+        trade_steering = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_trade_mercantilism = {
+	icon = "backpack"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        mercantilism_cost = -0.2
+        ship_power_propagation = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_trade_protectionism = {
+	icon = "defend"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        global_trade_goods_size_modifier = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_trade_criminal_exploitation = {
+	icon = "death_fog"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        privateer_efficiency = 0.15
+        spy_offence = 0.15
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Naval Organisation 
+#-----------------------------------------
+wwu_naval_grand_armada = {
+	icon = "admiral_hat"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        heavy_ship_power = 0.05
+        naval_forcelimit_modifier = 0.05
+        naval_morale = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_naval_merchant_fleet = {
+	icon = "human_sailor"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        light_ship_power = 0.05
+        ship_power_propagation = 0.1
+        privateer_efficiency = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_naval_naval_infrastructure = {
+	icon = "cannon"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        transport_cost = -0.25
+        global_sailors_modifier = 0.1
+        allowed_marine_fraction = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_naval_coastal_dominance = {
+	icon = "submarine"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        galley_power = 0.05
+        capture_ship_chance = 0.1
+        naval_attrition = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Stance on Magic 
+#-----------------------------------------
+wwu_magic_free_magic = {
+	icon = "green_magic_hand"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        innovativeness_gain = 0.1
+        development_cost = -0.05
+        yearly_corruption = 0.02
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_magic_controlled_magic = {
+	icon = "orange_magic_hand"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        max_absolutism = 5
+        stability_cost_modifier = -0.15
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_magic_regulated_magic = {
+	icon = "red_magic_hand"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        reform_progress_growth = 0.1
+        stability_cost_modifier = -0.05
+        
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_magic_magical_society = {
+	icon = "mass_invisibility"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = { has_reform = wwu_assembly_checks_and_balances }
+        NOT = { has_reform = wwu_separation_of_powers_autonomous_institutions }
+        NOT = { has_reform = wwu_republican_institution_politicized_warfare }
+        NOT = { has_reform = wwu_fanaticism_embraced }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+        #NOT = { has_government_mechanic = russian_mechanic }
+        NOT = { has_government_mechanic = feudal_theocracy_mechanic }
+        NOT = { has_government_mechanic = tribal_federation_mechanic }
+        NOT = { has_government_mechanic = mamluk_mechanic }
+        NOT = { has_government_mechanic = iqta_mechanic }
+    }
+
+	modifiers = {
+        all_power_cost = -0.05
+        yearly_corruption = 0.05
+	}
+    
+    conditional = {
+		allow = { has_dlc = "Res Publica" }
+        
+		states_general_mechanic = {
+			sg_mundane = {
+				global_unrest = 2
+                idea_cost = 0.1
+                stability_cost_modifier = 1.0
+			}
+
+			sg_mythical = {
+				tolerance_own = 1
+                idea_cost = -0.1
+			}
+		}
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Human
+wwu_magic_dalaran_education = {
+	icon = "kirin_tor"
+	allow_normal_conversion = yes
+
+    potential = {
+        exists = A18
+    }
+    trigger = {
+        OR = {
+            tag = A18
+            A18 = {
+                has_opinion = {
+                    who = ROOT
+                    value = 150
+                }
+            }
+        }
+    }
+
+	modifiers = {
+        innovativeness_gain = 0.2
+        idea_cost = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Stance on Religion 
+#-----------------------------------------
+wwu_religion_lip_service = {
+	icon = "brush_it_off"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = { government = theocracy }
+    }
+
+	modifiers = {
+        global_unrest = -1
+        religious_unity = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_religion_state_religion = {
+	icon = "hand_of_light"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        tolerance_own = 1
+        missionaries = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_religion_tolerance_towards_all = {
+	icon = "lunar_guidance"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        tolerance_heathen = 1
+        tolerance_heretic = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_religion_fanaticism = {
+	icon = "blade_of_justice"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        global_missionary_strength = 0.01
+        warscore_cost_vs_other_religion = -0.1
+	}
+    custom_attributes = {
+        enables_forced_conversion = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Administrative Organisation 
+#-----------------------------------------
+wwu_administration_bureaucracy = {
+	icon = "book_4"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        expand_administration_cost = -0.1
+        reform_progress_growth = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_administration_townships_and_cities = {
+	icon = "gilneas"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        state_governing_cost = -0.1
+        development_cost = -0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_administration_feudalism = {
+	icon = "rugged_tenacity"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        min_autonomy_in_territories = -0.1
+        fort_maintenance_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_administration_state_autonomy = {
+	icon = "secretive_man"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        governing_capacity = 100
+        global_autonomy = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Laws and Enforcement 
+#-----------------------------------------
+wwu_law_codified_law = {
+	icon = "scroll_1"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        stability_cost_modifier = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_law_county_law = {
+	icon = "safari_hat"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        global_unrest = -1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_law_militias = {
+	icon = "sap"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        reinforce_cost_modifier = -0.1
+	}
+    
+    custom_attributes = {
+        enables_raise_militia_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_law_national_guard = {
+	icon = "combat_readiness"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        global_manpower_modifier = 0.05
+        defensiveness = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Cultural Attitude 
+#-----------------------------------------
+wwu_culture_peaceful_existence = {
+	icon = "double_rainbow"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        stability_cost_to_declare_war = 1
+        global_unrest = -3
+        development_cost = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_culture_warrior_culture = {
+	icon = "bull_rush"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        land_morale = 0.05
+        war_exhaustion = -0.03
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_culture_tavern_life = {
+	icon = "crate_2"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        diplomatic_upkeep = 1
+        caravan_power = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_culture_arts_and_sciences = {
+	icon = "binding_prayers"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        prestige = 0.5
+        technology_cost = -0.03
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_culture_assimilation = {
+	icon = "jack_of_all_trades"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        num_accepted_cultures = 1
+	}
+    
+    custom_attributes = {
+        enables_monument_research = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Morality and Idealism 
+#-----------------------------------------
+wwu_idealism_glory = {
+	icon = "crown_of_glory"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        army_tradition_from_battle = 0.5
+        naval_tradition_from_battle = 0.5
+	}
+    
+    custom_attributes = {
+        enables_power_projection_on_battle_win = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_idealism_honor = {
+	icon = "challenge"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        diplomatic_reputation = 1
+        land_morale = 0.05
+	}
+    
+    custom_attributes = {
+        enables_monarch_power_on_nation_release = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_idealism_victory = {
+	icon = "accretion"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        rival_change_cost = -1.0
+        rival_border_fort_maintenance = -1.0
+	}
+    
+    custom_attributes = {
+        enables_desperate_push_decision = yes
+        enables_scrapping_the_barrel_decision = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+wwu_idealism_unity = {
+	icon = "astral_shift"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        max_absolutism = 10
+        ae_impact = -0.05
+	}
+    
+    conditional = {
+		allow = { has_dlc = "Third Rome" }
+		claim_states = yes
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Human
+wwu_idealism_bulwark_of_the_alliance = {
+	icon = "alliance"
+	allow_normal_conversion = yes
+
+    potential = {
+        OR = {
+            has_country_modifier = head_of_alliance
+            culture_group = culture_group_human
+        }
+    }
+    trigger = {
+        OR = {
+            has_country_modifier = head_of_alliance
+            AND = {
+                culture_group = culture_group_human
+                num_of_allies = 5
+            }
+        }
+    }
+
+	modifiers = {
+        diplomats = 1
+        diplomatic_reputation = 1
+	}
+
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Diplomatic Attitude 
+#-----------------------------------------
+wwu_diplomacy_domination = {
+	icon = "hunger_for_blood"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        province_warscore_cost = -0.1
+        reduced_liberty_desire = 5
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_diplomacy_ambassadorships = {
+	icon = "hearthstone"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        diplomats = 1
+        diplomatic_upkeep = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_diplomacy_disinterest = {
+	icon = "note_4"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        diplomatic_reputation = 1
+        diplomatic_annexation_cost = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_diplomacy_intervention = {
+	icon = "intervene"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        unjustified_demands = -0.1
+	}
+    custom_attributes = {
+        enables_hegemony_boost = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Guilds and Heroes 
+#-----------------------------------------
+wwu_gah_heroic_guilds = {
+	icon = "crown_of_heaven"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        mercenary_manpower = 0.1
+        mercenary_discipline = 0.05
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_gah_trade_factionalism = {
+	icon = "crate_1"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = kingdom_of_magic_reform }
+        NOT = { has_reform = convocation_of_silvermoon_reform }
+        NOT = { has_reform = naga_domain_reform }
+        NOT = { has_reform = naga_empire_reform }
+    }
+
+	modifiers = {
+        global_trade_power = 0.05
+	}
+    
+    factions = {
+        faction_bankers
+        faction_merchants
+        faction_couriers
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_gah_political_factionalism = {
+	icon = "court_of_farnodis"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = kingdom_of_magic_reform }
+        NOT = { has_reform = convocation_of_silvermoon_reform }
+        NOT = { has_reform = naga_domain_reform }
+        NOT = { has_reform = naga_empire_reform }
+    }
+    
+	modifiers = {
+        possible_policy = 1
+	}
+    
+    factions = {
+        faction_regressives
+        faction_moderates
+        faction_progressives
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_gah_criminal_organisations = {
+	icon = "dirty_deeds"
+	allow_normal_conversion = yes
+
+    trigger = {
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = kingdom_of_magic_reform }
+        NOT = { has_reform = convocation_of_silvermoon_reform }
+        NOT = { has_reform = naga_domain_reform }
+        NOT = { has_reform = naga_empire_reform }
+    }
+    
+	modifiers = {
+        spy_offence = 0.25
+	}
+    
+    factions = {
+        faction_bandits
+        faction_thieves
+        faction_cartels
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Territorial Ambitions 
+#-----------------------------------------
+wwu_territory_exploitation = {
+	icon = "safari_hat"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        trade_company_investment_cost = -0.1
+        global_tariffs = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_territory_equal_in_name = {
+	icon = "student_of_the_mind"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        min_autonomy_in_territories = -0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_territory_efficient_administration = {
+	icon = "eye_of_the_owl"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        administrative_efficiency = 0.03
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_territory_future_statehood = {
+	icon = "make_camp"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        governing_capacity_modifier = 0.05
+        num_accepted_cultures = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Human
+wwu_territory_victors_of_the_second_war = {
+	icon = "renewed_vigor"
+	allow_normal_conversion = yes
+
+    potential = {
+        culture_group = culture_group_human
+    }
+    trigger = {
+        culture_group = culture_group_human
+        OR = {
+            current_age = age_scourge
+            current_age = age_burning_legion
+        }
+    }
+
+	modifiers = {
+        prestige = 0.5
+        land_morale = 0.05
+	}
+    
+    effect = {
+        add_power_projection = {
+            type = effect_power_projection_no_decay
+            amount = 15
+        }
+    }
+
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Strategic Ambitions 
+#-----------------------------------------
+wwu_ambition_a_just_world = {
+	icon = "cascade"
+	allow_normal_conversion = yes
+
+    trigger = {
+        is_considered_good = yes
+    }
+
+	modifiers = {
+        diplomatic_reputation = 1
+	}
+    
+    custom_attributes = {
+        enables_cleanse_evil_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_ambition_unification = {
+	icon = "tour_of_duty"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        unjustified_demands = -0.1
+	}
+    
+    custom_attributes = {
+        enables_cultural_unification_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_ambition_one_faith = {
+	icon = "ascension"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        missionaries = 1
+	}
+    
+    custom_attributes = {
+        enables_religious_unification_cb = yes
+    }
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_ambition_prestige = {
+	icon = "beacon_of_light"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        prestige = 0.5
+        fabricate_claims_cost = -0.25
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Realm Innovations 
+#-----------------------------------------
+wwu_innovation_grand_road_network = {
+	icon = "train"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        movement_speed = 0.1
+        trade_efficiency = 0.1
+        trade_steering = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_innovation_technological_hubs = {
+	icon = "engineer_drill"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        technology_cost = -0.05
+        idea_cost = -0.05
+        innovativeness_gain = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_innovation_militarised_towns = {
+	icon = "revenge"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        land_forcelimit_modifier = 0.15
+        land_maintenance_modifier = -0.1
+        defensiveness = 0.15
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_innovation_leaders_of_legend = {
+	icon = "crown_of_legends"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        monarch_admin_power = 1
+        monarch_diplomatic_power = 1
+        monarch_military_power = 1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+#-----------------------------------------
+# Time for Change? 
+#-----------------------------------------
+# Generic 
+wwu_switch_consolidate_power = {
+	icon = "orb_1"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        yearly_absolutism = 0.5
+        max_absolutism = 10
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+wwu_switch_delegate_power = {
+	icon = "ancient_text"
+	allow_normal_conversion = yes
+
+	modifiers = {
+        reform_progress_growth = 0.1
+        governing_capacity_modifier = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}
+
+# Base switch options
+wwu_switch_become_a_monarchy = {
+	icon = "control_is_king"
+	allow_normal_conversion = yes
+
+    potential = {
+        NOT = { has_unique_government_switch_reform = yes }
+        
+        # Blocked for the reforms since they are special
+        NOT = { has_reform = alliance_reform }
+        NOT = { has_reform = horde_reform }
+        NOT = { has_reform = old_horde_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+    }
+    
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+    
+	effect = {
+		lose_reforms = 3
+		change_government = monarchy
+        
+        hidden_effect = {
+            set_country_flag = populists_in_government
+        }
+        
+        # Tribal Land
+        if = {
+            limit = {
+                government = tribal
+            }
+            every_tribal_land_province = {
+                limit = { NOT = { owner = { exists = yes } } }
+                settle_province = ROOT
+            }
+        }
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+wwu_switch_become_a_republic = {
+	icon = "book_3"
+	allow_normal_conversion = yes
+
+    potential = {
+        NOT = { has_unique_government_switch_reform = yes }
+        
+        # Blocked for the reforms since they are special
+        NOT = { has_reform = alliance_reform }
+        NOT = { has_reform = horde_reform }
+        NOT = { has_reform = old_horde_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+    }
+    
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+    
+	effect = {
+		lose_reforms = 3
+		change_government = republic
+        
+        hidden_effect = {
+            set_country_flag = populists_in_government
+        }
+        
+        # Tribal Land
+        if = {
+            limit = {
+                government = tribal
+            }
+            every_tribal_land_province = {
+                limit = { NOT = { owner = { exists = yes } } }
+                settle_province = ROOT
+            }
+        }
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+wwu_switch_become_a_theocracy = {
+	icon = "clarity_of_purpose"
+	allow_normal_conversion = yes
+    
+    potential = {
+        NOT = { has_unique_government_switch_reform = yes }
+        
+        # Blocked for the reforms since they are special
+        NOT = { has_reform = alliance_reform }
+        NOT = { has_reform = horde_reform }
+        NOT = { has_reform = old_horde_reform }
+        NOT = { has_reform = scourge_reform }
+        NOT = { has_reform = scourge_domain_reform }
+    }
+    
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+    
+	effect = {
+		lose_reforms = 3
+		change_government = theocracy
+        
+        hidden_effect = {
+            set_country_flag = populists_in_government
+            set_country_flag = switched_government
+        }
+        
+        # Tribal Land
+        if = {
+            limit = {
+                government = tribal
+            }
+            every_tribal_land_province = {
+                limit = { NOT = { owner = { exists = yes } } }
+                settle_province = ROOT
+            }
+        }
+	}
+    
+	ai = {
+		factor = 0
+	}
+}
+
+# Unique Government Switch options
+wwu_switch_troll_kingdom_centralize_kingdom = {
+	icon = "ancient_history"
+	allow_normal_conversion = yes
+
+    potential = {
+        has_reform = troll_kingdom_reform
+    }
+
+    nomad = no
+    generals_become_rulers = no
+    heir = yes
+    queen = yes
+    republican_name = no
+
+	modifiers = {
+        governing_capacity_modifier = 0.1
+	}
+    
+    ai = {
+		factor = 1
+	}
+}

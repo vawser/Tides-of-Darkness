@@ -1,0 +1,33 @@
+﻿l_english:
+ #--------------------------------
+ # Peace Terms
+ #--------------------------------
+ # Depose Ruler
+ po_depose_ruler: "Depose Ruler"
+ PEACE_po_depose_ruler: "Depose Ruler"
+ CB_ALLOWED_po_depose_ruler: "Depose Ruler"
+ po_depose_ruler_desc: "[From.GetName] will lose their current ruler."
+ 
+ depose_ruler_cooldown: "Recently Killed Enemy Ruler"
+ desc_depose_ruler_cooldown: ""
+ 
+ # Depose Heir
+ po_depose_heir: "Depose Heir"
+ PEACE_po_depose_heir: "Depose Heir"
+ CB_ALLOWED_po_depose_heir: "Depose Heir"
+ po_depose_heir_desc: "[From.GetName] will lose their current heir."
+ 
+ depose_heir_cooldown: "Recently Killed Enemy Heir"
+ desc_depose_heir_cooldown: ""
+ 
+ # Steal Artifact
+ po_steal_artifact: "Steal Artifact"
+ PEACE_po_steal_artifact: "Steal Artifact"
+ CB_ALLOWED_po_steal_artifact: "Steal Artifact"
+ po_steal_artifact_desc: "We will be able to steal §Y1§! artifact from [From.GetName]."
+ 
+ STEAL_ARTIFACT_TT: "We will be able to steal §Y1§! artifact from [From.GetName]."
+
+ wwu_peace_terms.1.title: "Should localisation be added here?"
+ wwu_peace_terms.1.desc: " "
+ wwu_peace_terms.1.option.a: "Should localisation be added here?"

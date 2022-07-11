@@ -1,0 +1,503 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+#---------------------------------------------
+# Loa
+#---------------------------------------------
+# UNUSED
+deity_nothing = { 
+
+	allow = {
+		always = no
+    }
+	sprite = 14
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+# FOREST TROLLS
+deity_shadra = { 
+	power_projection_from_insults = 1
+	spy_offence = 0.25
+	
+	allow = {
+		NOT = { has_country_flag = sacrificed_shadra }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_forest_troll
+    }
+	sprite = 14
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_akildarah = { 
+	global_spy_defence = 0.10
+	dip_advisor_cost = -0.1
+	
+	allow = {
+		NOT = { has_country_flag = deity_akildarah_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_forest_troll
+    }
+	sprite = 27
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+deity_halazi = {
+	movement_speed = 0.1
+	mil_advisor_cost = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_halazi_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_forest_troll
+    }
+	sprite = 28
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_janalai = {
+	siege_ability = 0.05
+	adm_advisor_cost = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_janalai_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_forest_troll
+    }
+	sprite = 29
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_nalarokk = { 
+	prestige = 0.5
+	hostile_attrition = 1
+	
+	allow = {
+		NOT = { has_country_flag = deity_nalarokk_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_forest_troll
+    }
+	sprite = 30
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+
+# SAND TROLLS
+deity_gahzrilla = {  
+	leader_land_fire = 1
+	culture_conversion_cost = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_gahzrilla_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_sand_troll
+    }
+	sprite = 15
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+deity_kimbul = {  
+	leader_land_shock = 1
+	movement_speed = 0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_kimbul_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_sand_troll
+    }
+	sprite = 31
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+deity_muehzala = {  
+	rebel_support_efficiency = 0.25
+	tolerance_own = 1
+
+	allow = {
+		NOT = { has_country_flag = deity_muehzala_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_sand_troll
+    }
+	sprite = 32
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+
+# ICE TROLLS
+deity_akali = {  
+	defensiveness = 0.1
+	trade_efficiency = 0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_akali_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 26
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_harkoa = {  
+	same_culture_advisor_cost = -0.1
+	land_attrition = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_harkoa_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 33
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_mamtoth = {  
+	defensiveness = 0.1
+	reserves_organisation = 0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_mamtoth_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 34
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_rhunok = {  
+	land_forcelimit_modifier = 0.1
+	general_cost = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_rhunok_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 35
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_quetzlun = {  
+	spy_offence = 0.1
+	reduced_liberty_desire = 5
+
+	allow = {
+		NOT = { has_country_flag = deity_quetzlun_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 36
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_sseratus = {  
+	diplomats = 1
+	envoy_travel_time = -0.1
+	
+	allow = {
+		NOT = { has_country_flag = deity_sseratus_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 37
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_tharonja = {  
+	tolerance_heathen = 1
+	culture_conversion_cost = -0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_tharonja_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_frost_troll
+    }
+	sprite = 38
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+# JUNGLE
+deity_hakkar = { # hakkar, selecting this has a chance to convert you to hakkari
+	global_tax_modifier = 0.1
+	development_cost = -0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_hakkar_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_jungle_troll
+    }
+	sprite = 39
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_hethiss = { 
+	state_maintenance_modifier = -0.1
+	global_institution_spread = 0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_hethiss_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_jungle_troll
+    }
+	sprite = 40
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_hireek = {
+	reinforce_cost_modifier = -0.1
+	hostile_attrition = 1
+	
+	allow = {
+		NOT = { has_country_flag = deity_hireek_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_jungle_troll
+    }
+	sprite = 41
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_shirvallah = {
+	rival_border_fort_maintenance = -0.5
+	prestige_from_land = 0.5
+
+	allow = {
+		NOT = { has_country_flag = deity_shirvallah_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_jungle_troll
+    }
+	sprite = 42
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+# ZANDALARI
+deity_akunda = {  
+	defensiveness = 0.1
+	trade_efficiency = 0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_akunda_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+        primary_culture = culture_zandalari_troll
+    }
+	sprite = 43
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+deity_bethekk = { # panther loa
+	defensiveness = 0.1
+	ae_impact = -0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_bethekk_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		OR = {
+			primary_culture = culture_zandalari_troll
+			primary_culture = culture_jungle_troll
+		}
+    }
+	sprite = 44
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_bwonsamdi = { # loa of uWu
+	manpower_recovery_speed = 0.1
+	war_exhaustion = -0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_bwonsamdi_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		OR = {
+			primary_culture = culture_zandalari_troll
+			primary_culture = culture_frost_troll
+			primary_culture = culture_forest_troll
+			primary_culture = culture_dark_troll
+			primary_culture = culture_jungle_troll
+			primary_culture = culture_sand_troll
+		}
+    }
+	sprite = 45
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_gonk = { # raptor
+	global_autonomy = -0.05
+	leader_land_manuever = 1
+	land_attrition = -0.1
+	
+	allow = {
+		NOT = { has_country_flag = deity_gonk_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		OR = {
+			primary_culture = culture_zandalari_troll
+			primary_culture = culture_dark_troll
+		}
+    }
+	sprite = 46
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_gral = { # shark
+	leader_naval_fire = 1
+	global_naval_engagement_modifier = 0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_gral_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_zandalari_troll
+    }
+	sprite = 47
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_paku = { # parrot?
+	global_autonomy = -0.025
+	production_efficiency = 0.05
+
+	allow = {
+		NOT = { has_country_flag = deity_paku_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_zandalari_troll
+    }
+	sprite = 48
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_jani = {
+	loot_amount = 0.25
+	movement_speed = 0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_jani_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_zandalari_troll
+    }
+	sprite = 49
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_torga = {
+	technology_cost = -0.05
+	global_institution_spread = 0.1
+
+	allow = {
+		NOT = { has_country_flag = deity_torga_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_zandalari_troll
+    }
+	sprite = 50
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+deity_rezan = {
+	legitimacy = 1
+	max_absolutism = 10
+	
+	allow = {
+		NOT = { has_country_flag = deity_rezan_killed }
+		religion = voodoo
+		NOT = { ruler_culture = culture_loa }
+		primary_culture = culture_zandalari_troll
+    }
+	sprite = 51
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+deity_sethraliss = { 
+	allow = { 
+        religion = voodoo
+        tag = DVT
+    }
+	sprite = 84
+	
+    warscore_cost_vs_other_religion = -0.15
+    
+	ai_will_do = {
+		factor = 1		
+	}	
+}

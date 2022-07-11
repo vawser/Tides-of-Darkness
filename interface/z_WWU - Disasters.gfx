@@ -1,0 +1,78 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_disaster_civil_war"
+        texturefile = "gfx//interface//disasters//civil_war.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+    spriteType = {
+        name = "GFX_disaster_court_and_country"
+        texturefile = "gfx//interface//disasters//court_and_country.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+    spriteType = {
+        name = "GFX_disaster_internal_conflicts"
+        texturefile = "gfx//interface//disasters//internal_conflicts.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+    spriteType = {
+        name = "GFX_disaster_peasant_war"
+        texturefile = "gfx//interface//disasters//peasants_war.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+	spriteType = {
+        name = "GFX_disaster_estate_coup"
+        texturefile = "gfx//interface//disasters//estate_coup.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+    spriteType = {
+        name = "GFX_disaster_subject_rebellion"
+        texturefile = "gfx//interface//disasters//subject_rebellion.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+	spriteType = {
+        name = "GFX_disaster_sha_emergence"
+        texturefile = "gfx//interface//disasters//sha_of_anger.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+    spriteType = {
+        name = "GFX_disaster_trogg_uprising"
+        texturefile = "gfx//interface//disasters//trogg_uprising.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+	spriteType = {
+        name = "GFX_disaster_portal_energies_disaster"
+        texturefile = "gfx//interface//disasters//portal_energies.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+	spriteType = {
+        name = "GFX_disaster_loss_of_the_nightwell_disaster"
+        texturefile = "gfx//interface//disasters//loss_of_the_nightwell.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    
+	spriteType = {
+        name = "GFX_disaster_worgen_curse_disaster"
+        texturefile = "gfx//interface//disasters//worgen_curse.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+}

@@ -1,0 +1,9 @@
+type = heavy_ship
+sprite_level = 1
+
+hull_size = 100
+base_cannons = 200
+sail_speed = 9.0
+
+blockade = 20
+sailors = 1000

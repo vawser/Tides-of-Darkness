@@ -1,0 +1,56 @@
+#-----------------------------------------------
+# Country
+#-----------------------------------------------
+technology_group 	    = tech_human
+religion			    = holy_light
+primary_culture 	    = culture_lordaeron
+
+#-----------------------------------------------
+# Government
+#-----------------------------------------------
+government 			    = monarchy
+add_government_reform   = feudalism_reform
+
+#-----------------------------------------------
+# Status
+#-----------------------------------------------
+mercantilism    = 10
+capital         = 543
+
+#-----------------------------------------------
+# History
+#-----------------------------------------------
+# Tides of Darkness
+598.1.1 = { 
+	monarch = { 
+		name = "Terenas II" 
+		dynasty = "Menethil" 
+		adm = 4
+		dip = 5
+		mil = 6
+        birth_date = 540.1.1
+	}
+	heir = { 
+		name = "Arthas" 
+		monarch_name = "Arthas I"
+		dynasty = "Menethil" 
+		adm = 4
+		dip = 2
+		mil = 6 
+		birth_date = 588.1.1
+		death_date = 605.1.1
+		claim = 100
+	}
+    
+    set_ruler_flag = ruler_portrait_terenas_menethil
+    
+    add_country_modifier = {
+        name = head_of_alliance
+        duration = -1
+	}
+    add_country_modifier = {
+        name = member_of_alliance
+        duration = -1
+	}
+} 
+ 

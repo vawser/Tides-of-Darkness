@@ -1,0 +1,31 @@
+the_first_war_or_later = {
+	is_year = 592
+}
+the_second_war_or_later = {
+	is_year = 598
+}
+beyond_the_dark_portal_or_later = {
+	is_year = 600
+}
+the_third_war_or_later = {
+	is_year = 617
+}
+the_frozen_throne_or_later = {
+	is_year = 618
+}
+rise_of_the_qiraji_or_later = {
+	is_year = 622
+}
+the_burning_crusade_or_later = {
+	is_year = 625
+}
+wrath_of_the_lich_king_or_later = {
+	is_year = 626
+}
+the_shattering_or_later = {
+	is_year = 631
+}
+mists_of_pandaria_or_later = {
+    is_year = 632
+}
+

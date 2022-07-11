@@ -1,0 +1,337 @@
+monarch_power = ADM
+# applied when a country is ahead of time in this technology 
+ahead_of_time = {
+	production_efficiency = 0.2
+	yearly_corruption = -0.05
+}
+# "Administrative Technology" 
+technology = {
+	# Tech 0 
+	year = 546
+    
+	autocracy_legacy = yes
+	feudalism_legacy = yes
+	ancient_kingdom_legacy = yes
+	horde_legacy = yes
+	alliance_legacy = yes
+	scourge_legacy = yes
+	admiralty_legacy = yes
+	kingdom_of_magic_legacy = yes
+	naga_domain_legacy = yes
+	scourge_domain_legacy = yes
+	troll_kingdom_legacy = yes
+	convocation_of_silvermoon_legacy = yes
+	vrykul_kingdom_legacy = yes
+	nighthold_legacy = yes
+	noble_republic_legacy = yes
+	mercantile_republic_legacy = yes
+	despotic_republic_legacy = yes
+	magocracy_legacy = yes
+	free_city_legacy = yes
+	trading_city_legacy = yes
+	colonial_government_legacy = yes
+	tinker_republic_legacy = yes
+	troll_republic_legacy = yes
+	pirate_republic_legacy = yes
+	theocracy_legacy = yes
+	monastic_order_legacy = yes
+	ancient_theocracy_legacy = yes
+	scarlet_crusade_legacy = yes
+	argent_crusade_legacy = yes
+	demonic_order_legacy = yes
+	druidic_circle_legacy = yes
+	elemental_cult_legacy = yes
+	cult_of_hakkar_legacy = yes
+	dragonflight_brood_legacy = yes
+	titan_facility_legacy = yes
+	aqir_kingdom_legacy = yes
+	nerubian_kingdom_legacy = yes
+	mantid_kingdom_legacy = yes
+	tolvir_kingdom_legacy = yes
+	naga_empire_legacy = yes
+	tribal_federation_legacy = yes
+	tribal_despotism_legacy = yes
+	ancient_clan_legacy = yes
+	expeditionary_force_legacy = yes
+	criminal_organization_legacy = yes
+	dwarven_clan_legacy = yes
+	satyr_sect_legacy = yes
+	tauren_tribe_legacy = yes
+	centaur_khanate_legacy = yes
+	orc_clan_legacy = yes
+	yaungol_tribe_legacy = yes
+	gnoll_horde_legacy = yes
+	saurok_pod_legacy = yes
+	giant_tribe_legacy = yes
+	draenei_clan_legacy = yes
+	native_tribe_legacy = yes
+    pandaren_union_legacy = yes
+    celestial_order_legacy = yes
+    shado_pan_order_legacy = yes
+    
+	native_earthwork = yes
+	native_palisade = yes
+	native_fortified_house = yes
+	native_three_sisters_field = yes
+	native_irrigation = yes
+	native_storehouse = yes
+	native_longhouse = yes
+	native_sweat_lodge = yes
+	native_great_trail = yes
+	native_ceremonial_fire_pit = yes
+    
+	may_support_rebels = yes
+    
+	wow_farm = yes
+	wow_temple = yes
+	wow_tavern = yes
+	wow_mine = yes
+    province_action_interaction = yes
+}
+# "Industrial Innovations I" 
+technology = {
+	# Tech 1 
+	year = 548
+	production_efficiency = 0.025
+}
+# "Innovation Wave I" 
+technology = {
+	# Tech 2 
+	year = 556
+	allowed_idea_groups = 1
+}
+# "Industrial Innovations II" 
+technology = {
+	# Tech 3 
+	year = 562
+	production_efficiency = 0.025
+}
+# "Innovation Wave II" 
+technology = {
+	# Tech 4 
+	year = 570
+	allowed_idea_groups = 2
+}
+# "Administrative Capacity I" 
+technology = {
+	# Tech 5 
+	year = 585
+	governing_capacity = 100
+}
+# "Innovation Wave III" 
+technology = {
+	# Tech 6 
+	year = 600
+	allowed_idea_groups = 3
+}
+# "Architectural Innovations I" 
+technology = {
+	# Tech 7 
+	year = 618
+	wow_farmstead = yes
+	wow_grand_temple = yes
+	wow_inn = yes
+	wow_mine_complex = yes
+}
+# "Innovation Wave IV" 
+technology = {
+	# Tech 8 
+	year = 632
+	allowed_idea_groups = 4
+	may_force_march = yes
+}
+# "Industrial Innovations III" 
+technology = {
+	# Tech 9 
+	year = 650
+	production_efficiency = 0.025
+}
+# "Innovation Wave V" 
+technology = {
+	# Tech 10 
+	year = 663
+	allowed_idea_groups = 5
+}
+# "Administrative Capacity II" 
+technology = {
+	# Tech 11 
+	year = 676
+	governing_capacity = 100
+}
+# "Architectural Innovations II" 
+technology = {
+	# Tech 12 
+	year = 689
+	wow_arcane_tower = yes
+	province_action_tax = yes
+}
+# "Innovation Wave VI" 
+technology = {
+	# Tech 13 
+	year = 702
+	allowed_idea_groups = 6
+}
+# "Administrative Capacity III" 
+technology = {
+	# Tech 14 
+	year = 715
+	governing_capacity = 100
+}
+# "Industrial Innovations IV" 
+technology = {
+	# Tech 15 
+	year = 728
+	production_efficiency = 0.025
+}
+# "Innovation Wave VII" 
+technology = {
+	# Tech 16 
+	year = 741
+	allowed_idea_groups = 7
+}
+# "Industrial Innovations V" 
+technology = {
+	# Tech 17 
+	year = 754
+	production_efficiency = 0.05
+}
+# "Administrative Capacity IV" 
+technology = {
+	# Tech 18 
+	year = 767
+	governing_capacity = 100
+}
+# "Innovation Wave VIII" 
+technology = {
+	# Tech 19 
+	year = 780
+	allowed_idea_groups = 8
+}
+# "Administrative Efficiency I" 
+technology = {
+	# Tech 20 
+	year = 793
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+# "Innovation Wave IX" 
+technology = {
+	# Tech 21 
+	year = 806
+	allowed_idea_groups = 9
+}
+# "Administrative Capacity V" 
+technology = {
+	# Tech 22 
+	year = 819
+	governing_capacity = 100
+}
+# "Innovation Wave X" 
+technology = {
+	# Tech 23 
+	year = 832
+	allowed_idea_groups = 10
+}
+# "Industrial Innovations VI" 
+technology = {
+	# Tech 24 
+	year = 845
+	production_efficiency = 0.05
+}
+# "Innovation Wave XI" 
+technology = {
+	# Tech 25 
+	year = 858
+	allowed_idea_groups = 11
+}
+# "Administrative Capacity VI" 
+technology = {
+	# Tech 26 
+	year = 871
+	governing_capacity = 100
+}
+# "Industrial Innovations VII" 
+technology = {
+	# Tech 27 
+	year = 884
+	production_efficiency = 0.05
+}
+# "Innovation Wave XII" 
+technology = {
+	# Tech 28 
+	year = 897
+	allowed_idea_groups = 12
+}
+# "Administrative Capacity VII" 
+technology = {
+	# Tech 29 
+	year = 910
+	governing_capacity = 100
+}
+# "Administrative Efficiency II" 
+technology = {
+	# Tech 30 
+	year = 923
+	administrative_efficiency = 0.15
+	development_efficiency = 0.15
+}
+# "Innovation Wave XIII" 
+technology = {
+	# Tech 31 
+	year = 936
+	allowed_idea_groups = 13
+}
+# "Industrial Innovations VIII" 
+technology = {
+	# Tech 32 
+	year = 949
+	production_efficiency = 0.05
+}
+# "Innovation Wave XIV" 
+technology = {
+	# Tech 33 
+	year = 962
+	allowed_idea_groups = 14
+}
+# "Administrative Capacity VIII" 
+technology = {
+	# Tech 34 
+	year = 977
+	governing_capacity = 100
+}
+# "Industrial Innovations IX" 
+technology = {
+	# Tech 35 
+	year = 992
+	production_efficiency = 0.1
+}
+# "Innovation Wave XV" 
+technology = {
+	# Tech 36 
+	year = 1007
+	allowed_idea_groups = 15
+}
+# "Administrative Capacity IX" 
+technology = {
+	# Tech 37 
+	year = 1022
+	governing_capacity = 100
+}
+# "Industrial Innovations X" 
+technology = {
+	# Tech 38 
+	year = 1037
+	production_efficiency = 0.1
+}
+# "Administrative Capacity X" 
+technology = {
+	# Tech 39 
+	year = 1052
+	governing_capacity = 100
+}
+# "Innovation Wave XVI" 
+technology = {
+	# Tech 40 
+	year = 1067
+	allowed_idea_groups = 16
+}

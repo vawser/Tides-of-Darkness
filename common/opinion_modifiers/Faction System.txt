@@ -1,0 +1,13 @@
+#----------------------------------------------
+# Factions
+#----------------------------------------------
+omod_member_of_alliance  = {
+	opinion = 25
+}
+
+omod_power_hungry = {
+    opinion = -20
+	min = -200
+    yearly_decay = 1
+}
+

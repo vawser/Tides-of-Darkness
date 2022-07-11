@@ -1,0 +1,23 @@
+#----------------------------------------------
+# Decisions
+#----------------------------------------------
+enforced_tolerance = {
+    tolerance_heathen = 1
+    tolerance_heretic = 1
+    religion = yes
+}
+
+defaced_monuments = {
+    prestige_per_development_from_conversion = 0.5
+    religion = yes
+}
+
+technological_nirvana = {
+    religious_unity = 0.1
+    religion = yes
+}
+
+internal_competition = {
+    trade_efficiency = 0.05
+    religion = yes
+}

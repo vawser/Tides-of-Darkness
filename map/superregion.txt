@@ -1,0 +1,197 @@
+# A region can only belong to one super region.
+
+#-------------------
+# Land
+#-------------------
+eastern_kingdom_superregion = {
+	region_isle_of_quel_danas
+    region_eversong_woods
+    region_ghostlands
+    region_eastern_plaguelands
+    region_western_plaguelands
+    region_tirisfal_glades
+    region_silverpine_forest
+    region_gilneas
+    region_alterac_mountains
+    region_hillsbrad_foothills
+    region_arathi_highlands
+    region_the_hinterlands
+    region_wetlands
+    region_twilight_highlands
+    region_loch_modan
+    region_dun_morogh
+    region_badlands
+    region_searing_gorge
+    region_burning_steppes
+    region_redridge_mountains
+    region_elwynn_forest
+    region_swamp_of_sorrows
+    region_blasted_lands
+    region_deadwind_pass
+    region_duskwood
+    region_westfall
+    region_stranglethorn_vale
+    region_zulaman
+}
+
+kalimdor_superregion = {
+    region_teldrassil
+    region_bloodmyst_isle
+    region_azuremyst_isle
+    region_moonglade
+    region_darkshore
+    region_winterspring
+    region_felwood
+    region_mount_hyjal
+    region_ashenvale
+    region_azshara
+    region_durotar
+    region_north_barrens
+    region_south_barrens
+    region_stonetalon_mountains
+    region_desolace
+    region_mulgore
+    region_dustwallow_marsh
+    region_thousand_needles
+    region_feralas
+    region_silithus
+    region_ungoro_crater
+    region_tanaris
+    region_uldum
+}
+
+northrend_superregion = {
+    region_borean_tundra
+    region_wintergrasp
+    region_sholazar_basin
+    region_icecrown
+    region_storm_peak
+    region_zuldrak
+    region_grizzly_hills
+    region_crystalsong
+    region_howling_fjord
+    region_dragonblight
+}
+
+pandaria_superregion = {
+    region_hidden_valley
+    region_isle_of_thunder
+    region_isle_of_giants
+    region_jade_forest
+    region_valley_of_the_four_winds
+    region_krasarang_wilds
+    region_dread_wastes
+    region_vale_of_eternal_blossoms
+    region_townlong_steppes
+    region_kun_lai_summit
+    region_timeless_isle
+}
+
+outland_superregion = {
+    region_hellfire_peninsula
+    region_zangarmarsh
+    region_terokkar_forest
+    region_nagrand
+    region_shadowmoon_valley
+    region_blades_edge_mountains
+    region_netherstorm
+}
+
+draenor_superregion = {
+    region_frostfire_ridge
+    region_gorgrond
+    region_talador
+    region_tanaan_jungle
+    region_ashran
+    region_farahlon
+    region_nagrand_draenor
+    region_spires_of_arak
+    region_shadowmoon_valley_draenor
+}
+
+broken_isles_superregion = {
+    region_highmountain
+    region_valsharah
+    region_azsuna
+    region_suramar
+    region_stormheim
+}
+
+kul_tiras_superregion = {
+	region_kul_tiras
+	region_tol_barad
+}
+
+zandalar_superregion = {
+    region_zuldazar
+    region_nazmir
+    region_voldun
+}
+
+south_seas_superregion = {
+    region_kezan
+    region_lost_isles
+    region_south_sea_islands
+}
+
+paradise_isles_superregion = {
+    region_darkspear_isles
+}
+
+plunder_isle_superregion = {
+    region_plunder_isle
+}
+
+elemental_plane_superregion = {
+    region_skywall
+    region_deepholm
+    region_abyssal_maw
+    region_firelands
+}
+
+vashjir_superregion = {
+    region_vashjir
+}
+
+nazjatar_superregion = {
+    region_nazjatar
+}
+
+forgotten_isles_superregion = {
+    region_glimmering_isles
+    region_verdant_isles
+    region_ravaged_isles
+    region_shattered_isles
+}
+
+argus_superregion = {
+    region_krokuul
+    region_eredath
+    region_antoran_wastes
+}
+
+#-------------------
+# Sea
+#-------------------
+ocean_superregion = {
+    region_eastern_kingdom_seas
+    region_kalimdor_seas
+    region_kul_tiras_seas
+    region_broken_isles_seas
+    region_zandalar_seas
+    region_paradise_seas
+    region_nazjatar_seas
+    region_volcanic_seas
+    region_south_seas
+    region_pandaria_seas
+    region_northrend_seas
+    region_draenor_seas
+    region_titanic_seas
+}
+
+#-------------------
+# Other
+#-------------------
+new_world_superregion ={
+
+}

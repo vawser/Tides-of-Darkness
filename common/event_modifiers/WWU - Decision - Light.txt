@@ -1,0 +1,36 @@
+#----------------------------------------------
+# Decisions
+#----------------------------------------------
+daily_contemplation = {
+    global_missionary_strength = 0.01
+    harmonization_speed = 0.33
+    
+    religion = yes
+}
+
+naaru_senerity = {
+    global_unrest = -1.5
+    religious_unity = 0.10
+    
+    religion = yes
+}
+
+ferverous_proselytization = {
+    global_missionary_strength = 0.02
+    
+    religion = yes
+}
+
+defence_of_the_righteous = {
+    defensiveness = 0.15
+    global_missionary_strength = 0.01
+    
+    religion = yes
+}
+
+awe_of_the_sunwell = {
+    global_missionary_strength = 0.01
+    prestige = 0.5
+    
+    religion = yes
+}

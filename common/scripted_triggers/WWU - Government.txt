@@ -1,0 +1,106 @@
+has_trader_reform = {
+	OR = {
+		has_reform = mercantile_republic_reform
+		has_reform = trading_city_reform
+	}
+}
+
+has_council = {
+	OR = {
+		has_reform = kingdom_of_magic_reform
+		has_reform = magocracy_reform
+	}
+}
+
+#Change has_wrong_dynasty and set_correct_dynasty values accordingly whenever you change those
+can_be_hereditary = {
+	OR = {
+		tag = STW
+		tag = A29
+		tag = A90
+		tag = A91
+	}
+}
+
+#Change can_be_hereditary and set_correct_dynasty values accordingly whenever you change those
+has_wrong_dynasty = {
+	# has_reform = wwu_hereditary_rule_reform
+	OR = {
+		AND = {
+			tag = STW
+			NOT = { dynasty = "Wrynn" }
+		}
+		AND = {
+			tag = A29
+			NOT = { dynasty = "Bronzebeard" }
+		}
+		AND = {
+			tag = A90
+			NOT = { dynasty = "Sunstrider" }
+		}
+		AND = {
+			tag = A91
+			NOT = { dynasty = "Sunstrider" }
+		}
+		AND = {
+			tag = B01
+			NOT = { dynasty = "the Spellweaver" }
+		}
+		AND = {
+			tag = B02
+			NOT = { dynasty = "the Timeless" }
+		}
+		AND = {
+			tag = B03
+			NOT = { dynasty = "the Life-Binder" }
+		}
+		AND = {
+			tag = B04
+			NOT = { dynasty = "the Dreamer" }
+		}
+	}
+}
+
+# Used to block the generic reforms for those with a unique set
+is_normal_monarchy = {
+    always = yes
+}
+
+is_normal_republic = {
+    NOT = { has_reform = pirate_republic_reform }
+}
+
+is_normal_theocracy = {
+    always = yes
+}
+
+is_normal_tribe = {
+    always = yes
+}
+
+# Used to define the pirate government
+is_pirate_government = {
+    has_reform = pirate_republic_reform
+}
+
+is_nomad_government = {
+    is_nomad = yes
+}
+
+is_orc_tribe = {
+    culture_group = culture_group_orc
+}
+
+has_unique_government_switch_reform = {
+    OR = {
+        has_reform = troll_kingdom_reform
+    }
+}
+
+is_native_government = {
+    OR = {
+        culture_group = culture_group_tauren
+        culture_group = culture_group_centaur
+    }
+}
+

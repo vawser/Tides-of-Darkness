@@ -1,0 +1,11 @@
+﻿#--------------------------------------
+# Changelog
+#--------------------------------------
+
+#--------------------------------------
+# TODO
+#--------------------------------------
+LOR - Lordaeron
+
+Orcs represented via Orcish Horde model
+    However there will be event chains/disasters that cause the fragmentation of the Horde into the sub-clans

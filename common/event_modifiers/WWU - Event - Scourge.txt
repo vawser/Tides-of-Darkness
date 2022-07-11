@@ -1,0 +1,8 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+nerzhuls_fervor = { 
+    country_admin_power = 1
+    country_diplomatic_power = 1
+    country_military_power = 1
+}
